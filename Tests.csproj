@@ -50,6 +50,7 @@
      <Compile Include="Assets\Tests\Data\MockDataStore.cs" />
      <Compile Include="Assets\Tests\DiceRoll\MockSequenceRNG.CS" />
      <Compile Include="Assets\Tests\Entity\EntitySystemTests.cs" />
+     <Compile Include="Assets\Tests\Component\EntityTableSystemTests.cs" />
      <None Include="Assets\Tests\Tests.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

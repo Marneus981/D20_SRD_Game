@@ -414,6 +414,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Checkpoint.cs"
+"Assets/Scripts/Component/EntityTableSystem.cs"
+"Assets/Scripts/Component/NameSystem.cs"
 "Assets/Scripts/Data/CoreDictionary.cs"
 "Assets/Scripts/Data/CoreSet.cs"
 "Assets/Scripts/Data/Data.cs"
