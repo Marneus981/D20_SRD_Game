@@ -411,6 +411,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Tests/Data/DataSystemTests.cs"
+"Assets/Tests/Data/MockDataSerializer.cs"
+"Assets/Tests/Data/MockDataStore.cs"
 "Assets/Tests/DiceRoll/DiceRollSystemTests.cs"
 -langversion:9.0
 /deterministic

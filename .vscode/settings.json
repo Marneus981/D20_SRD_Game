@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "D20_SRD_Game.slnx"
+    "dotnet.defaultSolution": "D20_SRD_Game.slnx",
+    "dotnet.preferCSharpExtension": true
 }
