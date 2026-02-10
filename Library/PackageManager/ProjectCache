@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639062263168440499
-    m_Hash: 1349912780
+      ticks: 639063599955859751
+    m_Hash: 949234221
   m_LockFileStatus:
     m_FilePath: C:/Users/mdsor/GameProjects/D20_SRD_Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639062263168496276
-    m_Hash: 506187648
+      ticks: 639063599955926011
+    m_Hash: 1220223896
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,95 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/mdsor/GameProjects/D20_SRD_Game/Packages
 m_EditorVersion: 6000.3.7f1 (696ec25a53d1)
 m_ResolvedPackages:
+- packageId: com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
+  testable: 0
+  isDirectDependency: 1
+  version: 2.5.10
+  source: 5
+  resolvedPath: C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\PackageCache\com.cysharp.unitask@a85b92a8e443
+  assetPath: Packages/com.cysharp.unitask
+  name: com.cysharp.unitask
+  displayName: UniTask
+  author:
+    name: Cysharp, Inc.
+    email: 
+    url: https://cysharp.co.jp/en/
+  category: Task
+  type: 
+  description: Provides an efficient async/await integration to Unity.
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - async/await
+  - async
+  - Task
+  - UniTask
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 73a63b7f672b88f7e9992f6917eb458a8cbb6fa9
+    revision: HEAD
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: a85b92a8e443881fb431d60fa3d8daad5288db75
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 
+    minimumUnityVersion: 2018.4
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ai.navigation@2.0.10
   testable: 0
   isDirectDependency: 1

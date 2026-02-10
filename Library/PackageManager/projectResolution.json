@@ -9,6 +9,16 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.7f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask": {
+      "name": "com.cysharp.unitask",
+      "displayName": "UniTask",
+      "resolvedPath": "C:\\Users\\mdsor\\GameProjects\\D20_SRD_Game\\Library\\PackageCache\\com.cysharp.unitask@a85b92a8e443",
+      "fingerprint": "a85b92a8e443881fb431d60fa3d8daad5288db75",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.5.10",
+      "source": "git",
+      "testable": false
+    },
     "com.unity.ai.navigation@2.0.10": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",

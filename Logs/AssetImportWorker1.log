@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor" at "2026-02-10T19:16:58.8623624Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 32637 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-02-10T19:16:58Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor" at "2026-02-10T22:36:43.6762798Z"
+Date: 2026-02-10T22:36:43Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/mdsor/GameProjects/D20_SRD_Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63391
+53232
 -licensingIpc
 LicenseClient-mdsor
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/mdsor/GameProjects/D20_SRD_Game
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [6112]  Target information:
+Player connection [34248]  Target information:
 
-Player connection [6112]  * "[IP] 100.118.238.69 [Port] 0 [Flags] 2 [Guid] 3385303932 [EditorId] 3385303932 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34248]  * "[IP] 100.118.238.69 [Port] 0 [Flags] 2 [Guid] 2875414031 [EditorId] 2875414031 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6112]  * "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 3385303932 [EditorId] 3385303932 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34248]  * "[IP] 192.168.1.68 [Port] 0 [Flags] 2 [Guid] 2875414031 [EditorId] 2875414031 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6112] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6112] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34248] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34248] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.7f1 (696ec25a53d1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -102,21 +102,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              edbb34e6829d4999b0e1ac4cf26bc401
+  Session Id:              6def097681c34360b552ff27b83827b7
   Correlation Id:          12d88e444fce6f63caf9a600cef41026
-  External correlation Id: 7385349764594473827
+  External correlation Id: 2813524036957799660
   Machine Id:              gJ8WiW6nOjqhEupj5TO7Xvs75us=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mdsor" (connect: 0.00s, validation: 0.00s, handshake: 1.68s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor-notifications" at "2026-02-10T19:17:00.5443439Z"
-[Licensing::Module] Licensing Background thread has ended after 1.68s
-[Licensing::Module] Licensing is initialized (took 0.27s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mdsor" (connect: 0.00s, validation: 0.00s, handshake: 2.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor-notifications" at "2026-02-10T22:36:45.6790001Z"
+[Licensing::Module] Licensing Background thread has ended after 2.00s
+[Licensing::Module] Licensing is initialized (took 0.35s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-FKS3-TV66-SQGD-CT6R-XXXX
@@ -129,41 +129,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.282789 seconds.
-- Loaded All Assemblies, in  1.024 seconds
+Registered in 0.358507 seconds.
+- Loaded All Assemblies, in  1.280 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.664 seconds
-Domain Reload Profiling: 1685ms
-	BeginReloadAssembly (287ms)
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 2236ms
+	BeginReloadAssembly (326ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (368ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (281ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (466ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (258ms)
-				TypeCache.ScanAssembly (238ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (331ms)
+				TypeCache.ScanAssembly (306ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (664ms)
+	FinalizeReload (960ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (603ms)
+		SetupLoadedEditorAssemblies (862ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (124ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			InitializePlatformSupportModulesInManaged (156ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -183,83 +183,106 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.026 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.441 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-IOException: Sharing violation on path C:\Users\mdsor\GameProjects\D20_SRD_Game\D20_SRD_Game.sln
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1eb9db207454431c84a47bcd81e79c37>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <1eb9db207454431c84a47bcd81e79c37>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <1eb9db207454431c84a47bcd81e79c37>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <1eb9db207454431c84a47bcd81e79c37>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <1eb9db207454431c84a47bcd81e79c37>:0 
-  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <1eb9db207454431c84a47bcd81e79c37>:0 
-  at VSCodeEditor.FileIOProvider.ReadAllText (System.String fileName) [0x00000] in .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\ProjectGeneration\FileIO.cs:28 
-  at VSCodeEditor.ProjectGeneration.SyncFileIfNotChanged (System.String filename, System.String newContents) [0x00000] in .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\ProjectGeneration\ProjectGeneration.cs:451 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-VSCodeEditor.ProjectGeneration:SyncFileIfNotChanged(String, String) (at .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\ProjectGeneration\ProjectGeneration.cs:458)
-VSCodeEditor.ProjectGeneration:SyncSolutionFileIfNotChanged(String, String) (at .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\ProjectGeneration\ProjectGeneration.cs:444)
-VSCodeEditor.ProjectGeneration:SyncSolution(IEnumerable`1) (at .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\ProjectGeneration\ProjectGeneration.cs:722)
-VSCodeEditor.ProjectGeneration:GenerateAndWriteSolutionAndProjects() (at .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\ProjectGeneration\ProjectGeneration.cs:342)
-VSCodeEditor.ProjectGeneration:Sync() (at .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\ProjectGeneration\ProjectGeneration.cs:260)
-VSCodeEditor.VSCodeScriptEditor:CreateIfDoesntExist() (at .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\VSCodeScriptEditor.cs:156)
-VSCodeEditor.VSCodeScriptEditor:.cctor() (at .\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd\Editor\VSCodeScriptEditor.cs:262)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[])
-
-(Filename: ./Library/PackageCache/com.unity.ide.vscode@82e68656b7bd/Editor/ProjectGeneration/ProjectGeneration.cs Line: 458)
-
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.326 seconds
-Domain Reload Profiling: 3349ms
-	BeginReloadAssembly (265ms)
+- Finished resetting the current domain, in  1.919 seconds
+Domain Reload Profiling: 3354ms
+	BeginReloadAssembly (375ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (623ms)
-		LoadAssemblies (469ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (865ms)
+		LoadAssemblies (624ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (301ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (222ms)
-			BuildScriptInfoCaches (53ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (2326ms)
+		AnalyzeDomain (445ms)
+			TypeCache.Refresh (339ms)
+				TypeCache.ScanAssembly (317ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1920ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2174ms)
+		SetupLoadedEditorAssemblies (1712ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (203ms)
-			ProcessInitializeOnLoadAttributes (1882ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (1305ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3960 unused Assets / (1.2 MB). Loaded Objects now: 4572.
-Memory consumption went from 94.3 MB to 93.1 MB.
-Total: 12.417400 ms (FindLiveObjects: 0.777600 ms CreateObjectMapping: 0.862400 ms MarkObjects: 8.893100 ms  DeleteObjects: 1.881300 ms)
+Unloading 3969 unused Assets / (1.1 MB). Loaded Objects now: 4581.
+Memory consumption went from 94.4 MB to 93.3 MB.
+Total: 11.411500 ms (FindLiveObjects: 0.577100 ms CreateObjectMapping: 0.480700 ms MarkObjects: 8.144400 ms  DeleteObjects: 2.206400 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 97909.225691 seconds.
+  path: Assets/Scripts/Component/AbilityScore/WisdomSystem.cs
+  artifactKey: Guid(ce176d025a35a0e429abf090a568d09f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Component/AbilityScore/WisdomSystem.cs using Guid(ce176d025a35a0e429abf090a568d09f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '763cf4947b1f438a85f47407eaf3c8d9') in 0.1934224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Component/AbilityScore/CharismaSystem.cs
+  artifactKey: Guid(5f4fb54363635534daca0d3239ffe3ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Component/AbilityScore/CharismaSystem.cs using Guid(5f4fb54363635534daca0d3239ffe3ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ec3634d59c6548781baaacc920dcb8b') in 0.0234607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Scripts/Component/AbilityScore/ConstitutionSystem.cs
+  artifactKey: Guid(bf4727ae9e39158488bf234c22d017c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Component/AbilityScore/ConstitutionSystem.cs using Guid(bf4727ae9e39158488bf234c22d017c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15a859c8f2bc4b1f2691cb9073825055') in 0.0255268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Scripts/Component/AbilityScore/IntelligenceSystem.cs
+  artifactKey: Guid(925310c51d3fce240ab876c51a9335e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Component/AbilityScore/IntelligenceSystem.cs using Guid(925310c51d3fce240ab876c51a9335e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5142f28cbe25054cb7da77f23a9b90c7') in 0.0282852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Scripts/Component/AbilityScore/AbilityScoreSystem.cs
+  artifactKey: Guid(847550e443230b44db197b421841f748) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Component/AbilityScore/AbilityScoreSystem.cs using Guid(847550e443230b44db197b421841f748) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc45f9e716ad69efabea36a037b95a24') in 0.0265027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tests/Component/AbilityScore/AbilityScoreTests.cs
+  artifactKey: Guid(a5ea4d56aa78e2b4c865d393effb9988) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tests/Component/AbilityScore/AbilityScoreTests.cs using Guid(a5ea4d56aa78e2b4c865d393effb9988) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49867da627da95d376c3ab7946ec1693') in 0.0246135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

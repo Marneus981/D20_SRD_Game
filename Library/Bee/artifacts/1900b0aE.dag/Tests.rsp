@@ -411,6 +411,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Tests/Component/AbilityScore/AbilityScoreTests.cs"
 "Assets/Tests/Component/EntityTableSystemTests.cs"
 "Assets/Tests/Data/CoreDictionaryTests.cs"
 "Assets/Tests/Data/CoreSetTests.cs"
