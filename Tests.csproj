@@ -41,9 +41,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Tests\Data\CoreSetTests.cs" />
      <Compile Include="Assets\Tests\Data\MockDataSerializer.cs" />
      <Compile Include="Assets\Tests\DiceRoll\DiceRollSystemTests.cs" />
      <Compile Include="Assets\Tests\Data\DataSystemTests.cs" />
+     <Compile Include="Assets\Tests\Data\CoreDictionaryTests.cs" />
      <Compile Include="Assets\Tests\Data\MockDataStore.cs" />
      <None Include="Assets\Tests\Tests.asmdef" />
     <Reference Include="UnityEngine">

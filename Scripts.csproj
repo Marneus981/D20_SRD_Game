@@ -43,6 +43,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DiceRoll\RandomNumberGenerator.cs" />
      <Compile Include="Assets\Scripts\Data\DataStore.cs" />
+     <Compile Include="Assets\Scripts\Data\CoreSet.cs" />
      <Compile Include="Assets\Scripts\Data\Data.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollSystem.cs" />
@@ -51,6 +52,7 @@
      <Compile Include="Assets\Scripts\Dependency\IDependency.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRoll.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\MockFixedRNG.cs" />
+     <Compile Include="Assets\Scripts\Data\CoreDictionary.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
