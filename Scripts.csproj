@@ -46,11 +46,13 @@
      <Compile Include="Assets\Scripts\Data\CoreSet.cs" />
      <Compile Include="Assets\Scripts\Data\Data.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\Entity\EntitySystem.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollSystem.cs" />
      <Compile Include="Assets\Scripts\Data\DataSystem.cs" />
      <Compile Include="Assets\Scripts\Data\DataSerializer.cs" />
      <Compile Include="Assets\Scripts\Dependency\IDependency.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRoll.cs" />
+     <Compile Include="Assets\Scripts\Entity\Entity.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\MockFixedRNG.cs" />
      <Compile Include="Assets\Scripts\Data\CoreDictionary.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />

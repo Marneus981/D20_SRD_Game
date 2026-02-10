@@ -425,6 +425,8 @@
 "Assets/Scripts/DiceRoll/DiceRollSystem.cs"
 "Assets/Scripts/DiceRoll/MockFixedRNG.cs"
 "Assets/Scripts/DiceRoll/RandomNumberGenerator.cs"
+"Assets/Scripts/Entity/Entity.cs"
+"Assets/Scripts/Entity/EntitySystem.cs"
 -langversion:9.0
 /deterministic
 /optimize+

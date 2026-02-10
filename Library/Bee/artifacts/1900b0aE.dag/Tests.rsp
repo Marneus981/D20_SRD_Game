@@ -416,7 +416,10 @@
 "Assets/Tests/Data/DataSystemTests.cs"
 "Assets/Tests/Data/MockDataSerializer.cs"
 "Assets/Tests/Data/MockDataStore.cs"
+"Assets/Tests/Data/MockDataSystem.cs"
 "Assets/Tests/DiceRoll/DiceRollSystemTests.cs"
+"Assets/Tests/DiceRoll/MockSequenceRNG.CS"
+"Assets/Tests/Entity/EntitySystemTests.cs"
 -langversion:9.0
 /deterministic
 /optimize+
