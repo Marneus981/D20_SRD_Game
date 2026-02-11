@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts.csproj", "{b870881e-d59e-97f7-be24-888437553018}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d3103f19-fa69-2d8c-d0ab-1228d26cfdaa}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{4a0f1e03-00a8-fbee-7aca-0aa25738bc93}"
 EndProject
 Global
@@ -12,6 +14,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{b870881e-d59e-97f7-be24-888437553018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b870881e-d59e-97f7-be24-888437553018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d3103f19-fa69-2d8c-d0ab-1228d26cfdaa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d3103f19-fa69-2d8c-d0ab-1228d26cfdaa}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4a0f1e03-00a8-fbee-7aca-0aa25738bc93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4a0f1e03-00a8-fbee-7aca-0aa25738bc93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

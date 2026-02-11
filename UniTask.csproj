@@ -82,8 +82,8 @@
      <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\IUniTaskSource.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\CancellationTokenEqualityComparer.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\UniTask.cs" />
-     <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\CancellationTokenSourceExtensions.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\AsyncUnit.cs" />
+     <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\CancellationTokenSourceExtensions.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\ExceptionExtensions.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\Triggers\AsyncTriggerBase.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@a85b92a8e443\Runtime\Progress.cs" />
