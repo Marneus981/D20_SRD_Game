@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using Cysharp.Threading.Tasks;
 using System.Threading;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : MonoBehaviour, IMainMenu
 {
     [SerializeField] RectTransform rootPanel;
     [SerializeField] CanvasGroup rootGroup;
@@ -12,36 +12,35 @@ public class MainMenu : MonoBehaviour
     [SerializeField] Layout onscreen;
     [SerializeField] Button continueButton;
     [SerializeField] Button newGameButton;
-    void Start()
-    {
-        DemoFlow().Forget();
-    }
 
-    async UniTask DemoFlow()
-    {
-        while (true)
-        {
-            Setup(Random.value > 0.5f);
-            await TransitionIn();
-            var option = await SelectMenuOption();
-            Debug.Log("Selected: " + option.ToString());
-            await TransitionOut();
-        }
-    }
-
-    void Setup(bool hasSavedGame)
+    CancellationTokenSource cts = new CancellationTokenSource();
+        /*
+        Fix for when we call Cancel on the Token’s Source 
+        if the animation actually completes, or is skipped. 
+        When we simply quit the app, neither one of those scenarios can occur.
+        */
+    public void Setup(bool hasSavedGame)
     {
         continueButton.gameObject.SetActive(hasSavedGame);
     }
 
-    async UniTask TransitionIn()
+    public async UniTask TransitionIn()
     {
-        var cts = new CancellationTokenSource();
+        //var cts = new CancellationTokenSource(); not needed bc of class field
         await UniTask.WhenAny(
             Enter(cts),
             SkipEnter(cts));
-        cts.Dispose();
     }
+
+    void CancelToken()
+{
+    if (cts != null)
+    {
+        cts.Cancel();
+        cts.Dispose();
+        cts = null;
+    }
+}
 
     async UniTask Enter(CancellationTokenSource cts)
     {
@@ -50,7 +49,7 @@ public class MainMenu : MonoBehaviour
         rootGroup.alpha = 1;
         await rootPanel.Layout(offscreen, onscreen, 5).Play(cts.Token);
         await menuGroup.FadeIn(1).Play(cts.Token);
-        cts.Cancel();
+        CancelToken();
     }
 
     async UniTask SkipEnter(CancellationTokenSource cts)
@@ -60,7 +59,7 @@ public class MainMenu : MonoBehaviour
             await UniTask.NextFrame(cts.Token);
             if (Input.anyKey)
             {
-                cts.Cancel();
+                CancelToken();
                 rootPanel.SetLayout(onscreen);
                 menuGroup.alpha = 1;
                 break;
@@ -95,13 +94,25 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    async UniTask TransitionOut()
+    public async UniTask TransitionOut()
     /*
     Awaits the FadeOut animation of rootGroup CanvasGroup – 
     Root level so that both the logo and menu buttons fade out together.
     */
     {
-        await rootGroup.FadeOut().Play();
+        await rootGroup.FadeOut().Play(this.GetCancellationTokenOnDestroy());
+    }
+    //We can use the MonoBehaviour methods OnEnable and OnDisable to 
+    //handle registering and resetting registration of our interface.
+    void OnEnable()
+    {
+        IMainMenu.Register(this);
+    }
+
+    void OnDisable()
+    {
+        CancelToken();
+        IMainMenu.Reset(); //Correct Order?
     }
 }
 
@@ -109,4 +120,12 @@ public enum MainMenuOption
 {
     NewGame,
     Continue
+}
+
+public interface IMainMenu : IDependency<IMainMenu>
+{
+    void Setup(bool hasSavedGame);
+    UniTask TransitionIn();
+    UniTask<MainMenuOption> SelectMenuOption();
+    UniTask TransitionOut();
 }

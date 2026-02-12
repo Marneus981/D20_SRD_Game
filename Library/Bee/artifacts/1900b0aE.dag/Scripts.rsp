@@ -454,6 +454,8 @@
 "Assets/Scripts/DiceRoll/RandomNumberGenerator.cs"
 "Assets/Scripts/Entity/Entity.cs"
 "Assets/Scripts/Entity/EntitySystem.cs"
+"Assets/Scripts/Flow/AppFlow.cs"
+"Assets/Scripts/Flow/MainMenuFlow.cs"
 "Assets/Scripts/UI/Anchor.cs"
 "Assets/Scripts/UI/Layout.cs"
 "Assets/Scripts/UI/MainMenu.cs"

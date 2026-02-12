@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
      <Compile Include="Assets\Scripts\Animation\Tween.cs" />
      <Compile Include="Assets\Scripts\Animation\RectTransformAnimationExtensions.cs" />
+     <Compile Include="Assets\Scripts\Flow\AppFlow.cs" />
      <Compile Include="Assets\Scripts\Animation\ScalarTween.cs" />
      <Compile Include="Assets\Scripts\Data\CoreSet.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreSystem.cs" />
@@ -77,6 +78,7 @@
      <Compile Include="Assets\Scripts\Entity\Entity.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\MockFixedRNG.cs" />
      <Compile Include="Assets\Scripts\Animation\EasingEquations.cs" />
+     <Compile Include="Assets\Scripts\Flow\MainMenuFlow.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformLocalPositionTween.cs" />
      <Compile Include="Assets\Scripts\UI\Anchor.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformPositionTween.cs" />
