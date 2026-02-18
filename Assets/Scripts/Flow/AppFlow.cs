@@ -15,10 +15,13 @@ public class AppFlow : MonoBehaviour
     */
     {
         DontDestroyOnLoad(gameObject);
+        /*
         IMainMenuFlow.Register(new MainMenuFlow());
         IDataSerializer.Register(new DataSerializer());
         IDataStore.Register(new DataStore("GameData"));
         IDataSystem.Register(new DataSystem());
+        */
+        Injector.Inject(); //Replaces above lines; we now have access to every system
         while (true)
         {
             await IMainMenuFlow.Resolve().Play();

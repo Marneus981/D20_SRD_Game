@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
      <Compile Include="Assets\Scripts\Animation\Tween.cs" />
      <Compile Include="Assets\Scripts\Animation\RectTransformAnimationExtensions.cs" />
+     <Compile Include="Assets\Scripts\Data\DataInjector.cs" />
      <Compile Include="Assets\Scripts\Flow\AppFlow.cs" />
      <Compile Include="Assets\Scripts\Animation\ScalarTween.cs" />
      <Compile Include="Assets\Scripts\Data\CoreSet.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\UI\Pivot.cs" />
      <Compile Include="Assets\Scripts\Data\Data.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\Dependency\Injector.cs" />
      <Compile Include="Assets\Scripts\Animation\CanvasGroupAlphaTween.cs" />
      <Compile Include="Assets\Scripts\Animation\RectTransformAnchorPositionTween.cs" />
      <Compile Include="Assets\Scripts\Entity\EntitySystem.cs" />
@@ -72,6 +74,7 @@
      <Compile Include="Assets\Scripts\Animation\Vector3Tween.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\WisdomSystem.cs" />
      <Compile Include="Assets\Scripts\Dependency\IDependency.cs" />
+     <Compile Include="Assets\Scripts\DiceRoll\DiceRollInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformAnimationExtensions.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRoll.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\StrengthSystem.cs" />
@@ -81,6 +84,9 @@
      <Compile Include="Assets\Scripts\Flow\MainMenuFlow.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformLocalPositionTween.cs" />
      <Compile Include="Assets\Scripts\UI\Anchor.cs" />
+     <Compile Include="Assets\Scripts\Flow\FlowInjector.cs" />
+     <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreInjector.cs" />
+     <Compile Include="Assets\Scripts\Component\ComponentInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformPositionTween.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformScaleTween.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\CharismaSystem.cs" />
