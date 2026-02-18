@@ -51,9 +51,9 @@
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\Util\FileSystemUtil.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\PluginSettings.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\ProjectGeneration\LastWriteTracker.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\LogFileOpener.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\ProjectGeneration\ProjectPart.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\Util\LibcNativeInterop.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\LogFileOpener.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\ProjectGeneration\IGenerator.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\UnitTesting\SyncTestRunEventsHandler.cs" />
      <Compile Include="Library\PackageCache\com.unity.ide.rider@4504839d03f7\Rider\Editor\ProjectGeneration\IAssemblyNameProvider.cs" />

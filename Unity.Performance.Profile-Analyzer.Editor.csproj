@@ -67,8 +67,8 @@
      <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\FrameTimeGraph.cs" />
      <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\ProfileAnalyzerExportWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\ThreadSelectionWindow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\Histogram.cs" />
      <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\ProfileAnalyzer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\Histogram.cs" />
      <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\ProfileData.cs" />
      <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\ComparisonTable.cs" />
      <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7\Editor\TopMarkers.cs" />

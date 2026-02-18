@@ -206,8 +206,8 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\State\SequenceState.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Utilities\ObjectExtension.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\Snapping\IAttractable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\DirectorStyles.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Actions\MarkerAction.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\DirectorStyles.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\TimelineTreeViewGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Utilities\Clipboard.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\Drawers\ClipDrawer.cs" />
@@ -242,8 +242,8 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\Drawers\InfiniteTrackDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Manipulators\Trim\TrimItemModeRipple.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Window\TimelineWindow_HeaderGui.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Animation\AnimationClipCurveCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Animation\AnimationClipCurveCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Extensions\AnimationTrackExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Utilities\AnimatedParameterCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Manipulators\EditModeInputHandler.cs" />
@@ -254,8 +254,8 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Manipulators\Sequence\SelectAndMoveItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Recording\TimelineRecording_PlayableAsset.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Animation\BindingTreeViewDataSource.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Signals\TreeView\SignalReceiverItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Recording\TimelineRecording_Monobehaviour.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Signals\TreeView\SignalReceiverItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Animation\CurveDataSource.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\CustomEditors\MarkerEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\inspectors\TimelinePreferences.cs" />

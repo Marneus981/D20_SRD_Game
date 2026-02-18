@@ -102,10 +102,10 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\TestingPreference.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetMenu\Dialogs\CheckinDialogOperations.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\DrawCopyableLabel.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\CloudDrive\Workspaces\DirectoryContent\DirectoryContentPanel.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\WebApi\IsCollabProjectMigratedResponse.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\DrawGuiModeSwitcher.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Developer\ProgressOperationHandler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\CloudDrive\Workspaces\DirectoryContent\DirectoryContentPanel.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\CollabPlugin.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\CreateWorkspace\DrawCreateWorkspaceView.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\SideBarTreeView.cs" />
@@ -145,8 +145,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Labels\LabelListViewItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\Errors\ErrorsPanel.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Diff\ChangeCategoryTreeViewItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetOverlays\Cache\AssetStatusCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\CollabMigration\MigrateCollabProject.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetOverlays\Cache\AssetStatusCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\CloudDrive\CreateWorkspace\CreateWorkspaceView.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Gluon\IncomingChangesTreeHeaderState.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\History\HistoryListView.cs" />
@@ -309,8 +309,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetMenu\ProjectViewUVCSAssetMenu.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Developer\MergeViewFileConflictMenu.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\LaunchPackageManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Developer\IsResolved.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetOverlays\Cache\RemoteStatusCache.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Developer\IsResolved.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\Tree\CenteredContentPanel.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\GetPlasticShortcut.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\DrawUserIcon.cs" />
@@ -421,8 +421,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\DrawTextBlockWithLink.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetsUtils\SaveAssets.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Developer\ChangeCategoryTreeViewItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Diff\Dialogs\GetRestorePathDialog.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Developer\MergeViewMenu.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Diff\Dialogs\GetRestorePathDialog.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\ConfirmContinueWithPendingChangesDialog.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\EditorProgressBar.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Gluon\IncomingChangesViewMenu.cs" />

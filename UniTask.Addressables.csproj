@@ -865,6 +865,14 @@
       <Project>{aa940990-e0a7-8a4e-d06c-3ff03449beb4}</Project>
       <Name>UniTask</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ResourceManager.csproj">
+      <Project>{959457f6-53be-5962-f9d9-6587c5128d02}</Project>
+      <Name>Unity.ResourceManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Addressables.csproj">
+      <Project>{1605e13e-6c6f-5513-0c3b-3c038423d93a}</Project>
+      <Name>Unity.Addressables</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{ec2b7589-d82c-adb4-bf7a-3638fcdc416a}</Project>
       <Name>UnityEditor.UI</Name>
