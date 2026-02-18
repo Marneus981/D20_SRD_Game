@@ -24,7 +24,8 @@ public class AppFlow : MonoBehaviour
         Injector.Inject(); //Replaces above lines; we now have access to every system
         while (true)
         {
-            await IMainMenuFlow.Resolve().Play();
+            //await IMainMenuFlow.Resolve().Play(); 
+            await IGameFlow.Resolve().Play(); //Replaces above
             await UniTask.NextFrame(this.GetCancellationTokenOnDestroy());
         }
     }
