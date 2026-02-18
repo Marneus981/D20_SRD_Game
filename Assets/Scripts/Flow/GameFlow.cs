@@ -43,8 +43,21 @@ public class GameFlow : IGameFlow
     async UniTask Loop()
     //Main game loop; handles exploration, encounters until a win or lost 
     //condition. 
+    /*
     {
         await UniTask.CompletedTask;
+    }
+    */
+    {
+        while (true) //Replaces above
+        {
+            var entryName = IEntrySystem.Resolve().GetName();
+            if (!string.IsNullOrEmpty(entryName))
+                await IEntryFlow.Resolve().Play();
+            else
+                break;
+            await UniTask.NextFrame();
+        }
     }
     async UniTask Exit()
     {

@@ -19,6 +19,8 @@ public class GameSystem : IGameSystem
         var dataSystem = IDataSystem.Resolve();
         dataSystem.Create();
         //Placeholder
+        IEntrySystem.Resolve().SetName("Entry_01"); //Update the game system so that it assigns the 
+                                                    //initial “Entry” for when you begin a New Game
         await UniTask.CompletedTask;
     }
 
