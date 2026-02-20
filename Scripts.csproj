@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Flow\GameFlow.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\SoloAdventureInjector.cs" />
+     <Compile Include="Assets\Scripts\Component\AdventureItemSystem.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
      <Compile Include="Assets\Scripts\Animation\Tween.cs" />
      <Compile Include="Assets\Scripts\Animation\RectTransformAnimationExtensions.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\Scripts\Component\AbilityScore\ConstitutionSystem.cs" />
      <Compile Include="Assets\Scripts\AssetManager\GameObjectAssetManager.cs" />
      <Compile Include="Assets\Scripts\UI\Pivot.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ItemExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\Data\Data.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\Dependency\Injector.cs" />
@@ -99,6 +101,8 @@
      <Compile Include="Assets\Scripts\UI\Anchor.cs" />
      <Compile Include="Assets\Scripts\Flow\FlowInjector.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreInjector.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Explore\IEntryLink.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Explore\PickupEntryLink.cs" />
      <Compile Include="Assets\Scripts\Component\ComponentInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformPositionTween.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformScaleTween.cs" />

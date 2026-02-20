@@ -20,6 +20,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e18139d9d71054489a2125c04bcfdd2
+    m_Address: Assets/Objects/Entries/Entry_06.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 751826bf73db867429a7491255e1cbca
+    m_Address: Assets/Objects/Entries/Entry_07.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c3f0d636d10be24dafb90b5e0719726
+    m_Address: Assets/Objects/Entries/Entry_05.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 96cd10a4f933ea24fa08a02408c67fbd
     m_Address: Assets/Objects/Entries/Entry_03.prefab
     m_ReadOnly: 0

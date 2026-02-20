@@ -46,7 +46,8 @@ public class EntryFlow : IEntryFlow
             }
             else
             {
-                // TODO: Selected a link in the text
+                // Selected a link in the text
+                await entry.SelectLink(link);
             }
         }
 

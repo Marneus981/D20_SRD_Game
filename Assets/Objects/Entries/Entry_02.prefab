@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3031804665775856535}
   - component: {fileID: 3473354681494767961}
   - component: {fileID: 1359407769026497094}
+  - component: {fileID: 4984950298763372579}
   m_Layer: 0
   m_Name: Entry_02
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1444784257014835174}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 439.9484, y: 263.13724, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62,3 +63,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Scripts::ExploreEntryOption
   text: Run Away
   entryName: Entry_03
+--- !u!114 &4984950298763372579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444784257014835174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea7030d2df6b5e49a467646e30ebe47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::ExploreEntryOption
+  text: Fight!
+  entryName: Entry_05

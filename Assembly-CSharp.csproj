@@ -896,14 +896,14 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UniTask.TextMeshPro">
-        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ResourceManager">
         <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
         <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
