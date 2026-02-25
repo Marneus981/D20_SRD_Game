@@ -102,10 +102,10 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\TestingPreference.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetMenu\Dialogs\CheckinDialogOperations.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\DrawCopyableLabel.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\WebApi\IsCollabProjectMigratedResponse.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\DrawGuiModeSwitcher.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Developer\ProgressOperationHandler.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\CloudDrive\Workspaces\DirectoryContent\DirectoryContentPanel.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\WebApi\IsCollabProjectMigratedResponse.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\CollabPlugin.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\CreateWorkspace\DrawCreateWorkspaceView.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\SideBarTreeView.cs" />
@@ -445,8 +445,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\CloudDrive\Workspaces\Tree\CloudWorkspacesSelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\EditorProgressControls.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\CreateWorkspace\Dialogs\RepositoryListViewItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Branch\SerializableBranchesTabState.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\Tree\TreeViewSessionState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Branch\SerializableBranchesTabState.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\Progress\LoadingSpinner.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Configuration\CredentialsDialog.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Labels\LabelsTab.cs" />

@@ -46,6 +46,8 @@
      <Compile Include="Assets\Scripts\Animation\CanvasGroupAnimationExtensions.cs" />
      <Compile Include="Assets\Scripts\Data\DataStore.cs" />
      <Compile Include="Assets\Scripts\AssetManager\AssetManager.cs" />
+     <Compile Include="Assets\Scripts\Component\Skills\BaseSkillSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\Skills\SkillsInjector.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\DexteritySystem.cs" />
      <Compile Include="Assets\Scripts\Component\NameSystem.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformLocalEulerTween.cs" />
@@ -63,11 +65,14 @@
      <Compile Include="Assets\Scripts\Data\CoreSet.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreSystem.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\ConstitutionSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\Skills\AthleticsSystem.cs" />
      <Compile Include="Assets\Scripts\AssetManager\GameObjectAssetManager.cs" />
      <Compile Include="Assets\Scripts\UI\Pivot.cs" />
+     <Compile Include="Assets\Scripts\Component\Skills\SkillSystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ItemExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\Data\Data.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\Component\Skills\AthleticsProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Dependency\Injector.cs" />
      <Compile Include="Assets\Scripts\Animation\CanvasGroupAlphaTween.cs" />
      <Compile Include="Assets\Scripts\Flow\EntryFlow.cs" />
@@ -76,6 +81,7 @@
      <Compile Include="Assets\Scripts\UI\EntryPanel.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollSystem.cs" />
      <Compile Include="Assets\Scripts\Component\EntityTableSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\LevelSystem.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\IntelligenceSystem.cs" />
      <Compile Include="Assets\Scripts\Data\DataSystem.cs" />
      <Compile Include="Assets\Scripts\UI\LinkOpener.cs" />
@@ -101,6 +107,7 @@
      <Compile Include="Assets\Scripts\UI\Anchor.cs" />
      <Compile Include="Assets\Scripts\Flow\FlowInjector.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreInjector.cs" />
+     <Compile Include="Assets\Scripts\Component\Skills\ProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\IEntryLink.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\PickupEntryLink.cs" />
      <Compile Include="Assets\Scripts\Component\ComponentInjector.cs" />
