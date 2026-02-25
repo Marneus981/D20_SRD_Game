@@ -41,9 +41,41 @@ public class SkillSystem : ISkillSystem
     {
         switch (skill)
         {
+            //TODO
+            case Skill.Acrobatics:
+                return IAcrobaticsSystem.Resolve();
+            case Skill.Arcana:
+                return IArcanaSystem.Resolve();
             case Skill.Athletics:
                 return IAthleticsSystem.Resolve();
-            //TODO
+            case Skill.Crafting:
+                return ICraftingSystem.Resolve();
+            case Skill.Deception:
+                return IDeceptionSystem.Resolve();
+            case Skill.Diplomacy:
+                return IDiplomacySystem.Resolve();
+            case Skill.Intimidation:
+                return IIntimidationSystem.Resolve();
+            case Skill.Lore:
+                return ILoreSystem.Resolve();
+            case Skill.Medicine:
+                return IMedicineSystem.Resolve();
+            case Skill.Nature:
+                return INatureSystem.Resolve();
+            case Skill.Occultism:
+                return IOccultismSystem.Resolve();
+            case Skill.Performance:
+                return IPerformanceSystem.Resolve();
+            case Skill.Religion:
+                return IReligionSystem.Resolve();
+            case Skill.Society:
+                return ISocietySystem.Resolve();
+            case Skill.Stealth:
+                return IStealthSystem.Resolve();
+            case Skill.Survival:
+                return ISurvivalSystem.Resolve();
+            case Skill.Thievery:
+                return IThieverySystem.Resolve();
             default:
                 return null;
         }

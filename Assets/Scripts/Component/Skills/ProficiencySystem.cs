@@ -28,9 +28,40 @@ public class ProficiencySystem : IProficiencySystem
     {
         switch (skill)
         {
+            case Skill.Acrobatics:
+                return IAcrobaticsProficiencySystem.Resolve();
+            case Skill.Arcana:
+                return IArcanaProficiencySystem.Resolve();
             case Skill.Athletics:
                 return IAthleticsProficiencySystem.Resolve();
-            ///TODO
+            case Skill.Crafting:
+                return ICraftingProficiencySystem.Resolve();
+            case Skill.Deception:
+                return IDeceptionProficiencySystem.Resolve();
+            case Skill.Diplomacy:
+                return IDiplomacyProficiencySystem.Resolve();
+            case Skill.Intimidation:
+                return IIntimidationProficiencySystem.Resolve();
+            case Skill.Lore:
+                return ILoreProficiencySystem.Resolve();
+            case Skill.Medicine:
+                return IMedicineProficiencySystem.Resolve();
+            case Skill.Nature:
+                return INatureProficiencySystem.Resolve();
+            case Skill.Occultism:
+                return IOccultismProficiencySystem.Resolve();
+            case Skill.Performance:
+                return IPerformanceProficiencySystem.Resolve();
+            case Skill.Religion:
+                return IReligionProficiencySystem.Resolve();
+            case Skill.Society:
+                return ISocietyProficiencySystem.Resolve();
+            case Skill.Stealth:
+                return IStealthProficiencySystem.Resolve();
+            case Skill.Survival:
+                return ISurvivalProficiencySystem.Resolve();
+            case Skill.Thievery:
+                return IThieveryProficiencySystem.Resolve();
             default:
                 return null;
         }
