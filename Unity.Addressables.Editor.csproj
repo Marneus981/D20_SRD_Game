@@ -176,8 +176,8 @@
      <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\Build\SceneManagerState.cs" />
      <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\Diagnostics\AddressableIconNames.cs" />
      <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\Settings\BinaryCatalogInitializationSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\GUI\AddressableAssetGroupTemplateInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\Build\BuildPipelineTasks\ExtractDataTask.cs" />
+     <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\GUI\AddressableAssetGroupTemplateInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\Settings\GroupSchemas\BundledAssetGroupSchema.cs" />
      <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\GUI\AnalyzeRuleGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.addressables@2dc42e61a5f5\Editor\GUI\AssetInspectorGUI.cs" />

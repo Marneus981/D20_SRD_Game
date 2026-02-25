@@ -21,7 +21,8 @@ public class GameSystem : IGameSystem
         //Placeholder
         IEntrySystem.Resolve().SetName("Entry_01"); //Update the game system so that it assigns the 
                                                     //initial “Entry” for when you begin a New Game
-        await UniTask.CompletedTask;
+        //await UniTask.CompletedTask;
+        await ISoloHeroSystem.Resolve().CreateHero();
     }
 
     public async UniTask ContinueGame()

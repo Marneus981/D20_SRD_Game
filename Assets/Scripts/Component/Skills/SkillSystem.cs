@@ -1,3 +1,4 @@
+using System;
 public enum Skill
 //Covers sample character sheet skills
 {
@@ -23,6 +24,8 @@ public interface ISkillSystem : IDependency<ISkillSystem>
 {
     void Set(Entity entity, Skill skill, int value);
     int Get(Entity entity, Skill skill);
+    void SetupAllSkills(Entity entity);
+    void Setup(Entity entity, Skill skill);
 }
 
 public class SkillSystem : ISkillSystem
@@ -37,7 +40,18 @@ public class SkillSystem : ISkillSystem
         return GetSystem(skill).Get(entity);
     }
 
-    IEntityTableSystem<int> GetSystem(Skill skill)
+    public void SetupAllSkills(Entity entity)
+    {
+        foreach (Skill skill in Enum.GetValues(typeof(Skill)))
+            GetSystem(skill).Setup(entity);
+    }
+
+    public void Setup(Entity entity, Skill skill)
+    {
+        GetSystem(skill).Setup(entity);
+    }
+
+    IBaseSkillSystem GetSystem(Skill skill)
     {
         switch (skill)
         {
