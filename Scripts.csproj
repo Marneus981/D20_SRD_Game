@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\Data\DataInjector.cs" />
      <Compile Include="Assets\Scripts\Flow\AppFlow.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\PerformanceSystem.cs" />
+     <Compile Include="Assets\Scripts\Actions\ActionInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\ScalarTween.cs" />
      <Compile Include="Assets\Scripts\Data\CoreSet.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreSystem.cs" />
@@ -93,8 +94,8 @@
      <Compile Include="Assets\Scripts\UI\EntryPanel.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollSystem.cs" />
      <Compile Include="Assets\Scripts\Component\EntityTableSystem.cs" />
-     <Compile Include="Assets\Scripts\Component\LevelSystem.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityRecipeSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\LevelSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\StealthSystem.cs" />
@@ -107,12 +108,13 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\DeceptionProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\AssetManager\AssetManagerInjector.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\AthleticsProficiencySystem.cs" />
-     <Compile Include="Assets\Scripts\Component\Skills\Systems\LoreProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\LevelProvider.cs" />
+     <Compile Include="Assets\Scripts\Component\Skills\Systems\LoreProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityInjector.cs" />
      <Compile Include="Assets\Scripts\UI\Layout.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineProficiencySystem.cs" />
+     <Compile Include="Assets\Scripts\Actions\CheckSystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\SkillsProficiencyProvider.cs" />
      <Compile Include="Assets\Scripts\Game\GameSystem.cs" />
      <Compile Include="Assets\Scripts\Animation\Vector3Tween.cs" />
@@ -129,6 +131,7 @@
      <Compile Include="Assets\Scripts\Entity\Entity.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\ReligionProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\MockFixedRNG.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\SkillExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\UI\Alert.cs" />
      <Compile Include="Assets\Scripts\Animation\EasingEquations.cs" />
      <Compile Include="Assets\Scripts\Flow\MainMenuFlow.cs" />

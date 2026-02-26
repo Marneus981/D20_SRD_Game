@@ -3,6 +3,7 @@ public static class Injector
 {
     public static void Inject()
     {
+        ActionInjector.Inject();
         AssetManagerInjector.Inject();
         ComponentInjector.Inject();
         DataInjector.Inject();

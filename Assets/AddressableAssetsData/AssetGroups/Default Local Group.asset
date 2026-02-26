@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ec4ef52baee8d94d8c7fa5978f3c99d
+    m_Address: Assets/Objects/Entries/Entry_10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 751826bf73db867429a7491255e1cbca
     m_Address: Assets/Objects/Entries/Entry_07.prefab
     m_ReadOnly: 0
@@ -36,7 +41,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 891f165982cc82149ab9197c236f9dc0
-    m_Address: Assets/Objects/EntryRecipe/Hero.prefab
+    m_Address: Assets/Objects/EntityRecipe/Hero.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -47,6 +52,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d34f84e9002a0cb4a84cf4381c3eea0c
     m_Address: Assets/Objects/Entries/Entry_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee88942c66980a24d90a573ce47d74dd
+    m_Address: Assets/Objects/Entries/Entry_11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa937756aaf154540addd6242abc9176
+    m_Address: Assets/Objects/Entries/Entry_09.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb92cc47dda2ae84aa86599bc0b520a2
+    m_Address: Assets/Objects/Entries/Entry_08.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
