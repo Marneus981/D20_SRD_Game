@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3031804665775856535}
   - component: {fileID: 3473354681494767961}
   - component: {fileID: 1359407769026497094}
-  - component: {fileID: 4984950298763372579}
+  - component: {fileID: -7906423900392238063}
   m_Layer: 0
   m_Name: Entry_02
   m_TagString: Untagged
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Scripts::ExploreEntryOption
   text: Run Away
   entryName: Entry_03
---- !u!114 &4984950298763372579
+--- !u!114 &-7906423900392238063
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -72,8 +72,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1444784257014835174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ea7030d2df6b5e49a467646e30ebe47, type: 3}
+  m_Script: {fileID: 11500000, guid: 773317c95574a384f81f9578d1beb28e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Scripts::ExploreEntryOption
+  m_EditorClassIdentifier: Scripts::EncounterEntryOption
   text: Fight!
-  entryName: Entry_05
+  encounterName: Encounter_01

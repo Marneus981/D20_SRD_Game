@@ -45,6 +45,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cf40dc1eefd38045aa289f0c85e221b
+    m_Address: Assets/Objects/Entries/Entry_04.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 96cd10a4f933ea24fa08a02408c67fbd
     m_Address: Assets/Objects/Entries/Entry_03.prefab
     m_ReadOnly: 0
@@ -57,6 +62,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ee88942c66980a24d90a573ce47d74dd
     m_Address: Assets/Objects/Entries/Entry_11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f04939f54618d5045959becb702dde1b
+    m_Address: Assets/Objects/Encounters/Encounter_01.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -61,12 +61,14 @@
      <Compile Include="Assets\Scripts\SoloAdventure\SoloAdventureInjector.cs" />
      <Compile Include="Assets\Scripts\Component\AdventureItemSystem.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
+     <Compile Include="Assets\Scripts\Combat\CombatInjector.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\SoloHeroSystem.cs" />
      <Compile Include="Assets\Scripts\Animation\Tween.cs" />
      <Compile Include="Assets\Scripts\Animation\RectTransformAnimationExtensions.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoreProvider.cs" />
      <Compile Include="Assets\Scripts\Data\DataInjector.cs" />
      <Compile Include="Assets\Scripts\Flow\AppFlow.cs" />
+     <Compile Include="Assets\Scripts\Combat\CombatResultSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\PerformanceSystem.cs" />
      <Compile Include="Assets\Scripts\Actions\ActionInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\ScalarTween.cs" />
@@ -85,6 +87,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\AcrobaticsSystem.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\MockAttributeProvider.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\EncounterEntryOption.cs" />
      <Compile Include="Assets\Scripts\Dependency\Injector.cs" />
      <Compile Include="Assets\Scripts\Animation\CanvasGroupAlphaTween.cs" />
      <Compile Include="Assets\Scripts\Flow\EntryFlow.cs" />
@@ -134,6 +137,8 @@
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\SkillExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\UI\Alert.cs" />
      <Compile Include="Assets\Scripts\Animation\EasingEquations.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EncounterSystem.cs" />
+     <Compile Include="Assets\Scripts\Flow\EncounterFlow.cs" />
      <Compile Include="Assets\Scripts\Flow\MainMenuFlow.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformLocalPositionTween.cs" />
      <Compile Include="Assets\Scripts\UI\Anchor.cs" />
@@ -162,6 +167,8 @@
      <Compile Include="Assets\Scripts\Data\CoreDictionary.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScore.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\PerformanceProficiencySystem.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\Encounter.cs" />
+     <Compile Include="Assets\Scripts\AssetManager\EncounterAssetSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\NatureSystem.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />
     <Reference Include="UnityEngine">

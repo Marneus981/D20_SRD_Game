@@ -49,11 +49,14 @@ public class GameFlow : IGameFlow
     }
     */
     {
-        while (true) //Replaces above
+        while (true)
         {
             var entryName = IEntrySystem.Resolve().GetName();
+            var encounterName = IEncounterSystem.Resolve().GetName();
             if (!string.IsNullOrEmpty(entryName))
                 await IEntryFlow.Resolve().Play();
+            else if (!string.IsNullOrEmpty(encounterName))
+                await IEncounterFlow.Resolve().Play();
             else
                 break;
             await UniTask.NextFrame();

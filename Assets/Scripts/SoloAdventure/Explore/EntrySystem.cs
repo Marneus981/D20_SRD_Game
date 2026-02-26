@@ -20,6 +20,8 @@ public class EntrySystem : IEntrySystem
     public void SetName(string name)
     {
         IDataSystem.Resolve().Data.entryName = name;
+        if (!string.IsNullOrEmpty(name))//When we set a non-empty Entry name, then we should clear any Encounter name
+            IEncounterSystem.Resolve().SetName(string.Empty);
     }
 
     public string GetName()
