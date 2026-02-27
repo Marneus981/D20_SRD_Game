@@ -258,9 +258,9 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Changesets\ChangesetExplorerView.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetMenu\ProjectViewCloudDriveAssetMenu.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\GetWindowIfOpened.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\PendingChanges\ChangeCategoryTreeViewItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UVCSToolbar\PopupWindow\Operations\ControlledPopupOperations.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Locks\LocksTab.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\PendingChanges\ChangeCategoryTreeViewItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Branch\BranchesSelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\Progress\ProgressControlsForDialogs.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\PendingChanges\Dialogs\DependenciesDialog.cs" />

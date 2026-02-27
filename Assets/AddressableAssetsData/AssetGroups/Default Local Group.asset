@@ -45,6 +45,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e8b37173f7acf24991770a5dcdaa406
+    m_Address: Assets/Objects/CombatAction/Stride.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 891f165982cc82149ab9197c236f9dc0
     m_Address: Assets/Objects/EntityRecipe/Hero.prefab
     m_ReadOnly: 0

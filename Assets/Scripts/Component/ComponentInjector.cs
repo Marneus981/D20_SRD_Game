@@ -9,5 +9,6 @@ public static class ComponentInjector
         SkillsInjector.Inject();
         IAdventureItemSystem.Register(new AdventureItemSystem());
         INameSystem.Register(new NameSystem());
+        IPositionSystem.Register(new PositionSystem());
     }
 }
