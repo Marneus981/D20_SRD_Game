@@ -101,6 +101,7 @@
      <Compile Include="Assets\Scripts\UI\CombatantUI.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityRecipeSystem.cs" />
      <Compile Include="Assets\Scripts\Component\LevelSystem.cs" />
+     <Compile Include="Assets\Scripts\Input\InputSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\StealthSystem.cs" />
@@ -117,6 +118,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\LoreProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityInjector.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Encounter\CombatantView.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EncounterActionsSystem.cs" />
      <Compile Include="Assets\Scripts\UI\Layout.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineProficiencySystem.cs" />
@@ -128,6 +130,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\ReligionSystem.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\WisdomSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\AthleticsSystem.cs" />
+     <Compile Include="Assets\Scripts\AttributeProvider\EncounterActionsProvider.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\CraftingProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Dependency\IDependency.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollInjector.cs" />
@@ -152,11 +155,13 @@
      <Compile Include="Assets\Scripts\Component\Skills\ProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoresProvider.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\SurvivalSystem.cs" />
+     <Compile Include="Assets\Scripts\Flow\HeroActionFlow.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\IEntryLink.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\PickupEntryLink.cs" />
      <Compile Include="Assets\Scripts\Component\ComponentInjector.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineSystem.cs" />
+     <Compile Include="Assets\Scripts\UI\ActionMenu.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\SurvivalProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformPositionTween.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\DiplomacyProficiencySystem.cs" />
