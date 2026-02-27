@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
      <Compile Include="Assets\Scripts\Combat\CombatInjector.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\SoloHeroSystem.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EntityViewProvider.cs" />
      <Compile Include="Assets\Scripts\Animation\Tween.cs" />
      <Compile Include="Assets\Scripts\Animation\RectTransformAnimationExtensions.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoreProvider.cs" />
@@ -97,6 +98,7 @@
      <Compile Include="Assets\Scripts\UI\EntryPanel.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollSystem.cs" />
      <Compile Include="Assets\Scripts\Component\EntityTableSystem.cs" />
+     <Compile Include="Assets\Scripts\UI\CombatantUI.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityRecipeSystem.cs" />
      <Compile Include="Assets\Scripts\Component\LevelSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismSystem.cs" />
@@ -114,6 +116,7 @@
      <Compile Include="Assets\Scripts\AttributeProvider\LevelProvider.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\LoreProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityInjector.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\CombatantView.cs" />
      <Compile Include="Assets\Scripts\UI\Layout.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineProficiencySystem.cs" />
@@ -163,6 +166,7 @@
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\Entry.cs" />
      <Compile Include="Assets\Scripts\Animation\QuaternionTween.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntrySystem.cs" />
+     <Compile Include="Assets\Scripts\Demo.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\NatureProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Data\CoreDictionary.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScore.cs" />

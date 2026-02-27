@@ -30,6 +30,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 729a4707701d149ce8fec6d93c216116
+    m_Address: Assets/Prefabs/Combatants/Heroes/Warrior.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 751826bf73db867429a7491255e1cbca
     m_Address: Assets/Objects/Entries/Entry_07.prefab
     m_ReadOnly: 0
@@ -45,6 +50,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ccdfaf5cae5f4a0a861158c2e556e56
+    m_Address: Assets/Prefabs/Grid.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8cf40dc1eefd38045aa289f0c85e221b
     m_Address: Assets/Objects/Entries/Entry_04.prefab
     m_ReadOnly: 0
@@ -57,6 +67,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d34f84e9002a0cb4a84cf4381c3eea0c
     m_Address: Assets/Objects/Entries/Entry_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e42270f57d32f48b1a416f50cfb19180
+    m_Address: Assets/Prefabs/Combatants/Monsters/Rat.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
