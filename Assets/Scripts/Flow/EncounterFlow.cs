@@ -19,6 +19,7 @@ public class EncounterFlow : IEncounterFlow
     {
         await SceneManager.LoadSceneAsync("Encounter").ToUniTask();
         var asset = await IEncounterAssetSystem.Resolve().Load();
+        await IEncounterSystem.Resolve().Setup(asset);
         return asset;
     }
 

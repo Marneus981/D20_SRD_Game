@@ -2,6 +2,7 @@ public static class SoloAdventureInjector
 {
     public static void Inject()
     {
+        ICombatantAssetSystem.Register(new CombatantAssetSystem());
         ICombatantViewSystem.Register(new CombatantViewSystem());
         IPositionSelectionSystem.Register(new PositionSelectionSystem());
         IEncounterActionsSystem.Register(new EncounterActionsSystem());

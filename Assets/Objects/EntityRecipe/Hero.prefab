@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -124232362165128427}
   - component: {fileID: 909294229190683423}
   - component: {fileID: 7813026119700802540}
+  - component: {fileID: 4387472940711686421}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -108,3 +109,16 @@ MonoBehaviour:
   value:
   - Strike (Shortsword)
   - Stride
+--- !u!114 &4387472940711686421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173158476050149741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d65d3d30705a943a16e4ad22126bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::CombatantAssetProvider
+  value: Warrior

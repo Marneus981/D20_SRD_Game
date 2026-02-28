@@ -46,3 +46,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Scripts::Encounter
   victoryEntry: Entry_05
   defeatEntry: Entry_04
+  monsterSpawns:
+  - assetName: Rat
+    position:
+      x: 1
+      y: 0
+  - assetName: Rat
+    position:
+      x: 0
+      y: 0
+  heroPositions:
+  - x: -1
+    y: 0
