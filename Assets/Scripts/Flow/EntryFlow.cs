@@ -13,16 +13,11 @@ public class EntryFlow : IEntryFlow
     {
         // MARK: - Enter
         await SceneManager.LoadSceneAsync("Explore").ToUniTask();
-        // TODO: Load an Entry asset by name
         var entry = await IEntryAssetSystem.Resolve().Load();
 
-        // TODO: Resolve the Entry Panel
         var panel = IEntryPanel.Resolve();
-
-        // TODO: Configure the panel with the asset
         panel.Setup(entry);
 
-        // TODO: Enter transition for the panel
         await panel.TransitionIn();
 
         // MARK: - Loop

@@ -4,20 +4,35 @@ Placeholder: System that can provide the list of actions an Entity can perform d
 This may be a subset of the actions that the Entity can actually perform; some actions may only be
 allowed during a different phase of the game such as exploration.
 */
-public interface IEncounterActionsSystem : IDependency<IEncounterActionsSystem>, IEntityTableSystem<List<string>>
+[System.Serializable]
+public struct EncounterActions
+{
+    public List<string> names;
+
+    public EncounterActions(List<string> names)
+    {
+        this.names = names;
+    }
+}
+
+public partial class Data
+{
+    public CoreDictionary<Entity, EncounterActions> encounterActions = new CoreDictionary<Entity, EncounterActions>();
+}
+
+public interface IEncounterActionsSystem : IDependency<IEncounterActionsSystem>, IEntityTableSystem<EncounterActions>
 {
 
 }
 
-public class EncounterActionsSystem : EntityTableSystem<List<string>>, IEncounterActionsSystem
+public class EncounterActionsSystem : EntityTableSystem<EncounterActions>, IEncounterActionsSystem
 {
-    public override CoreDictionary<Entity, List<string>> Table => _table;
-    CoreDictionary<Entity, List<string>> _table = new CoreDictionary<Entity, List<string>>();
+    public override CoreDictionary<Entity, EncounterActions> Table => IDataSystem.Resolve().Data.encounterActions;
 }
 
 public partial struct Entity
 {
-    public List<string> EncounterActions
+    public EncounterActions EncounterActions
     {
         get { return IEncounterActionsSystem.Resolve().Get(this); }
         set { IEncounterActionsSystem.Resolve().Set(this, value); }

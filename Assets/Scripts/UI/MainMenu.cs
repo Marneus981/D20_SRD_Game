@@ -33,14 +33,14 @@ public class MainMenu : MonoBehaviour, IMainMenu
     }
 
     void CancelToken()
-{
-    if (cts != null)
     {
-        cts.Cancel();
-        cts.Dispose();
-        cts = null;
+        if (cts != null)
+        {
+            cts.Cancel();
+            cts.Dispose();
+            cts = null;
+        }
     }
-}
 
     async UniTask Enter(CancellationTokenSource cts)
     {

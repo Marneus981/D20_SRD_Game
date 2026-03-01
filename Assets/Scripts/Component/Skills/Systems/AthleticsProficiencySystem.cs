@@ -1,6 +1,6 @@
 public partial class Data
 {
-    public CoreDictionary<Entity, Proficiency> athleticsProficiency = new CoreDictionary<Entity, Proficiency>();
+    public CoreDictionary<Entity, Proficiency> AthleticsProficiency = new CoreDictionary<Entity, Proficiency>();
 }
 
 public interface IAthleticsProficiencySystem : IDependency<IAthleticsProficiencySystem>, IEntityTableSystem<Proficiency>
@@ -12,5 +12,5 @@ public class AthleticsProficiencySystem : EntityTableSystem<Proficiency>, IAthle
 //No partial definition for Entity: Proficiency of a skill will only be used to calculate the skill value; 
 //We will use the system directly when needed.
 {
-    public override CoreDictionary<Entity, Proficiency> Table => IDataSystem.Resolve().Data.athleticsProficiency;
+    public override CoreDictionary<Entity, Proficiency> Table => IDataSystem.Resolve().Data.AthleticsProficiency;
 }

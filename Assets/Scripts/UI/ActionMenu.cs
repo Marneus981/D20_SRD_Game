@@ -21,7 +21,7 @@ public class ActionMenu : MonoBehaviour, IActionMenu
         selection = 0;
         buttons[0].Select();
         entity = ISoloHeroSystem.Resolve().Hero; // TODO: Get the "current" entity from a "turn" system
-        var pairs = buttons.Zip(entity.EncounterActions, (Button button, string action) => (button, action));
+        var pairs = buttons.Zip(entity.EncounterActions.names, (Button button, string action) => (button, action));
         foreach (var pair in pairs)
         {
             var label = pair.button.GetComponentInChildren<TextMeshProUGUI>();
@@ -50,7 +50,7 @@ public class ActionMenu : MonoBehaviour, IActionMenu
             selection = (selection + offset + menuCount) % menuCount; //To wrap around the menu
             buttons[selection].Select();
         }
-        return entity.EncounterActions[selection];
+        return entity.EncounterActions.names[selection];
     }
     public async UniTask TransitionOut()
     {

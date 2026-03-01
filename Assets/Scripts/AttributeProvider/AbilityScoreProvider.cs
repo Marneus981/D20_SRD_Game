@@ -13,9 +13,9 @@ Use Example: add attributes for specified scores a creature lacks.
     {
         entity[attribute] = value;
     }
-    public void Configure(AbilityScore.Attribute attribute, int value)
+/*     public void Configure(AbilityScore.Attribute attribute, int value)
     {
         this.attribute = attribute;
         this.value = value;
-    }
+    } */
 }
