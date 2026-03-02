@@ -12,5 +12,6 @@ public static class ComponentInjector
         IPositionSystem.Register(new PositionSystem());
         ICombatantSystem.Register(new CombatantSystem());
         IPartySystem.Register(new PartySystem());
+        IArmorClassSystem.Register(new ArmorClassSystem());
     }
 }

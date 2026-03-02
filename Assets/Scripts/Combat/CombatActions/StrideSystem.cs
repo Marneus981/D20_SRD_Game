@@ -40,5 +40,6 @@ public class StrideSystem : IStrideSystem
     {
         var entity = info.entity;
         entity.Position = info.destination;
+        ITurnSystem.Resolve().TakeAction(1, false);
     }
 }

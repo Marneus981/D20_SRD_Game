@@ -9,9 +9,10 @@ public class MonsterActionFlow : IMonsterActionFlow
 {
     public async UniTask<CombatResult?> Play()
     {
-        await UniTask.CompletedTask;
-        // TODO: Handle A.I. for monster to take a turn
-        UnityEngine.Debug.Log("Monster turn skipped...");
+        var current = ITurnSystem.Resolve().Current;
+        var actionName = current.EncounterActions.names[0];
+        var action = await ICombatActionAssetSystem.Resolve().Load(actionName);
+        await action.Perform(current);
         return ICombatResultSystem.Resolve().CheckResult();
     }
 }

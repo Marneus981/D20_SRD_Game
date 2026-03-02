@@ -441,6 +441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1265746788}
   - component: {fileID: 1265746789}
+  - component: {fileID: 1265746790}
   m_Layer: 0
   m_Name: Presenters
   m_TagString: Untagged
@@ -476,6 +477,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Scripts::StridePresenter
   speedMultiplier: 0.25
+--- !u!114 &1265746790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265746787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa72263af6e9c64f801f29b315195b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::AttackPresenter
 --- !u!1 &1480285037
 GameObject:
   m_ObjectHideFlags: 0
