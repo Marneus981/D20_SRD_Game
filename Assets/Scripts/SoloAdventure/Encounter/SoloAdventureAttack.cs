@@ -7,6 +7,8 @@ public class SoloAdventureAttack : MonoBehaviour, ICombatAction
     [SerializeField] int attackRollBonus;
     [SerializeField] int comboCost;
     [SerializeField] DiceRoll damage;
+    [SerializeField] string damageType;
+    [SerializeField] string material;
 
     public async UniTask Perform(Entity entity)
     {
@@ -36,18 +38,35 @@ public class SoloAdventureAttack : MonoBehaviour, ICombatAction
             await presenter.Present(presentInfo);
         }
 
-        // TODO: Apply Damage if applicable
+        // Determine Damage
+        DamageInfo damageInfo = new DamageInfo
+        {
+            target = target,
+            damage = 0,
+            criticalDamage = 0,
+            type = damageType,
+            material = material
+        };
         switch (attackRoll)
         {
             case Check.CriticalSuccess:
-                Debug.Log(string.Format("Critical Hit for {0} Damage!", damage.Roll() * 2));
+                var critRoll = damage.Roll();
+                damageInfo.damage = critRoll;
+                damageInfo.criticalDamage = critRoll;
+                Debug.Log(string.Format("Critical Hit for {0} Damage!", critRoll * 2));
                 break;
             case Check.Success:
-                Debug.Log(string.Format("Hit for {0} Damage!", damage.Roll()));
+                var roll = damage.Roll();
+                damageInfo.damage = roll;
+                Debug.Log(string.Format("Hit for {0} Damage!", roll));
                 break;
             default:
                 Debug.Log("Miss");
                 break;
         }
+
+        // TODO: Apply Damage if applicable
+        var damageAmount = IDamageSystem.Resolve().Apply(damageInfo);
+        Debug.Log("Final Damage: " + damageAmount);
     }
 }

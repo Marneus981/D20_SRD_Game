@@ -414,6 +414,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Tests/AssetManager/MockAssetManager.cs"
 "Assets/Tests/AttributeProvider/AbilityScoreProviderTests.cs"
+"Assets/Tests/Combat/Damage/DamageSystemTests.cs"
 "Assets/Tests/Component/AbilityScore/AbilityScoreTests.cs"
 "Assets/Tests/Component/AbilityScore/MockAbilityScoreSystem.cs"
 "Assets/Tests/Component/EntityTableSystemTests.cs"

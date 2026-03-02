@@ -50,3 +50,5 @@ MonoBehaviour:
     count: 1
     sides: 6
     bonus: 2
+  damageType: piercing
+  material: 
