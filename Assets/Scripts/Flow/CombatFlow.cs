@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using System;
 
 public interface ICombatFlow : IDependency<ICombatFlow>
 {
@@ -31,7 +32,6 @@ public struct CombatFlow : ICombatFlow
 
     async UniTask Exit()
     {
-        // TODO: award experience, delete monster data, etc
-        await UniTask.CompletedTask;
+        await UniTask.Delay(TimeSpan.FromSeconds(3), ignoreTimeScale: false);//3 sec pause after combat ends, to appreciate it
     }
 }

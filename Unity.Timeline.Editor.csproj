@@ -208,8 +208,8 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\Snapping\IAttractable.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Actions\MarkerAction.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\DirectorStyles.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\TimelineTreeViewGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Utilities\Clipboard.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\TimelineTreeViewGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\treeview\Drawers\ClipDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Manipulators\Sequence\TrackZoom.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@7f8b2fb101b6\Editor\Animation\BindingSelector.cs" />

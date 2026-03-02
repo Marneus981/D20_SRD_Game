@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EntityViewProvider.cs" />
     <Compile Include="Assets\Scripts\Component\Position\PositionSystem.cs" />
     <Compile Include="Assets\Scripts\Animation\Tween.cs" />
+    <Compile Include="Assets\Scripts\Component\Health\HealthPresenter.cs" />
     <Compile Include="Assets\Scripts\Combat\Damage\DamageInjector.cs" />
     <Compile Include="Assets\Scripts\Animation\RectTransformAnimationExtensions.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatActions\AttackRollSystem.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreSystem.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatActions\StridePresenter.cs" />
     <Compile Include="Assets\Scripts\Component\AbilityScore\ConstitutionSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Health\MaxHitPointSystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\StealthProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\AssetManager\GameObjectAssetManager.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatActionsInjector.cs" />
@@ -115,6 +117,7 @@
     <Compile Include="Assets\Scripts\Animation\CanvasGroupAlphaTween.cs" />
     <Compile Include="Assets\Scripts\Flow\EntryFlow.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\ArcanaSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Health\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\Animation\RectTransformAnchorPositionTween.cs" />
     <Compile Include="Assets\Scripts\Entity\EntitySystem.cs" />
     <Compile Include="Assets\Scripts\UI\EntryPanel.cs" />
@@ -145,6 +148,7 @@
     <Compile Include="Assets\Scripts\AttributeProvider\LevelProvider.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\LoreProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Entity\EntityInjector.cs" />
+    <Compile Include="Assets\Scripts\Component\Health\HealthInjector.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\CombatantView.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EncounterActionsSystem.cs" />
     <Compile Include="Assets\Scripts\UI\Layout.cs" />
@@ -168,8 +172,10 @@
     <Compile Include="Assets\Scripts\Animation\TransformAnimationExtensions.cs" />
     <Compile Include="Assets\Scripts\Combat\Damage\DamageSystem.cs" />
     <Compile Include="Assets\Scripts\DiceRoll\DiceRoll.cs" />
+    <Compile Include="Assets\Scripts\AttributeProvider\HealthProvider.cs" />
     <Compile Include="Assets\Scripts\Component\AbilityScore\StrengthSystem.cs" />
     <Compile Include="Assets\Scripts\Entity\Entity.cs" />
+    <Compile Include="Assets\Scripts\Component\Health\HitPointSystem.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatActions\AttackPresenter.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\ReligionProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\DiceRoll\MockFixedRNG.cs" />
@@ -196,6 +202,7 @@
     <Compile Include="Assets\Scripts\Component\EntitySetSystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoresProvider.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\SurvivalSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Dying\DyingPresenter.cs" />
     <Compile Include="Assets\Scripts\Flow\HeroActionFlow.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Explore\IEntryLink.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismProficiencySystem.cs" />
@@ -204,6 +211,7 @@
     <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineSystem.cs" />
     <Compile Include="Assets\Scripts\UI\ActionMenu.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\SurvivalProficiencySystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Dying\DyingSystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\CombatantProvider.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\PositionSelectionSystem.cs" />
     <Compile Include="Assets\Scripts\Animation\TransformPositionTween.cs" />

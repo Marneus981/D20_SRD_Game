@@ -13,5 +13,7 @@ public static class ComponentInjector
         ICombatantSystem.Register(new CombatantSystem());
         IPartySystem.Register(new PartySystem());
         IArmorClassSystem.Register(new ArmorClassSystem());
+        HealthInjector.Inject();
+        IDyingSystem.Register(new DyingSystem());
     }
 }

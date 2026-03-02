@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Linq;
 
 public enum CombatResult
 {
@@ -15,10 +16,16 @@ public class CombatResultSystem : ICombatResultSystem
 {
     public CombatResult? CheckResult()
     {
-        if (Input.GetKeyUp(KeyCode.V))//Placeholder: simulate victory on V key press
-            return CombatResult.Victory;
-        if (Input.GetKeyUp(KeyCode.D))//Placeholder: simulate defeat on D key press
+        var combatants = ICombatantSystem.Resolve().Table;
+            
+        bool heroAlive = combatants.Any(e => e.Party == Party.Hero && e.HitPoints > 0);//linq check
+        if (!heroAlive)
             return CombatResult.Defeat;
-        return null;
+
+        bool enemyAlive = combatants.Any(e => e.Party == Party.Monster && e.HitPoints > 0);//linq check
+        if (!enemyAlive)
+            return CombatResult.Victory;
+
+        return null;//combat continues
     }
 }
