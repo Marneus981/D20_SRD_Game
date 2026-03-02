@@ -47,6 +47,7 @@
      <Compile Include="Assets\Scripts\Data\DataStore.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\CraftingSystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\IAttributeProvider.cs" />
+     <Compile Include="Assets\Scripts\Flow\CombatFlow.cs" />
      <Compile Include="Assets\Scripts\AssetManager\AssetManager.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\SocietySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\BaseSkillSystem.cs" />
@@ -105,7 +106,9 @@
      <Compile Include="Assets\Scripts\Component\EntityTableSystem.cs" />
      <Compile Include="Assets\Scripts\UI\CombatantUI.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityRecipeSystem.cs" />
+     <Compile Include="Assets\Scripts\AttributeProvider\PartyProvider.cs" />
      <Compile Include="Assets\Scripts\Component\LevelSystem.cs" />
+     <Compile Include="Assets\Scripts\Flow\RoundFlow.cs" />
      <Compile Include="Assets\Scripts\Input\InputSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationProficiencySystem.cs" />
@@ -114,6 +117,7 @@
      <Compile Include="Assets\Scripts\Combat\CombatActions\Stride.cs" />
      <Compile Include="Assets\Scripts\Data\DataSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\PartySystem.cs" />
      <Compile Include="Assets\Scripts\UI\LinkOpener.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\CombatantAssetProvider.cs" />
      <Compile Include="Assets\Scripts\Data\DataSerializer.cs" />
@@ -127,6 +131,7 @@
      <Compile Include="Assets\Scripts\SoloAdventure\Encounter\CombatantView.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EncounterActionsSystem.cs" />
      <Compile Include="Assets\Scripts\UI\Layout.cs" />
+     <Compile Include="Assets\Scripts\Combat\RoundSystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ExploreEntryOption.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Actions\CheckSystem.cs" />
@@ -139,6 +144,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\AthleticsSystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\EncounterActionsProvider.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\CraftingProficiencySystem.cs" />
+     <Compile Include="Assets\Scripts\Component\CombatantSystem.cs" />
      <Compile Include="Assets\Scripts\Dependency\IDependency.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformAnimationExtensions.cs" />
@@ -153,14 +159,18 @@
      <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EncounterSystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Encounter\CombatantAssetSystem.cs" />
      <Compile Include="Assets\Scripts\Flow\EncounterFlow.cs" />
+     <Compile Include="Assets\Scripts\Combat\TurnSystem.cs" />
      <Compile Include="Assets\Scripts\Flow\MainMenuFlow.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformLocalPositionTween.cs" />
+     <Compile Include="Assets\Scripts\Flow\MonsterActionFlow.cs" />
      <Compile Include="Assets\Scripts\UI\Anchor.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\SocietyProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Flow\FlowInjector.cs" />
+     <Compile Include="Assets\Scripts\Flow\TurnFlow.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreInjector.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\DiplomacySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\ProficiencySystem.cs" />
+     <Compile Include="Assets\Scripts\Component\EntitySetSystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoresProvider.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\SurvivalSystem.cs" />
      <Compile Include="Assets\Scripts\Flow\HeroActionFlow.cs" />
@@ -171,6 +181,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineSystem.cs" />
      <Compile Include="Assets\Scripts\UI\ActionMenu.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\SurvivalProficiencySystem.cs" />
+     <Compile Include="Assets\Scripts\AttributeProvider\CombatantProvider.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Encounter\PositionSelectionSystem.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformPositionTween.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\DiplomacyProficiencySystem.cs" />

@@ -13,5 +13,9 @@ just like the MainMenu script does.
         IGameFlow.Register(new GameFlow());
         IHeroActionFlow.Register(new HeroActionFlow());
         IMainMenuFlow.Register(new MainMenuFlow());
+        ICombatFlow.Register(new CombatFlow());
+        IRoundFlow.Register(new RoundFlow());
+        ITurnFlow.Register(new TurnFlow());
+        IMonsterActionFlow.Register(new MonsterActionFlow());
     }
 }

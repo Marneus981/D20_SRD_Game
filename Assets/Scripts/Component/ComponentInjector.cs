@@ -10,5 +10,7 @@ public static class ComponentInjector
         IAdventureItemSystem.Register(new AdventureItemSystem());
         INameSystem.Register(new NameSystem());
         IPositionSystem.Register(new PositionSystem());
+        ICombatantSystem.Register(new CombatantSystem());
+        IPartySystem.Register(new PartySystem());
     }
 }

@@ -29,8 +29,7 @@ public class EncounterFlow : IEncounterFlow
         while (!combatResult.HasValue)
         {
             await UniTask.NextFrame();
-            //combatResult = ICombatResultSystem.Resolve().CheckResult();
-            combatResult = await IHeroActionFlow.Resolve().Play();
+            combatResult = await ICombatFlow.Resolve().Play();
         }
         return combatResult.Value;
     }

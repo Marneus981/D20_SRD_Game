@@ -4,5 +4,8 @@ public static class CombatInjector
     {
         CombatActionsInjector.Inject();
         ICombatResultSystem.Register(new CombatResultSystem());
+        ICombatantSystem.Register(new CombatantSystem());
+        IRoundSystem.Register(new RoundSystem());
+        ITurnSystem.Register(new TurnSystem());
     }
 }

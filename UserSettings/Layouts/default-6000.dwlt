@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 381
     height: 554
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 38
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -148,14 +148,14 @@ MonoBehaviour:
     y: 554
     width: 1409
     height: 427
-  m_MinSize: {x: 231, y: 276}
-  m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 51, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 15}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 37
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 36
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -566,10 +566,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 636
-    width: 680
-    height: 397
+    x: 0
+    y: 633
+    width: 1408
+    height: 401
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -683,7 +683,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Objects/EntityRecipe
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Objects/EntityRecipe
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mdsor\GameProjects\D20_SRD_Game
   m_LockTracker:
@@ -702,38 +702,39 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 40158
+    - m_Data: 40160
     m_LastClickedID:
-      m_Data: 40158
+      m_Data: 40160
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 40000
-    - m_Data: 40002
-    - m_Data: 40004
-    - m_Data: 40008
-    - m_Data: 40010
-    - m_Data: 40012
-    - m_Data: 40014
-    - m_Data: 40016
-    - m_Data: 40018
-    - m_Data: 40020
-    - m_Data: 40022
-    - m_Data: 40028
-    - m_Data: 40030
-    - m_Data: 40032
-    - m_Data: 40034
-    - m_Data: 40036
-    - m_Data: 40038
-    - m_Data: 40040
-    - m_Data: 40042
-    - m_Data: 40044
-    - m_Data: 40048
-    - m_Data: 40050
-    - m_Data: 40054
-    - m_Data: 40056
-    - m_Data: 40156
-    - m_Data: 40456
-    - m_Data: 40458
+    - m_Data: 39772
+    - m_Data: 39774
+    - m_Data: 39776
+    - m_Data: 39778
+    - m_Data: 39780
+    - m_Data: 39782
+    - m_Data: 39784
+    - m_Data: 39786
+    - m_Data: 39788
+    - m_Data: 39790
+    - m_Data: 39792
+    - m_Data: 39794
+    - m_Data: 39796
+    - m_Data: 39798
+    - m_Data: 39800
+    - m_Data: 39802
+    - m_Data: 39804
+    - m_Data: 39806
+    - m_Data: 39808
+    - m_Data: 39810
+    - m_Data: 39812
+    - m_Data: 39814
+    - m_Data: 39816
+    - m_Data: 39818
+    - m_Data: 39820
+    - m_Data: 39822
+    - m_Data: 39824
+    - m_Data: 39926
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -767,35 +768,33 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 40000
-    - m_Data: 40002
-    - m_Data: 40004
-    - m_Data: 40006
-    - m_Data: 40008
-    - m_Data: 40010
-    - m_Data: 40012
-    - m_Data: 40014
-    - m_Data: 40016
-    - m_Data: 40018
-    - m_Data: 40020
-    - m_Data: 40022
-    - m_Data: 40024
-    - m_Data: 40026
-    - m_Data: 40028
-    - m_Data: 40030
-    - m_Data: 40032
-    - m_Data: 40034
-    - m_Data: 40036
-    - m_Data: 40038
-    - m_Data: 40040
-    - m_Data: 40042
-    - m_Data: 40044
-    - m_Data: 40046
-    - m_Data: 40048
-    - m_Data: 40050
-    - m_Data: 40052
-    - m_Data: 40054
-    - m_Data: 40056
+    - m_Data: 39772
+    - m_Data: 39774
+    - m_Data: 39776
+    - m_Data: 39778
+    - m_Data: 39780
+    - m_Data: 39782
+    - m_Data: 39784
+    - m_Data: 39786
+    - m_Data: 39788
+    - m_Data: 39790
+    - m_Data: 39792
+    - m_Data: 39794
+    - m_Data: 39796
+    - m_Data: 39798
+    - m_Data: 39800
+    - m_Data: 39802
+    - m_Data: 39804
+    - m_Data: 39806
+    - m_Data: 39808
+    - m_Data: 39810
+    - m_Data: 39812
+    - m_Data: 39814
+    - m_Data: 39816
+    - m_Data: 39818
+    - m_Data: 39820
+    - m_Data: 39822
+    - m_Data: 39824
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1583,7 +1582,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 439.9484, y: 263.13724, z: 0}
     speed: 2
-    m_Value: {x: 0.5, y: 1.5, z: 0}
+    m_Value: {x: 439.9484, y: 263.13724, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1635,7 +1634,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 304.61053
     speed: 2
-    m_Value: 1.5811388
+    m_Value: 304.61053
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1714,8 +1713,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1838
-      - m_Data: -1296
+      - m_Data: -1298
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

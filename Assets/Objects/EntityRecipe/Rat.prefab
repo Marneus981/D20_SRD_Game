@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7940914661364243370}
   - component: {fileID: 4566406706831137846}
   - component: {fileID: -6221544218914139336}
+  - component: {fileID: 8206471710362831242}
+  - component: {fileID: -2931896223371379748}
   m_Layer: 0
   m_Name: Rat
   m_TagString: Untagged
@@ -61,3 +63,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Scripts::CombatantAssetProvider
   value: Rat
+--- !u!114 &8206471710362831242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79f2bdf4b16bf84e962a3875f2db247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::CombatantProvider
+--- !u!114 &-2931896223371379748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a602e83a980d6f84ab34dcc2ba9df3d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::PartyProvider
+  party: 2
