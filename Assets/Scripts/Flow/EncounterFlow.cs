@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public interface IEncounterFlow : IDependency<IEncounterFlow>
 {
@@ -45,6 +46,15 @@ public class EncounterFlow : IEncounterFlow
                 IEntrySystem.Resolve().SetName(asset.DefeatEntry);
                 break;
         }
+        DeleteMonsters();
         await UniTask.CompletedTask;
+    }
+    void DeleteMonsters()
+    {
+        var system = IEntitySystem.Resolve();
+        var table = new List<Entity>(ICombatantSystem.Resolve().Table);//Copy bc we cant mod a collection while enumerating it
+        foreach (var entity in table)
+            if (entity.Party == Party.Monster)
+                system.Destroy(entity);
     }
 }

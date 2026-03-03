@@ -1,3 +1,4 @@
+using System;
 public partial class Data
 {
     public CoreSet<Entity> entities = new CoreSet<Entity>();
@@ -6,6 +7,7 @@ public interface IEntitySystem : IDependency<IEntitySystem>
 {
         Entity Create();
         void Destroy(Entity entity);
+        event Action<Entity> EntityDestroyed;
 }
 public class EntitySystem : IEntitySystem
 {
@@ -17,6 +19,7 @@ public class EntitySystem : IEntitySystem
         Data Data { get { return IDataSystem.Resolve().Data; } }
         IRandomNumberGenerator RNG { get { return IRandomNumberGenerator.Resolve(); } }
 
+        public event Action<Entity> EntityDestroyed;
         public Entity Create()
         {
             Entity result;
@@ -33,5 +36,7 @@ public class EntitySystem : IEntitySystem
         public void Destroy(Entity entity)
         {
             Data.entities.Remove(entity);
+            EntityDestroyed?.Invoke(entity);//Anytime we use the system to destroy an Entity, 
+                                                //we invoke an observable event that it has occurred. 
         }
 }

@@ -6,4 +6,17 @@ public static class HealthInjector
         IHitPointSystem.Register(new HitPointSystem());
         IMaxHitPointSystem.Register(new MaxHitPointSystem());
     }
+    public static void SetUp()
+    {
+        IHealthSystem.Resolve().SetUp();
+        IHitPointSystem.Resolve().SetUp();
+        IMaxHitPointSystem.Resolve().SetUp();
+    }
+
+    public static void TearDown()
+    {
+        IHealthSystem.Resolve().TearDown();
+        IHitPointSystem.Resolve().TearDown();
+        IMaxHitPointSystem.Resolve().TearDown();
+    }
 }

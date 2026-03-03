@@ -11,4 +11,27 @@ public static class SoloAdventureInjector
         ISoloHeroSystem.Register(new SoloHeroSystem());
         IPhysicsSystem.Register(new PhysicsSystem());
     }
+    public static void SetUp()
+    {
+        ICombatantAssetSystem.Resolve().SetUp();
+        ICombatantViewSystem.Resolve().SetUp();
+        IEncounterActionsSystem.Resolve().SetUp();
+        IEncounterSystem.Resolve().SetUp();
+        IEntrySystem.Resolve().SetUp();
+        IPhysicsSystem.Resolve().SetUp();
+        IPositionSelectionSystem.Resolve().SetUp();
+        ISoloHeroSystem.Resolve().SetUp();
+    }
+
+    public static void TearDown()
+    {
+        ICombatantAssetSystem.Resolve().TearDown();
+        ICombatantViewSystem.Resolve().TearDown();
+        IEncounterActionsSystem.Resolve().TearDown();
+        IEncounterSystem.Resolve().TearDown();
+        IEntrySystem.Resolve().TearDown();
+        IPhysicsSystem.Resolve().TearDown();
+        IPositionSelectionSystem.Resolve().TearDown();
+        ISoloHeroSystem.Resolve().TearDown();
+    }
 }

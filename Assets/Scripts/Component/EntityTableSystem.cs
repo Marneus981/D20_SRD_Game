@@ -62,4 +62,23 @@ it could be defined within the concrete class directly and used only in memory.
         if (Table.ContainsKey(entity))
             Table.Remove(entity);
     }
+    public virtual void SetUp()
+    {
+        IEntitySystem.Resolve().EntityDestroyed += OnEntityDestroyed;
+    }
+
+    public virtual void TearDown()
+    {
+        IEntitySystem.Resolve().EntityDestroyed -= OnEntityDestroyed;
+    }
+
+    protected virtual void OnEntityDestroyed(Entity entity)
+    /*
+    Outside classes won’t know this method exists and can’t call it directly. 
+    Subclasses will know about the method and can choose to override it, if needed,
+        to do things beyond just deleting its own data.
+    */ 
+    {
+        Remove(entity);
+    }
 }

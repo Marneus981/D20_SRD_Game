@@ -19,7 +19,10 @@ Caveat with Unity's tools: missing built-in support for serializing Dictionaries
 {
     public string Serialize(Data data)
     {
+/*      var result = JsonUtility.ToJson(data); */
         return JsonUtility.ToJson(data);
+/*      Debug.Log(result);
+        return result; */
     }
 
     public Data Deserialize(string json)

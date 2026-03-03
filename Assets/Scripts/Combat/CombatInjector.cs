@@ -9,4 +9,23 @@ public static class CombatInjector
         ITurnSystem.Register(new TurnSystem());
         DamageInjector.Inject();
     }
+    public static void SetUp()
+    {
+        CombatActionsInjector.SetUp();
+        ICombatantSystem.Resolve().SetUp();
+        ICombatResultSystem.Resolve().SetUp();
+        DamageInjector.SetUp();
+        IRoundSystem.Resolve().SetUp();
+        ITurnSystem.Resolve().SetUp();
+    }
+
+    public static void TearDown()
+    {
+        CombatActionsInjector.TearDown();
+        ICombatantSystem.Resolve().TearDown();
+        ICombatResultSystem.Resolve().TearDown();
+        DamageInjector.TearDown();
+        IRoundSystem.Resolve().TearDown();
+        ITurnSystem.Resolve().TearDown();
+    }
 }
