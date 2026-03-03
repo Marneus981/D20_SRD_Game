@@ -38,9 +38,15 @@ public class EntityViewProvider : MonoBehaviour, IEntityViewProvider
         if (!mapping.ContainsKey(zone))
             mapping[zone] = new Dictionary<Entity, GameObject>();
 
-        if (view)
-            mapping[zone][entity] = view;
-        else
+        if (view)//view is non-null
+        {
+            mapping[zone][entity] = view;//set the mapping
+            var ev = view.GetComponent<EntityView>();
+            if (ev == null)//if GameObject does not have a EV...
+                ev = view.AddComponent<EntityView>();
+            ev.entity = entity;
+        }
+        else//view is null
             mapping[zone].Remove(entity);
     }
 

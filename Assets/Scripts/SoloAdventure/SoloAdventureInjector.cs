@@ -9,5 +9,6 @@ public static class SoloAdventureInjector
         IEncounterSystem.Register(new EncounterSystem());
         IEntrySystem.Register(new EntrySystem());
         ISoloHeroSystem.Register(new SoloHeroSystem());
+        IPhysicsSystem.Register(new PhysicsSystem());
     }
 }

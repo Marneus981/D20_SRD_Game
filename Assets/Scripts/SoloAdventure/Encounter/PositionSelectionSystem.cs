@@ -28,14 +28,4 @@ public class PositionSelectionSystem : IPositionSelectionSystem
 
         return result;
     }
-
-    private void OnEnable()
-    {
-        IPositionSelectionSystem.Register(this);
-    }
-
-    private void OnDisable()
-    {
-        IPositionSelectionSystem.Reset();
-    }
 }
