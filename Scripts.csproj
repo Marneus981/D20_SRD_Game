@@ -83,6 +83,7 @@
      <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoreProvider.cs" />
      <Compile Include="Assets\Scripts\Data\DataInjector.cs" />
      <Compile Include="Assets\Scripts\Flow\AppFlow.cs" />
+     <Compile Include="Assets\Scripts\AttributeProvider\SizeProvider.cs" />
      <Compile Include="Assets\Scripts\Combat\CombatResultSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\PerformanceSystem.cs" />
      <Compile Include="Assets\Scripts\Actions\ActionInjector.cs" />
@@ -122,6 +123,7 @@
      <Compile Include="Assets\Scripts\Entity\EntitySystem.cs" />
      <Compile Include="Assets\Scripts\UI\EntryPanel.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\Size\SizeInjector.cs" />
      <Compile Include="Assets\Scripts\Component\EntityTableSystem.cs" />
      <Compile Include="Assets\Scripts\UI\CombatantUI.cs" />
      <Compile Include="Assets\Scripts\Entity\EntityRecipeSystem.cs" />
@@ -133,6 +135,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\StealthSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\Size\ReachSystem.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\IntelligenceSystem.cs" />
      <Compile Include="Assets\Scripts\Combat\CombatActions\Stride.cs" />
      <Compile Include="Assets\Scripts\Data\DataSystem.cs" />
@@ -204,6 +207,7 @@
      <Compile Include="Assets\Scripts\Flow\FlowInjector.cs" />
      <Compile Include="Assets\Scripts\Flow\TurnFlow.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScoreInjector.cs" />
+     <Compile Include="Assets\Scripts\AttributeProvider\ReachProvider.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\DiplomacySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\ProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Combat\Damage\DamageTypeSystem.cs" />
@@ -215,6 +219,7 @@
      <Compile Include="Assets\Scripts\Board\Traversers\LandTraverser.cs" />
      <Compile Include="Assets\Scripts\Flow\HeroActionFlow.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\IEntryLink.cs" />
+     <Compile Include="Assets\Scripts\Component\Size\SpaceSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\PickupEntryLink.cs" />
      <Compile Include="Assets\Scripts\Component\ComponentInjector.cs" />
@@ -236,6 +241,7 @@
      <Compile Include="Assets\Scripts\Combat\CombatActions\StrideSystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntrySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\NatureProficiencySystem.cs" />
+     <Compile Include="Assets\Scripts\Component\Size\SizeSystem.cs" />
      <Compile Include="Assets\Scripts\Combat\ICombatAction.cs" />
      <Compile Include="Assets\Scripts\Data\CoreDictionary.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\AbilityScore.cs" />

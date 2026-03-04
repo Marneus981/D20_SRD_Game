@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 public interface ITurnSystem : IDependency<ITurnSystem>
 {
     Entity Current { get; }
@@ -7,6 +8,7 @@ public interface ITurnSystem : IDependency<ITurnSystem>
 
     void Begin(Entity entity);
     void TakeAction(int actionCost, bool isAttack);
+    List<Entity> InReach { get; set; }
 }
 
 public class TurnSystem : ITurnSystem
@@ -34,4 +36,5 @@ public class TurnSystem : ITurnSystem
         actionsRemaining -= actionCost;
         if (isAttack) attackCount++;
     }
+    public List<Entity> InReach { get; set; }
 }

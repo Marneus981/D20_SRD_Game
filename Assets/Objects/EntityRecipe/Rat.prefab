@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: -3680495059650244792}
   - component: {fileID: -6271667908389047952}
   - component: {fileID: 1135185325504373554}
+  - component: {fileID: 2664709836776952438}
+  - component: {fileID: -6182439069629658467}
   m_Layer: 0
   m_Name: Rat
   m_TagString: Untagged
@@ -130,3 +132,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Scripts::SpeedProvider
   value: 20
+--- !u!114 &2664709836776952438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19c97898f4cbc74b8a03665b65616fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::SizeProvider
+  value: 1
+--- !u!114 &-6182439069629658467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbfa0a4f85871f488533e0fedc9b389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::ReachProvider
+  value: 1

@@ -16,5 +16,6 @@ public static class ComponentInjector
         HealthInjector.Inject();
         IDyingSystem.Register(new DyingSystem());
         ISpeedSystem.Register(new SpeedSystem());
+        SizeInjector.Inject();
     }
 }

@@ -90,4 +90,8 @@ public class SoloAdventureAttack : MonoBehaviour, ICombatAction
         };
         await IHealthSystem.Resolve().Apply(healthInfo);
     }
+    public bool CanPerform(Entity entity)
+    {
+        return ITurnSystem.Resolve().InReach.Any(e => e.Party != entity.Party);
+    }
 }
