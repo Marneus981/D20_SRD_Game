@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\Combat\Damage\DamageResistanceExceptionSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\DeceptionSystem.cs" />
      <Compile Include="Assets\Scripts\Component\AbilityScore\DexteritySystem.cs" />
+     <Compile Include="Assets\Scripts\UI\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Component\NameSystem.cs" />
      <Compile Include="Assets\Scripts\Combat\Damage\DamageResistanceSystem.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformLocalEulerTween.cs" />
@@ -66,6 +67,7 @@
      <Compile Include="Assets\Scripts\Flow\GameFlow.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\SoloAdventureInjector.cs" />
      <Compile Include="Assets\Scripts\Component\AdventureItemSystem.cs" />
+     <Compile Include="Assets\Scripts\Tools\BoardGenerator.cs" />
      <Compile Include="Assets\Scripts\Combat\Damage\DamageImmunitySystem.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
      <Compile Include="Assets\Scripts\Combat\CombatInjector.cs" />
@@ -97,6 +99,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\SkillSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\LoreSystem.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ItemExploreEntryOption.cs" />
+     <Compile Include="Assets\Scripts\Board\BoardSkin.cs" />
      <Compile Include="Assets\Scripts\Data\Data.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\ThieveryProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\AcrobaticsProficiencySystem.cs" />
@@ -130,6 +133,7 @@
      <Compile Include="Assets\Scripts\Data\DataSystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationSystem.cs" />
      <Compile Include="Assets\Scripts\Component\PartySystem.cs" />
+     <Compile Include="Assets\Scripts\Board\BoardData.cs" />
      <Compile Include="Assets\Scripts\UI\LinkOpener.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\CombatantAssetProvider.cs" />
      <Compile Include="Assets\Scripts\Data\DataSerializer.cs" />
@@ -163,6 +167,7 @@
      <Compile Include="Assets\Scripts\Combat\Damage\MaterialDamageTypeSystem.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRollInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformAnimationExtensions.cs" />
+     <Compile Include="Assets\Scripts\Board\TilePalette.cs" />
      <Compile Include="Assets\Scripts\Combat\Damage\DamageSystem.cs" />
      <Compile Include="Assets\Scripts\DiceRoll\DiceRoll.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\HealthProvider.cs" />
@@ -184,7 +189,9 @@
      <Compile Include="Assets\Scripts\AttributeProvider\ArmorClassProvider.cs" />
      <Compile Include="Assets\Scripts\Animation\TransformLocalPositionTween.cs" />
      <Compile Include="Assets\Scripts\Flow\MonsterActionFlow.cs" />
+     <Compile Include="Assets\Scripts\Board\BoardSystem.cs" />
      <Compile Include="Assets\Scripts\UI\Anchor.cs" />
+     <Compile Include="Assets\Scripts\Extensions\ArrayExtensions.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\Systems\SocietyProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Flow\FlowInjector.cs" />
      <Compile Include="Assets\Scripts\Flow\TurnFlow.cs" />
@@ -233,9 +240,6 @@
     </Reference>
     <Reference Include="UnityEngine.AIModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AMDModule">
-        <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.AMDModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
@@ -294,9 +298,6 @@
     <Reference Include="UnityEngine.GridModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.HierarchyModule">
-        <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.HierarchyCoreModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
     </Reference>
@@ -335,9 +336,6 @@
     </Reference>
     <Reference Include="UnityEngine.MultiplayerModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.NVIDIAModule">
-        <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.NVIDIAModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
@@ -1044,32 +1042,26 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="UniTask">
+        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\mdsor\GameProjects\D20_SRD_Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UniTask.csproj">
-      <Project>{aa940990-e0a7-8a4e-d06c-3ff03449beb4}</Project>
-      <Name>UniTask</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{4de5bd76-a5f4-f269-e4b1-2a8a0b8a767a}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Addressables.csproj">
-      <Project>{1605e13e-6c6f-5513-0c3b-3c038423d93a}</Project>
-      <Name>Unity.Addressables</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ResourceManager.csproj">
-      <Project>{959457f6-53be-5962-f9d9-6587c5128d02}</Project>
-      <Name>Unity.ResourceManager</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{ec2b7589-d82c-adb4-bf7a-3638fcdc416a}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{f2b3500b-87b7-90b3-bd48-52b0fbd9e3bf}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

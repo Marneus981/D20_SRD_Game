@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8024400f43efe84882f64e0456a1ffd, type: 3}
+  m_Name: DarkWater
+  m_EditorClassIdentifier: Scripts::TilePalette
+  water:
+  - {fileID: 11400000, guid: b9478efd1ba1948719820d93cb94f29f, type: 2}
+  - {fileID: 11400000, guid: f2fae0f898cb54fb1bd7bd6cb4bc2ddd, type: 2}
+  beach:
+  - {fileID: 11400000, guid: 9c60b5010f7a3440ab7954b77a741187, type: 2}
+  ground:
+  - {fileID: 11400000, guid: 927ba19bf7f6d4765900891d72cc3aa2, type: 2}
+  - {fileID: 11400000, guid: c80b245893afc4479875dda0aed9022b, type: 2}
+  hill:
+  - {fileID: 11400000, guid: d0abe2e63badd46e682e57e46889f682, type: 2}
+  mountain:
+  - {fileID: 11400000, guid: 247a6fe3d76984c569de1f8f0b2a32df, type: 2}

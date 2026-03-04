@@ -15,6 +15,8 @@ public interface IEncounter
     string DefeatEntry { get; }
     List<MonsterSpawn> MonsterSpawns { get; }
     List<Point> HeroPositions { get; }
+    BoardData BoardData { get; }
+    BoardSkin BoardSkin { get; }
 }
 
 public class Encounter : MonoBehaviour, IEncounter
@@ -30,4 +32,10 @@ public class Encounter : MonoBehaviour, IEncounter
 
     public List<Point> HeroPositions { get { return heroPositions; } }
     [SerializeField] List<Point> heroPositions;
+
+    public BoardData BoardData { get { return boardData; } }
+    [SerializeField] BoardData boardData;
+
+    public BoardSkin BoardSkin { get { return boardSkin; } }
+    [SerializeField] BoardSkin boardSkin;
 }

@@ -49,8 +49,10 @@ MonoBehaviour:
   monsterSpawns:
   - assetName: Rat
     position:
-      x: 1
-      y: 0
+      x: 5
+      y: 3
   heroPositions:
-  - x: -1
-    y: 0
+  - x: 0
+    y: 3
+  boardData: {fileID: 11400000, guid: 03d91f28484704f4d9bcaddb335d25cb, type: 2}
+  boardSkin: {fileID: 11400000, guid: 77fe71980b78d65459fae46ec2f24f1e, type: 2}

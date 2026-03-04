@@ -40,6 +40,7 @@ public class EncounterSystem : IEncounterSystem
         var hero = ISoloHeroSystem.Resolve().Hero;
         hero.Position = encounter.HeroPositions[0];
         await CreateView(hero, heroPath);
+        IBoardSystem.Resolve().Load(encounter);
     }
 
     async UniTask CreateView(Entity entity, string path)

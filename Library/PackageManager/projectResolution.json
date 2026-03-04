@@ -19,6 +19,26 @@
       "source": "git",
       "testable": false
     },
+    "com.unity.2d.tilemap@1.0.0": {
+      "name": "com.unity.2d.tilemap",
+      "displayName": "2D Tilemap Editor",
+      "resolvedPath": "C:\\Users\\mdsor\\GameProjects\\D20_SRD_Game\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73",
+      "fingerprint": "2428aeee2f739ba27e841f87bdc993170fe923b9",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.tilemap.extras@6.0.1": {
+      "name": "com.unity.2d.tilemap.extras",
+      "displayName": "2D Tilemap Extras",
+      "resolvedPath": "C:\\Users\\mdsor\\GameProjects\\D20_SRD_Game\\Library\\PackageCache\\com.unity.2d.tilemap.extras@3dde84bf3867",
+      "fingerprint": "3dde84bf38677b4165ad5f568b353d4ba942d63c",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "6.0.1",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.addressables@2.8.1": {
       "name": "com.unity.addressables",
       "displayName": "Addressables",
