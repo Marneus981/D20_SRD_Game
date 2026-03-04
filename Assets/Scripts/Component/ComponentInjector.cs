@@ -15,6 +15,7 @@ public static class ComponentInjector
         IArmorClassSystem.Register(new ArmorClassSystem());
         HealthInjector.Inject();
         IDyingSystem.Register(new DyingSystem());
+        ISpeedSystem.Register(new SpeedSystem());
     }
     public static void SetUp()
     {
@@ -29,6 +30,7 @@ public static class ComponentInjector
         IPartySystem.Resolve().SetUp();
         IPositionSystem.Resolve().SetUp();
         SkillsInjector.SetUp();
+        ISpeedSystem.Resolve().SetUp();
     }
 
     public static void TearDown()
@@ -44,5 +46,6 @@ public static class ComponentInjector
         IPartySystem.Resolve().TearDown();
         IPositionSystem.Resolve().TearDown();
         SkillsInjector.TearDown();
+        ISpeedSystem.Resolve().TearDown();
     }
 }

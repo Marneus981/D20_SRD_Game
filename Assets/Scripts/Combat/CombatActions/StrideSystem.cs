@@ -1,9 +1,10 @@
 using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 
 public struct StrideInfo
 {
     public Entity entity;
-    public Point destination;
+    public List<Point> path;
 }
 
 public interface IStrideSystem : IDependency<IStrideSystem>
@@ -26,11 +27,10 @@ public class StrideSystem : IStrideSystem
         IStridePresenter presenter;
         if (IStridePresenter.TryResolve(out presenter))
         {
-            var presentInfo = new StridePresentationInfo
+           var presentInfo = new StridePresentationInfo
             {
                 entity = info.entity,
-                fromPosition = info.entity.Position,
-                toPosition = info.destination
+                path = info.path
             };
             await presenter.Present(presentInfo);
         }
@@ -39,7 +39,7 @@ public class StrideSystem : IStrideSystem
     private void Perform(StrideInfo info)
     {
         var entity = info.entity;
-        entity.Position = info.destination;
+        entity.Position = info.path[info.path.Count - 1];
         ITurnSystem.Resolve().TakeAction(1, false);
     }
 }

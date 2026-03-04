@@ -7,6 +7,8 @@ public interface IBoardSystem : IDependency<IBoardSystem>
     void Load(IEncounter encounter);//Load a game board based on an "Encounter" asset
     TileBase GetTile(Point point);//Determine what "TileBase" actually appears at a given "Point"
     //Note: TileBase holds more info than BoardData, such as gatherables, etc.
+    bool IsPointOnBoard(Point point);
+    int GetTileType(Point point);
 }
 public class BoardSystem : MonoBehaviour, IBoardSystem
 {
@@ -23,7 +25,17 @@ public class BoardSystem : MonoBehaviour, IBoardSystem
     {
         return tilemap.GetTile(new Vector3Int(point.x, point.y, 0));
     }
+    public bool IsPointOnBoard(Point point)
+    {
+        return point.x >= 0 && point.y >= 0 &&
+            point.x < BoardData.width && point.y < BoardData.height;
+    }
 
+    public int GetTileType(Point point)
+    {
+        var index = point.y * BoardData.width + point.x;
+        return BoardData.tiles[index];
+    }
     private void OnEnable()
     {
         tilemap = GetComponent<Tilemap>();

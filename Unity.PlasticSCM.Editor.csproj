@@ -118,8 +118,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Developer\GenericProgress.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\DockEditorWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Changesets\Dialogs\LabelChangesetDialog.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Developer\ShelvedChangesNotification.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetsUtils\Processor\UVCSAssetsProcessor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Developer\ShelvedChangesNotification.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetOverlays\Cache\BuildPathDictionary.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Branch\BranchListViewItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\CloudDrive\Workspaces\DirectoryContent\DirectoryContentPanelMenu.cs" />

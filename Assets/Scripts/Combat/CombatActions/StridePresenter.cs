@@ -1,11 +1,11 @@
 using UnityEngine;
 using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 
 public struct StridePresentationInfo
 {
     public Entity entity;
-    public Point fromPosition;
-    public Point toPosition;
+    public List<Point> path;
 }
 
 public interface IStridePresenter : IDependency<IStridePresenter>
@@ -15,15 +15,22 @@ public interface IStridePresenter : IDependency<IStridePresenter>
 
 public class StridePresenter : MonoBehaviour, IStridePresenter
 {
-    [SerializeField] float speedMultiplier = 0.25f;
+    [SerializeField] float moveSpeed = 0.25f;
 
     public async UniTask Present(StridePresentationInfo info)
     {
-        Vector3 delta = info.toPosition - info.fromPosition;
         var view = IEntityViewProvider.Resolve().GetView(info.entity, ViewZone.Combatant);
         var combatant = view.GetComponent<CombatantView>();
         ICombatantViewSystem.Resolve().SetAnimation(combatant, CombatantAnimation.Walk);
-        await view.transform.MoveTo(info.toPosition, speedMultiplier * delta.magnitude).Play();
+
+        var previous = info.path[0];
+        for (int i = 1; i < info.path.Count; ++i)
+        {
+            var next = info.path[i];
+            await view.transform.MoveTo(next, moveSpeed).Play();
+            previous = next;
+        }
+
         ICombatantViewSystem.Resolve().SetAnimation(combatant, CombatantAnimation.Idle);
     }
 

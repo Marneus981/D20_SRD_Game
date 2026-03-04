@@ -245,8 +245,8 @@
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\Reflection\NamespaceInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\EditorTimeUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Descriptors\DescriptorAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Reflection\LooseAssemblyNameOption.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\InspectorAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Reflection\LooseAssemblyNameOption.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_6.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\EditorSerializationUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\ImplementationInspector.cs" />
@@ -348,8 +348,8 @@
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Dependencies\ReorderableList\ReorderableListStyles.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Descriptors\IDescriptor.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_2_0.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Description\GraphDescription.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Serialization\TypeExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Description\GraphDescription.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\IPluginModule.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\Root\LudiqRootObjectEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_9.cs" />
@@ -358,8 +358,8 @@
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\IndividualEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\Unity\Ray2DInspector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\GraphEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Description\GraphNesterDescriptor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Inspection\GraphEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Platforms\EditorPlatformUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Plugins\PluginSavedVersionMigration.cs" />
      <Compile Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Widgets\Nodes\NodeWidget.cs" />

@@ -15,6 +15,7 @@ public static class Injector
         IGameSystem.Register(new GameSystem());
         IInputSystem.Register(new InputSystem());
         SoloAdventureInjector.Inject();
+        BoardInjector.Inject();
     }
     public static void SetUp()
     {
@@ -29,6 +30,7 @@ public static class Injector
         IGameSystem.Resolve().SetUp();
         IInputSystem.Resolve().SetUp();
         SoloAdventureInjector.SetUp();
+        BoardInjector.SetUp();
     }
 
     public static void TearDown()
@@ -44,5 +46,6 @@ public static class Injector
         IGameSystem.Resolve().TearDown();
         IInputSystem.Resolve().TearDown();
         SoloAdventureInjector.TearDown();
+        BoardInjector.TearDown();
     }
 }
