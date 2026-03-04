@@ -34,6 +34,11 @@ it could be defined within the concrete class directly and used only in memory.
 {
     public abstract CoreDictionary<Entity, T> Table { get; }
 
+    public EntityTableSystem()
+    {
+        ISetUpSystem.Resolve().Add(SetUp);
+        ITearDownSystem.Resolve().Add(TearDown);
+    }
     public virtual void Set(Entity entity, T value)
     {
         Table[entity] = value;

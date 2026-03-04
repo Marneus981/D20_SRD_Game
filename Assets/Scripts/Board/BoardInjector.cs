@@ -5,13 +5,4 @@ public static class BoardInjector
         IPathfindingSystem.Register(new PathfindingSystem());
     }
 
-    public static void SetUp()
-    {
-        IPathfindingSystem.Resolve().SetUp();
-    }
-
-    public static void TearDown()
-    {
-        IPathfindingSystem.Resolve().TearDown();
-    }
 }

@@ -18,21 +18,4 @@ public static class DamageInjector
         IDamageResistanceSystem.Register(new DamageResistanceSystem());
         IDamageResistanceExceptionSystem.Register(new DamageResistanceExceptionSystem());
     }
-    public static void SetUp()
-    {
-        IDamageSystem.Resolve().SetUp();
-        IDamageImmunitySystem.Resolve().SetUp();
-        IDamageWeaknessSystem.Resolve().SetUp();
-        IDamageResistanceSystem.Resolve().SetUp();
-        IDamageResistanceExceptionSystem.Resolve().SetUp();
-    }
-
-    public static void TearDown()
-    {
-        IDamageSystem.Resolve().TearDown();
-        IDamageImmunitySystem.Resolve().TearDown();
-        IDamageWeaknessSystem.Resolve().TearDown();
-        IDamageResistanceSystem.Resolve().TearDown();
-        IDamageResistanceExceptionSystem.Resolve().TearDown();
-    }
 }

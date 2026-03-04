@@ -5,6 +5,8 @@ public class BaseSkillSystemTests
     [SetUp]
     public void SetUp()
     {
+        ISetUpSystem.Register(new SetUpSystem());
+        ITearDownSystem.Register(new TearDownSystem());
         IAbilityScoreSystem.Register(new MockAbilityScoreSystem());
         IDataSystem.Register(new MockDataSystem());
         ILevelSystem.Register(new LevelSystem());

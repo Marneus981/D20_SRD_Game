@@ -562,6 +562,8 @@
 "Assets/Scripts/Data/DataSystem.cs"
 "Assets/Scripts/Dependency/IDependency.cs"
 "Assets/Scripts/Dependency/Injector.cs"
+"Assets/Scripts/Dependency/SetUpSystem.cs"
+"Assets/Scripts/Dependency/TearDownSystem.cs"
 "Assets/Scripts/DiceRoll/DiceRoll.cs"
 "Assets/Scripts/DiceRoll/DiceRollInjector.cs"
 "Assets/Scripts/DiceRoll/DiceRollSystem.cs"

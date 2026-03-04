@@ -22,7 +22,7 @@ public class AppFlow : MonoBehaviour
         IDataSystem.Register(new DataSystem());
         */
         Injector.Inject(); //Replaces above lines; we now have access to every system
-        Injector.SetUp();
+        ISetUpSystem.Resolve().SetUp();
         while (true)
         {
             //await IMainMenuFlow.Resolve().Play(); 
@@ -32,6 +32,6 @@ public class AppFlow : MonoBehaviour
     }
     private void OnDestroy()
     {
-        Injector.TearDown();
+        ITearDownSystem.Resolve().TearDown();
     }
 }

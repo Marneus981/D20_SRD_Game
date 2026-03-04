@@ -657,7 +657,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 961
     y: 636
-    width: 702
+    width: 857
     height: 397
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -683,7 +683,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Flow
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -693,23 +693,21 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Flow
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mdsor\GameProjects\D20_SRD_Game
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 112.45399}
     m_SelectedIDs:
-    - m_Data: 40770
+    - m_Data: 40820
     m_LastClickedID:
-      m_Data: 40770
+      m_Data: 40820
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 40630
     - m_Data: 40632
-    - m_Data: 40634
     - m_Data: 40636
     - m_Data: 40638
     - m_Data: 40640
@@ -732,6 +730,9 @@ MonoBehaviour:
     - m_Data: 40674
     - m_Data: 40676
     - m_Data: 40678
+    - m_Data: 40680
+    - m_Data: 40806
+    - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -764,7 +765,6 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 40630
     - m_Data: 40632
     - m_Data: 40634
     - m_Data: 40636
@@ -789,6 +789,7 @@ MonoBehaviour:
     - m_Data: 40674
     - m_Data: 40676
     - m_Data: 40678
+    - m_Data: 40680
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -815,8 +816,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 39812
+    m_LastClickedInstanceID: 39812
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 42298
@@ -1708,7 +1710,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1312
+      - m_Data: -2738
+      - m_Data: -1324
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

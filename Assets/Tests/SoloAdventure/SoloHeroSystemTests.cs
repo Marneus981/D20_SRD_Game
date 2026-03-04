@@ -9,6 +9,8 @@ public class SoloHeroSystemTests
     [SetUp]
     public void SetUp()
     {
+        ISetUpSystem.Register(new SetUpSystem());
+        ITearDownSystem.Register(new TearDownSystem());
         IDataSystem.Register(new MockDataSystem());
         IDataSystem.Resolve().Create();
         AbilityScoreInjector.Inject();

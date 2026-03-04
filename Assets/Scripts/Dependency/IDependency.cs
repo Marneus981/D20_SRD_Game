@@ -80,16 +80,5 @@ public interface IDependency<T>
     {
         _disposer(entity);
     }
-    public void SetUp()
-    //Invoked after our Injector has completed injecting dependencies
-    //Expecting that all needed dependencies already exist
-    {
-/*         Debug.Log("SetUp " + this.GetType().Name); */
-    }
 
-    public void TearDown()
-    //Called when dependency is no longer needed
-    {
-/*         Debug.Log("TearDown " + this.GetType().Name); */
-    }
 }

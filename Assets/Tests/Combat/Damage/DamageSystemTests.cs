@@ -10,6 +10,8 @@ public class DamageSystemTests
     [SetUp]
     public void SetUp()
     {
+        ISetUpSystem.Register(new SetUpSystem());
+        ITearDownSystem.Register(new TearDownSystem());
         DamageInjector.Inject();
         entity = new Entity(123);
         damageType = "slashing";

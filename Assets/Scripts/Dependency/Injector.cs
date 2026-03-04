@@ -3,6 +3,12 @@ public static class Injector
 {
     public static void Inject()
     {
+        //First
+        //-------------------
+        ISetUpSystem.Register(new SetUpSystem());
+        ITearDownSystem.Register(new TearDownSystem());
+        //-------------------
+        //Last
         ActionInjector.Inject();
         AssetManagerInjector.Inject();
         CombatInjector.Inject();
@@ -16,36 +22,5 @@ public static class Injector
         IInputSystem.Register(new InputSystem());
         SoloAdventureInjector.Inject();
         BoardInjector.Inject();
-    }
-    public static void SetUp()
-    {
-        ActionInjector.SetUp();
-        AssetManagerInjector.SetUp();
-        CombatInjector.SetUp();
-        ComponentInjector.SetUp();
-        DataInjector.SetUp();
-        DiceRollInjector.SetUp();
-        EntityInjector.SetUp();
-        FlowInjector.SetUp();
-        IGameSystem.Resolve().SetUp();
-        IInputSystem.Resolve().SetUp();
-        SoloAdventureInjector.SetUp();
-        BoardInjector.SetUp();
-    }
-
-    public static void TearDown()
-    {
-        ActionInjector.TearDown();
-        AssetManagerInjector.TearDown();
-        CombatInjector.TearDown();
-        ComponentInjector.TearDown();
-        DataInjector.TearDown();
-        DiceRollInjector.TearDown();
-        EntityInjector.TearDown();
-        FlowInjector.TearDown();
-        IGameSystem.Resolve().TearDown();
-        IInputSystem.Resolve().TearDown();
-        SoloAdventureInjector.TearDown();
-        BoardInjector.TearDown();
     }
 }

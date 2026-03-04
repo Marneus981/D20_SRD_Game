@@ -21,6 +21,8 @@ public class EntityTableSystemTests
     [SetUp]
     public void SetUp()
     {
+        ISetUpSystem.Register(new SetUpSystem());
+        ITearDownSystem.Register(new TearDownSystem());
         sut = new TestEntityTableSystem();
     }
     //All of the basic CRUD operations were given unit tests:
