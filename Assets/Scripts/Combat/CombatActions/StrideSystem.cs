@@ -16,10 +16,13 @@ public class StrideSystem : IStrideSystem
 {
     public async UniTask Apply(StrideInfo info)
     {
-        // TODO: Check for act of opportunity before leaving current square
-        await Present(info);
-        Perform(info);
-        // TODO: Check for act of opportunity after arriving at new square
+        if (!(info.path.Count == 0))
+        {
+            // TODO: Check for act of opportunity before leaving current square
+            await Present(info);
+            Perform(info);
+            // TODO: Check for act of opportunity after arriving at new square
+        }
     }
 
     private async UniTask Present(StrideInfo info)

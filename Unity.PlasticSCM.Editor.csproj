@@ -165,9 +165,9 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\BrowseRepository\BrowseRepositoryViewItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\Tree\TreeHeaderColumns.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\History\HistorySelection.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\WebApi\OrganizationCredentials.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\Merge\Gluon\IncomingChangesTab.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\AssetsUtils\ProjectPath.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\_Deprecated\WebApi\OrganizationCredentials.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\CloudDrive\CloudDrivePlugin.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\UI\DrawActionToolbar.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Editor\Views\PendingChanges\Dialogs\CreateChangelistDialog.cs" />
