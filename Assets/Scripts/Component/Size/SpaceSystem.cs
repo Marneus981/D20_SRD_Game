@@ -48,3 +48,10 @@ public class SpaceSystem : ISpaceSystem
         return result;
     }
 }
+public static class SpaceSizeExtensions
+{
+    public static int ToTiles(this Size size)
+    {
+        return ISpaceSystem.Resolve().SpaceInTiles(size);
+    }
+}

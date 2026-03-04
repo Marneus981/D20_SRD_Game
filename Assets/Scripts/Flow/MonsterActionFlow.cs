@@ -12,7 +12,7 @@ public class MonsterActionFlow : IMonsterActionFlow
         var current = ITurnSystem.Resolve().Current;
         var actionName = current.EncounterActions.names[0];
         var action = await ICombatActionAssetSystem.Resolve().Load(actionName);
-        if (action.CanPerform(current))
+        if (action.CanPerform(current) && current.HitPoints > 0) //TODO: Add actual logic/fix!
             await action.Perform(current);
         else
             ITurnSystem.Resolve().TakeAction(3, false);

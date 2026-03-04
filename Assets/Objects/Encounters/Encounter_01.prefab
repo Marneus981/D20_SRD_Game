@@ -51,6 +51,10 @@ MonoBehaviour:
     position:
       x: 5
       y: 3
+  - assetName: Giant Rat
+    position:
+      x: 4
+      y: 1
   heroPositions:
   - x: 0
     y: 3

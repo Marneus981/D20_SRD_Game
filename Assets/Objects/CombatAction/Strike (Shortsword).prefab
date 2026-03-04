@@ -52,3 +52,4 @@ MonoBehaviour:
     bonus: 4
   damageType: slashing
   material: 
+  targetFilter: 9

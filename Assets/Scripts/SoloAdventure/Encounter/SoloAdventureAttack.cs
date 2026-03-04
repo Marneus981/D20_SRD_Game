@@ -1,6 +1,7 @@
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 using System.Linq;
+using System.Collections.Generic;
 
 public class SoloAdventureAttack : MonoBehaviour, ICombatAction
 {
@@ -9,28 +10,22 @@ public class SoloAdventureAttack : MonoBehaviour, ICombatAction
     [SerializeField] DiceRoll damage;
     [SerializeField] string damageType;
     [SerializeField] string material;
-    async UniTask<Entity> SelectTarget(Entity entity)
+    [SerializeField] EntityFilter targetFilter;
+    async UniTask<Entity> SelectTarget(Entity entity, List<Entity> targets)
     {
         if (entity.Party == Party.Monster)
-            return ICombatantSystem.Resolve().Table.First(c => c.Party != entity.Party);
-
-        int layerMask = LayerMask.GetMask("Hero");
-        Entity? target = null;
-        while (!target.HasValue)
-        {
-            var position = await IPositionSelectionSystem.Resolve().Select(entity.Position);
-            target = IPhysicsSystem.Resolve().OverlapPoint(position, layerMask);
-        }
-        return target.Value;
+            return targets[0];
+        else
+            return await IEntitySelectionSystem.Resolve().Select(targets);
     }
 
     public async UniTask Perform(Entity entity)
     {
-        /* var attacker = ITurnSystem.Resolve().Current;
-        var target = ICombatantSystem.Resolve().Table.First(c => c.Party != attacker.Party);
-        */
+        var targets = targetFilter.Apply(entity, ITurnSystem.Resolve().InReach);
+        if (targets.Count == 0)
+            return;
         var attacker = entity;
-        var target = await SelectTarget(entity);
+        var target = await SelectTarget(entity, targets);
         // Perform the Attack Roll
         var attackInfo = new AttackRollInfo
         {
@@ -92,6 +87,6 @@ public class SoloAdventureAttack : MonoBehaviour, ICombatAction
     }
     public bool CanPerform(Entity entity)
     {
-        return ITurnSystem.Resolve().InReach.Any(e => e.Party != entity.Party);
+        return targetFilter.Apply(entity, ITurnSystem.Resolve().InReach).Count > 0;
     }
 }

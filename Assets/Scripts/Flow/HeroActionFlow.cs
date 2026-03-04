@@ -10,7 +10,8 @@ public class HeroActionFlow : IHeroActionFlow
     public async UniTask<CombatResult?> Play()
     {
         var hero = ISoloHeroSystem.Resolve().Hero;
-        ICombatSelectionIndicator.Resolve().SetPosition(hero.Position);
+        /* ICombatSelectionIndicator.Resolve().SetPosition(hero.Position); */
+        ICombatSelectionIndicator.Resolve().Mark(hero);
         ICombatSelectionIndicator.Resolve().SetVisible(true);
 
         var menu = IActionMenu.Resolve();

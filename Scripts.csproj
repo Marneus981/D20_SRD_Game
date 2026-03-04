@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\Combat\Damage\DamageInjector.cs" />
      <Compile Include="Assets\Scripts\Animation\RectTransformAnimationExtensions.cs" />
      <Compile Include="Assets\Scripts\Combat\CombatActions\AttackRollSystem.cs" />
+     <Compile Include="Assets\Scripts\Component\EntityFilterSystem.cs" />
      <Compile Include="Assets\Scripts\AssetManager\CombatActionAssetSystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoreProvider.cs" />
      <Compile Include="Assets\Scripts\Data\DataInjector.cs" />
@@ -211,6 +212,7 @@
      <Compile Include="Assets\Scripts\Component\Skills\Systems\DiplomacySystem.cs" />
      <Compile Include="Assets\Scripts\Component\Skills\ProficiencySystem.cs" />
      <Compile Include="Assets\Scripts\Combat\Damage\DamageTypeSystem.cs" />
+     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EntitySelectionSystem.cs" />
      <Compile Include="Assets\Scripts\Component\EntitySetSystem.cs" />
      <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoresProvider.cs" />
      <Compile Include="Assets\Scripts\SoloAdventure\Encounter\PhysicsSystem.cs" />

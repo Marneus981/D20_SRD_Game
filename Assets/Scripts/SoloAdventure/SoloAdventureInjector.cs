@@ -10,5 +10,6 @@ public static class SoloAdventureInjector
         IEntrySystem.Register(new EntrySystem());
         ISoloHeroSystem.Register(new SoloHeroSystem());
         IPhysicsSystem.Register(new PhysicsSystem());
+        IEntitySelectionSystem.Register(new EntitySelectionSystem());
     }
 }

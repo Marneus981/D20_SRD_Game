@@ -52,3 +52,4 @@ MonoBehaviour:
     bonus: 2
   damageType: piercing
   material: 
+  targetFilter: 9

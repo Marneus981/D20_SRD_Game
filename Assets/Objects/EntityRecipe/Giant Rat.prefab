@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1202712952608295692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7940914661364243370}
+  - component: {fileID: 4566406706831137846}
+  - component: {fileID: -6221544218914139336}
+  - component: {fileID: 8206471710362831242}
+  - component: {fileID: -2931896223371379748}
+  - component: {fileID: -3680495059650244792}
+  - component: {fileID: -6271667908389047952}
+  - component: {fileID: 1135185325504373554}
+  - component: {fileID: 2664709836776952438}
+  - component: {fileID: -6182439069629658467}
+  m_Layer: 0
+  m_Name: Giant Rat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7940914661364243370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 439.9484, y: 263.13724, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4566406706831137846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fec3f315277a0748899e6dc3ebe166b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::EncounterActionsProvider
+  value:
+  - Bite
+  - Stride
+--- !u!114 &-6221544218914139336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d65d3d30705a943a16e4ad22126bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::CombatantAssetProvider
+  value: Giant Rat
+--- !u!114 &8206471710362831242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79f2bdf4b16bf84e962a3875f2db247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::CombatantProvider
+--- !u!114 &-2931896223371379748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a602e83a980d6f84ab34dcc2ba9df3d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::PartyProvider
+  party: 2
+--- !u!114 &-3680495059650244792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d749734086af1ea4ab19b94a0d9aef9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::ArmorClassProvider
+  value: 14
+--- !u!114 &-6271667908389047952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d09e62d6943dbf48b3d4d8db750947a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::HealthProvider
+  value: 15
+--- !u!114 &1135185325504373554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2379bb18becc2c44eb334c23b4980bc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::SpeedProvider
+  value: 20
+--- !u!114 &2664709836776952438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19c97898f4cbc74b8a03665b65616fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::SizeProvider
+  value: 3
+--- !u!114 &-6182439069629658467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202712952608295692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbfa0a4f85871f488533e0fedc9b389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::ReachProvider
+  value: 1
