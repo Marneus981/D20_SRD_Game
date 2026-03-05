@@ -1,11 +1,11 @@
 Verify:
-    Player can no longer move through the opponent's spaces. 
-    Enemies chase you. 
-    Enemies attack within range.
-    Check behaviour of enemies when they cant reach you.
+    [CHECKED]Player can no longer move through the opponent's spaces. 
+    [CHECKED]Enemies chase you. 
+    [CHECKED]Enemies attack within range.
+    [CHECKED]Check behaviour of enemies when they cant reach you.
     Check wether enemies will move through their own spaces.
-    No crashes or unexpected behaviour when selecting a place...
-        -outside board 
-        -non reachable 
-            -mountain 
-            -outta range
+    [CHECKED]No crashes or unexpected behaviour when selecting a place...
+        [CHECKED]outside board 
+        [CHECKED]non reachable 
+            [CHECKED]mountain 
+            [CHECKED]outta range

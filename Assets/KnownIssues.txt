@@ -1,2 +1,2 @@
-Creatures wont stay dead when facing off againts multiple enemies.
-Hero can attack outta bounds
+[SOLVED]Creatures wont stay dead when facing off againts multiple enemies.
+[SOLVED]Hero can attack outta bounds

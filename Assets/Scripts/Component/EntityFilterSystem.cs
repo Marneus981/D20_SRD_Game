@@ -63,7 +63,7 @@ public class EntityFilterSystem : IEntityFilterSystem
 
 public static class EntityFilterExtensions
 {
-    public static List<Entity> Apply(this EntityFilter filter, Entity entity, List<Entity> entities)
+    public static List<Entity> Apply(this EntityFilter filter, Entity entity, IEnumerable<Entity> entities)
     {
         return IEntityFilterSystem.Resolve().Apply(filter, entity, entities);
     }

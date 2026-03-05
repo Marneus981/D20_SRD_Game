@@ -16,7 +16,7 @@ public class MonsterActionFlow : IMonsterActionFlow
         foreach (var actionName in current.EncounterActions.names)
         {
             var action = await ICombatActionAssetSystem.Resolve().Load(actionName);
-            if (action.CanPerform(current) && current.HitPoints > 0)
+            if (action.CanPerform(current) && current.HitPoints > 0)//Placeholder check
             {
                 await action.Perform(current);
                 didAct = true;
