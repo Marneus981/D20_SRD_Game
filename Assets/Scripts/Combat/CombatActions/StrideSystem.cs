@@ -19,11 +19,20 @@ public class StrideSystem : IStrideSystem
         if (!(info.path.Count == 0))
         {
             // TODO: Check for act of opportunity before leaving current square
-            await Present(info);
+            if (info.entity.Position != info.path[info.path.Count - 1])//only Present if pos changes
+                await Present(info);
             Perform(info);
             // TODO: Check for act of opportunity after arriving at new square
         }
     }
+/*     public async UniTask Apply(StrideInfo info)
+    {
+        // TODO: Check for act of opportunity before leaving current square
+        if (info.entity.Position != info.path[info.path.Count - 1])
+            await Present(info);
+        Perform(info);
+        // TODO: Check for act of opportunity after arriving at new square
+    } */
 
     private async UniTask Present(StrideInfo info)
     {

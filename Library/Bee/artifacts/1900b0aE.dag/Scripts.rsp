@@ -472,6 +472,7 @@
 "Assets/Scripts/Checkpoint.cs"
 "Assets/Scripts/Combat/CombatActions/AttackPresenter.cs"
 "Assets/Scripts/Combat/CombatActions/AttackRollSystem.cs"
+"Assets/Scripts/Combat/CombatActions/MoveToNearestTarget.cs"
 "Assets/Scripts/Combat/CombatActions/Stride.cs"
 "Assets/Scripts/Combat/CombatActions/StridePresenter.cs"
 "Assets/Scripts/Combat/CombatActions/StrideSystem.cs"

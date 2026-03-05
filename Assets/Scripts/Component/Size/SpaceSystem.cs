@@ -6,6 +6,9 @@ public interface ISpaceSystem : IDependency<ISpaceSystem>
     int SpaceInTiles(Size size);
     List<Point> SpaceTileOffsets(Size size);
     List<Point> SpaceTiles(Size size, Point position);
+    HashSet<Point> OccupiedSpaces(IEnumerable<Entity> entities);
+    void AddOccupiedSpaces(Entity entity, HashSet<Point> set);
+    List<Point> AdjacentSpaces(Entity entity, Entity target);
 }
 
 public class SpaceSystem : ISpaceSystem
@@ -43,6 +46,48 @@ public class SpaceSystem : ISpaceSystem
             for (int x = 0; x < space; ++x)
             {
                 result.Add(new Point(x, y) + position);
+            }
+        }
+        return result;
+    }
+    public HashSet<Point> OccupiedSpaces(IEnumerable<Entity> entities)
+    {
+        var result = new HashSet<Point>();
+        foreach (var entity in entities)
+        {
+            AddOccupiedSpaces(entity, result);
+        }
+        return result;
+    }
+    public void AddOccupiedSpaces(Entity entity, HashSet<Point> set)
+    {
+        var tileSpace = entity.Size.ToTiles();
+        for (int y = 0; y < tileSpace; ++y)
+        {
+            for (int x = 0; x < tileSpace; ++x)
+            {
+                var pos = entity.Position + new Point(x, y);
+                set.Add(pos);
+            }
+        }
+    }
+    public List<Point> AdjacentSpaces(Entity entity, Entity target)//Return the locations that would allow an entity to be next to a target entity
+    {
+        int entitySpace = ISpaceSystem.Resolve().SpaceInTiles(entity.Size);
+        int targetSpace = ISpaceSystem.Resolve().SpaceInTiles(target.Size);
+
+        int xStart = target.Position.x - entitySpace;
+        int xEnd = target.Position.x + targetSpace;
+        int yStart = target.Position.y - entitySpace;
+        int yEnd = target.Position.y + targetSpace;
+
+        List<Point> result = new List<Point>();
+        for (int y = yStart; y <= yEnd; ++y)
+        {
+            for (int x = xStart; x <= xEnd; ++x)
+            {
+                if (x == xStart || x == xEnd || y == yStart || y == yEnd)
+                    result.Add(new Point(x, y));
             }
         }
         return result;

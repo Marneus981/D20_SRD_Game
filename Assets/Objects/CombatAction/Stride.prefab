@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4a8e5cb7e4c46044aef05604ff29d54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::Stride
+  passFilter: 16
+  blockFilter: 9

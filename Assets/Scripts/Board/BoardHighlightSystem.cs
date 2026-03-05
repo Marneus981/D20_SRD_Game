@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 
 public interface IBoardHighlightSystem : IDependency<IBoardHighlightSystem>
 {
-    void Highlight(List<Point> points, Color color);
+    void Highlight(IEnumerable<Point> points, Color color);
     void ClearHighlights();
 }
 
@@ -13,7 +13,7 @@ public class BoardHighlightSystem : MonoBehaviour, IBoardHighlightSystem
     [SerializeField] TileBase highlight;
     Tilemap tilemap;
 
-    public void Highlight(List<Point> points, Color color)
+    public void Highlight(IEnumerable<Point> points, Color color)
     {
         ClearHighlights();
         foreach (Point point in points)
