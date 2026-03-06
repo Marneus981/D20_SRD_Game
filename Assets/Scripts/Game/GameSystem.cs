@@ -22,7 +22,7 @@ public class GameSystem : IGameSystem
         IEntrySystem.Resolve().SetName("Entry_01"); //Update the game system so that it assigns the 
                                                     //initial “Entry” for when you begin a New Game
         //await UniTask.CompletedTask;
-        await ISoloHeroSystem.Resolve().CreateHero();
+        await ICreateHeroPartyFlow.Resolve().Play();
     }
 
     public async UniTask ContinueGame()

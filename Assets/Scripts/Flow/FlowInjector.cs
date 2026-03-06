@@ -17,5 +17,6 @@ just like the MainMenu script does.
         IRoundFlow.Register(new RoundFlow());
         ITurnFlow.Register(new TurnFlow());
         IMonsterActionFlow.Register(new MonsterActionFlow());
+        ICreateHeroPartyFlow.Register(new CreateHeroPartyFlow());
     }
 }

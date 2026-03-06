@@ -20,7 +20,7 @@ public class ActionMenu : MonoBehaviour, IActionMenu
     {
         selection = 0;
         buttons[0].Select();
-        entity = ISoloHeroSystem.Resolve().Hero; // TODO: Get the "current" entity from a "turn" system
+        entity = ITurnSystem.Resolve().Current;
         var pairs = buttons.Zip(entity.EncounterActions.names, (Button button, string action) => (button, action));
         foreach (var pair in pairs)
         {

@@ -18,5 +18,6 @@ public static class ComponentInjector
         ISpeedSystem.Register(new SpeedSystem());
         SizeInjector.Inject();
         IEntityFilterSystem.Register(new EntityFilterSystem());
+        IPartyOrderSystem.Register(new PartyOrderSystem());
     }
 }

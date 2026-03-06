@@ -80,7 +80,6 @@
     <Compile Include="Assets\Scripts\Combat\Damage\DamageImmunitySystem.cs" />
     <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatInjector.cs" />
-    <Compile Include="Assets\Scripts\SoloAdventure\SoloHeroSystem.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EntityViewProvider.cs" />
     <Compile Include="Assets\Scripts\Component\Position\PositionSystem.cs" />
     <Compile Include="Assets\Scripts\Animation\Tween.cs" />
@@ -97,6 +96,7 @@
     <Compile Include="Assets\Scripts\Combat\CombatResultSystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\PerformanceSystem.cs" />
     <Compile Include="Assets\Scripts\Actions\ActionInjector.cs" />
+    <Compile Include="Assets\Scripts\Flow\CreateHeroPartyFlow.cs" />
     <Compile Include="Assets\Scripts\Board\PathNode.cs" />
     <Compile Include="Assets\Scripts\Animation\ScalarTween.cs" />
     <Compile Include="Assets\Scripts\Data\CoreSet.cs" />
@@ -118,6 +118,7 @@
     <Compile Include="Assets\Scripts\Component\Skills\Systems\ThieveryProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\AcrobaticsProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\AcrobaticsSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\PartyOrderSystem.cs" />
     <Compile Include="Assets\Scripts\Component\SpeedSystem.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\MockAttributeProvider.cs" />

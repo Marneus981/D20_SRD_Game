@@ -17,7 +17,7 @@ public class SkillExploreEntryOption : MonoBehaviour, IEntryOption
 
     public void Select()
     {
-        var hero = ISoloHeroSystem.Resolve().Hero;
+        var hero = IPartyOrderSystem.Resolve().PartyLeader;//TODO: Change to player choice or highest
         var modifier = hero[skill];
         var result = ICheckSystem.Resolve().GetResult(modifier, difficultyCheck);
         var entry = GetEntry(result);

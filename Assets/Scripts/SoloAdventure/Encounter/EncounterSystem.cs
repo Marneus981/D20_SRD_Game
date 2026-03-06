@@ -37,9 +37,14 @@ public class EncounterSystem : IEncounterSystem
             await CreateView(monster, monsterPath);
         }
 
-        var hero = ISoloHeroSystem.Resolve().Hero;
-        hero.Position = encounter.HeroPositions[0];
-        await CreateView(hero, heroPath);
+        foreach (var entity in IPartyOrderSystem.Resolve().Table.Keys)
+        {
+            var hero = entity;
+            if (hero.PartyOrder >= encounter.HeroPositions.Count)
+                continue;
+            hero.Position = encounter.HeroPositions[hero.PartyOrder];
+            await CreateView(hero, heroPath);
+        }
         IBoardSystem.Resolve().Load(encounter);
     }
 
@@ -51,5 +56,7 @@ public class EncounterSystem : IEncounterSystem
         var view = await assetManager.InstantiateAsync(key);
         view.transform.position = entity.Position;
         viewProvider.SetView(view, entity, ViewZone.Combatant);
+        var combatant = view.GetComponent<CombatantView>();
+        ICombatantViewSystem.Resolve().SetLayerOrder(combatant, entity.Position.y);//arrange according to y value
     }
 }

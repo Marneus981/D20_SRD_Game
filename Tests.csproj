@@ -65,7 +65,6 @@
     <Compile Include="Assets\Tests\Component\AbilityScore\AbilityScoreTests.cs" />
     <Compile Include="Assets\Tests\DiceRoll\MockSequenceRNG.CS" />
     <Compile Include="Assets\Tests\Entity\EntityRecipeSystemTests.cs" />
-    <Compile Include="Assets\Tests\SoloAdventure\SoloHeroSystemTests.cs" />
     <Compile Include="Assets\Tests\Combat\Damage\DamageSystemTests.cs" />
     <Compile Include="Assets\Tests\Entity\EntitySystemTests.cs" />
     <Compile Include="Assets\Tests\Component\Skills\BaseSkillSystemTests.cs" />
