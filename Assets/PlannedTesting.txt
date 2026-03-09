@@ -1,4 +1,5 @@
 Verify:
+    line 70 on Ancestry Parser: asset.AddComponent<SizeProvider>().value = (int)size;
     [CHECKED]Player can no longer move through the opponent's spaces. 
     [CHECKED]Enemies chase you. 
     [CHECKED]Enemies attack within range.

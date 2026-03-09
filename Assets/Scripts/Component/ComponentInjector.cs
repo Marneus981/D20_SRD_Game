@@ -19,5 +19,7 @@ public static class ComponentInjector
         SizeInjector.Inject();
         IEntityFilterSystem.Register(new EntityFilterSystem());
         IPartyOrderSystem.Register(new PartyOrderSystem());
+        IRaritySystem.Register(new RaritySystem());
+        IAncestrySystem.Register(new AncestrySystem());
     }
 }

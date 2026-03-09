@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HealthProvider : MonoBehaviour, IAttributeProvider
 {
-    [SerializeField] int value;
+    public int value;
 
     public void Setup(Entity entity)
     {

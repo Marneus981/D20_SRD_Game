@@ -15,8 +15,23 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 7a3b9ecb1ad231f4994a0aad3b5ca05a
   m_SerializeEntries:
+  - m_GUID: 021c3683f9591194db2586e8237e02b5
+    m_Address: Assets/AutoGeneration/Ancestries/Skeleton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0366e7e1a1c200f4da9f4cb48462bd92
     m_Address: Assets/Objects/EntityRecipe/Rat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07231547a3605504abc157da555fd62e
+    m_Address: Assets/AutoGeneration/Ancestries/Vanara.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0910cdb65d4b54b418f0e304b430df53
+    m_Address: Assets/AutoGeneration/Ancestries/Leshy.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -25,8 +40,53 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1852571807c28ff48b2af589c476b6ff
+    m_Address: Assets/AutoGeneration/Ancestries/Ratfolk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c363d6736edb2d4da54576d3bf456e8
+    m_Address: Assets/AutoGeneration/Ancestries/Strix.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20582aa8b9319d5479c195d5de880fd7
+    m_Address: Assets/AutoGeneration/Ancestries/Kobold.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2600d3693fedcfb439169ef8cb2e4d3e
+    m_Address: Assets/AutoGeneration/Ancestries/Catfolk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2e18139d9d71054489a2125c04bcfdd2
     m_Address: Assets/Objects/Entries/Entry_06.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 366f0a77f80252142be5a2b5d7814de8
+    m_Address: Assets/AutoGeneration/Ancestries/Fleshwarp.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36b201c7e1a76c64a931e55a4514f17e
+    m_Address: Assets/AutoGeneration/Ancestries/Nagaji.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4024bc69df4098c4ca7b935201457c49
+    m_Address: Assets/AutoGeneration/Ancestries/Dwarf.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 420bf43efc6c311428b32f0c70d177ca
+    m_Address: Assets/AutoGeneration/Ancestries/Conrasu.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48f344d230d9f6745b822b90ccf1b87b
+    m_Address: Assets/AutoGeneration/Ancestries/Sprite.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -35,8 +95,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 592f3d4fcdf3b8a46a90390f19158037
+    m_Address: Assets/AutoGeneration/Ancestries/Poppet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5ec4ef52baee8d94d8c7fa5978f3c99d
     m_Address: Assets/Objects/Entries/Entry_10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6861ce85dd552ae43aaf5c390c7df580
+    m_Address: Assets/AutoGeneration/Ancestries/Automaton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68898c328b59f6a40a365d9e0d11d82b
+    m_Address: Assets/AutoGeneration/Ancestries/Fetchling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e944b6d3260ec14bbcb433948b90053
+    m_Address: Assets/AutoGeneration/Ancestries/Kashrishi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70d4313641e8a274b82afc437c785d6f
+    m_Address: Assets/AutoGeneration/Ancestries/Ghoran.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -50,6 +135,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76790ddf76665cc49afb652fd0cc7ff7
+    m_Address: Assets/AutoGeneration/Ancestries/Grippli.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7c3f0d636d10be24dafb90b5e0719726
     m_Address: Assets/Objects/Entries/Entry_05.prefab
     m_ReadOnly: 0
@@ -60,8 +150,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82139ad077c916a49a9cf675a587315b
+    m_Address: Assets/AutoGeneration/Ancestries/Orc.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85c1befe1c0d9f34090f41723a6eb276
+    m_Address: Assets/AutoGeneration/Ancestries/Gnome.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 891f165982cc82149ab9197c236f9dc0
     m_Address: Assets/Objects/EntityRecipe/Hero.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ae8f9725c514fc47b373afc11b1b5e5
+    m_Address: Assets/AutoGeneration/Ancestries/Goblin.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -75,8 +180,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f085ed098ee5604b8f53b8fab2d7f17
+    m_Address: Assets/AutoGeneration/Ancestries/Tengu.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fcdcb532719ce445832fdb322f04491
+    m_Address: Assets/AutoGeneration/Ancestries/Vishkanya.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94e585effd8fb3649b052fb33b8cdd4e
+    m_Address: Assets/AutoGeneration/Ancestries/Kitsune.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9656c6c7ae737374a8ce7336da43de45
+    m_Address: Assets/AutoGeneration/Ancestries/Gnoll.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 96cd10a4f933ea24fa08a02408c67fbd
     m_Address: Assets/Objects/Entries/Entry_03.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a218e8a8867ce9419d2a05451febb52
+    m_Address: Assets/AutoGeneration/Ancestries/Android.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab87739ab7e3dab498256c99bc194ba6
+    m_Address: Assets/AutoGeneration/Ancestries/Lizardfolk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2665d3f009bb6b41a967eb2723a5b8a
+    m_Address: Assets/AutoGeneration/Ancestries/Shoony.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -85,8 +225,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7b49ee6bc723d1428fcf200d25838fc
+    m_Address: Assets/AutoGeneration/Ancestries/Halfling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd67522fcb1d7d74097a8a96376186ba
+    m_Address: Assets/AutoGeneration/Ancestries/Human.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6342e3592dbc0a4db891e3fc65acb10
+    m_Address: Assets/AutoGeneration/Ancestries/Elf.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c85476eaea53a274e82377f89ff0f96a
     m_Address: Assets/Prefabs/Combatants/Monsters/Giant Rat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8cd829eabbdcbb4492aa0de1ff5aa05
+    m_Address: Assets/AutoGeneration/Ancestries/Azarketi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbfa456bfd3e43547a6b475d8437fbb1
+    m_Address: Assets/AutoGeneration/Ancestries/Anadi.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -97,6 +262,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e42270f57d32f48b1a416f50cfb19180
     m_Address: Assets/Prefabs/Combatants/Monsters/Rat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebea00c7ebe264640bc9767e718c1d0e
+    m_Address: Assets/AutoGeneration/Ancestries/Shisk.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -115,6 +285,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f35ed1e13864b9242aae761e45fe1413
+    m_Address: Assets/AutoGeneration/Ancestries/Goloma.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa937756aaf154540addd6242abc9176
     m_Address: Assets/Objects/Entries/Entry_09.prefab
     m_ReadOnly: 0
@@ -122,6 +297,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fb92cc47dda2ae84aa86599bc0b520a2
     m_Address: Assets/Objects/Entries/Entry_08.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffe0ea9c2d36a3c4f90885fde3770252
+    m_Address: Assets/AutoGeneration/Ancestries/Hobgoblin.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

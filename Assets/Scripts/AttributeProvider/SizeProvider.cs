@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SizeProvider : MonoBehaviour, IAttributeProvider
 {
-    [SerializeField] Size value;
+    public Size value;
 
     public void Setup(Entity entity)
     {

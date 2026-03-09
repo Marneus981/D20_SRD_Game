@@ -1,2 +1,3 @@
 [SOLVED]Creatures wont stay dead when facing off againts multiple enemies.
 [SOLVED]Hero can attack outta bounds
+No human names provided in JSON

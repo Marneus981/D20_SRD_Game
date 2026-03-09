@@ -68,10 +68,12 @@
     <Compile Include="Assets\Scripts\UI\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Component\NameSystem.cs" />
     <Compile Include="Assets\Scripts\Combat\Damage\DamageResistanceSystem.cs" />
+    <Compile Include="Assets\Scripts\AttributeProvider\AbilityBoostProvider.cs" />
     <Compile Include="Assets\Scripts\Animation\TransformLocalEulerTween.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\IEntryOption.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatActions\MoveToNearestTarget.cs" />
     <Compile Include="Assets\Scripts\Component\ArmorClassSystem.cs" />
+    <Compile Include="Assets\Scripts\AttributeProvider\RandomNameProvider.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Flow\GameFlow.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\SoloAdventureInjector.cs" />
@@ -143,11 +145,13 @@
     <Compile Include="Assets\Scripts\Component\LevelSystem.cs" />
     <Compile Include="Assets\Scripts\Flow\RoundFlow.cs" />
     <Compile Include="Assets\Scripts\Input\InputSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\AncestrySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\OccultismSystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\StealthSystem.cs" />
     <Compile Include="Assets\Scripts\Component\Size\ReachSystem.cs" />
     <Compile Include="Assets\Scripts\Component\AbilityScore\IntelligenceSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\RaritySystem.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatActions\Stride.cs" />
     <Compile Include="Assets\Scripts\Data\DataSystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\IntimidationSystem.cs" />
@@ -156,6 +160,7 @@
     <Compile Include="Assets\Scripts\UI\LinkOpener.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\CombatantAssetProvider.cs" />
     <Compile Include="Assets\Scripts\Data\DataSerializer.cs" />
+    <Compile Include="Assets\Scripts\AssetManager\AncestryAssetSystem.cs" />
     <Compile Include="Assets\Scripts\Combat\Damage\DamageWeaknessSystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\ThieverySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\DeceptionProficiencySystem.cs" />
@@ -236,6 +241,7 @@
     <Compile Include="Assets\Scripts\SoloAdventure\Explore\PickupEntryLink.cs" />
     <Compile Include="Assets\Scripts\Component\ComponentInjector.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Ancestry.cs" />
     <Compile Include="Assets\Scripts\UI\ActionMenu.cs" />
     <Compile Include="Assets\Scripts\Board\PathMap.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\SurvivalProficiencySystem.cs" />
@@ -251,6 +257,7 @@
     <Compile Include="Assets\Scripts\SoloAdventure\Explore\Entry.cs" />
     <Compile Include="Assets\Scripts\Animation\QuaternionTween.cs" />
     <Compile Include="Assets\Scripts\Combat\CombatActions\StrideSystem.cs" />
+    <Compile Include="Assets\Scripts\PreProduction\AncestryParser.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntrySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\NatureProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Size\SizeSystem.cs" />
