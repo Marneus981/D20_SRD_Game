@@ -420,7 +420,7 @@
 "Assets/Tests/Component/EntityTableSystemTests.cs"
 "Assets/Tests/Component/Skills/BaseSkillSystemTests.cs"
 "Assets/Tests/Component/Skills/MockBaseSkillSystem.cs"
-"Assets/Tests/Component/Skills/MockProficiencySystem.cs"
+"Assets/Tests/Component/Skills/MockSkillProficienySystem.cs"
 "Assets/Tests/Data/CoreDictionaryTests.cs"
 "Assets/Tests/Data/CoreSetTests.cs"
 "Assets/Tests/Data/DataSystemTests.cs"

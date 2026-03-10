@@ -24,6 +24,8 @@ public class CreateHeroPartyFlow : ICreateHeroPartyFlow
             entity.PartyOrder = i;
             await LoadAncestry(entity, autoChosenAncestries[i]);
             await LoadBackground(entity);
+            ISkillSystem.Resolve().SetupAllSkills(entity);
+            ISavingThrowSystem.Resolve().SetupAllSavingThrows(entity);
         }
         await UniTask.CompletedTask;
     }

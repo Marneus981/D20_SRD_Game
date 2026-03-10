@@ -14,7 +14,7 @@ public class SkillsProficiencyProvider : MonoBehaviour, IAttributeProvider
 
     public void Setup(Entity entity)
     {
-        var system = IProficiencySystem.Resolve();
+        var system = ISkillProficiencySystem.Resolve();
         foreach (var pair in valuePairs)
             system.Set(entity, pair.skill, pair.proficiency);
     }

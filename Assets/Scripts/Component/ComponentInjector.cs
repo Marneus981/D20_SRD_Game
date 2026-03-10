@@ -22,5 +22,6 @@ public static class ComponentInjector
         IRaritySystem.Register(new RaritySystem());
         IAncestrySystem.Register(new AncestrySystem());
         IBackgroundSystem.Register(new BackgroundSystem());
+        SavingThrowsInjector.Inject();
     }
 }

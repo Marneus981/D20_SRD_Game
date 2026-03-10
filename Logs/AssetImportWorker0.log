@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor" at "2026-03-10T06:55:47.1140746Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 32637 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor" at "2026-03-10T17:36:44.4028293Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-10T06:55:47Z
+Date: 2026-03-10T17:36:44Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.7f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/mdsor/GameProjects/D20_SRD_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50633
+54982
 -licensingIpc
 LicenseClient-mdsor
 -job-worker-count
@@ -67,14 +67,16 @@ C:/Users/mdsor/GameProjects/D20_SRD_Game
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [13676]  Target information:
+Player connection [11668]  Target information:
 
-Player connection [13676]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 994599219 [EditorId] 994599219 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11668]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 4101593975 [EditorId] 4101593975 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13676]  * "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 994599219 [EditorId] 994599219 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11668]  * "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 4101593975 [EditorId] 4101593975 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13676] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13676] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11668]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 4101593975 [EditorId] 4101593975 [Version] 1048832 [Id] WindowsEditor(7,TheMrRafflesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11668] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11668] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +88,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.7f1 (696ec25a53d1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -102,21 +104,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              40d25773b1c34eeab44f8bdd913a1425
-  Correlation Id:          61dba279cc76f6424f271b998adff263
-  External correlation Id: 2693354981376462945
+  Session Id:              ddac2076763e4dc18b50b03f485ca155
+  Correlation Id:          42e27e670f2fdbc4c3788fd2fdf89cff
+  External correlation Id: 4369567842520778725
   Machine Id:              gJ8WiW6nOjqhEupj5TO7Xvs75us=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mdsor" (connect: 0.00s, validation: 0.00s, handshake: 2.84s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor-notifications" at "2026-03-10T06:55:49.9585164Z"
-[Licensing::Module] Licensing Background thread has ended after 2.85s
-[Licensing::Module] Licensing is initialized (took 0.46s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mdsor" (connect: 0.00s, validation: 0.00s, handshake: 1.40s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mdsor-notifications" at "2026-03-10T17:36:45.8035298Z"
+[Licensing::Module] Licensing Background thread has ended after 1.40s
+[Licensing::Module] Licensing is initialized (took 0.25s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-FKS3-TV66-SQGD-CT6R-XXXX
@@ -129,41 +131,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.482408 seconds.
-- Loaded All Assemblies, in  1.849 seconds
+Registered in 0.254490 seconds.
+- Loaded All Assemblies, in  0.881 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.456 seconds
-Domain Reload Profiling: 3298ms
-	BeginReloadAssembly (444ms)
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 1526ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (139ms)
-	RebuildNativeTypeToScriptingClass (55ms)
-	initialDomainReloadingComplete (625ms)
-	LoadAllAssembliesAndSetupDomain (578ms)
-		LoadAssemblies (435ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (329ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (218ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (568ms)
-			TypeCache.Refresh (562ms)
-				TypeCache.ScanAssembly (516ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (217ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1457ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (649ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1348ms)
+		SetupLoadedEditorAssemblies (602ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (296ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (350ms)
-			ProcessInitializeOnLoadAttributes (548ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
+			InitializePlatformSupportModulesInManaged (112ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -183,8 +185,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.331 seconds
-Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.014 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -193,150 +195,710 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.488 seconds
-Domain Reload Profiling: 4804ms
-	BeginReloadAssembly (526ms)
+- Finished resetting the current domain, in  1.003 seconds
+Domain Reload Profiling: 2012ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (115ms)
-	RebuildNativeTypeToScriptingClass (56ms)
-	initialDomainReloadingComplete (129ms)
-	LoadAllAssembliesAndSetupDomain (1487ms)
-		LoadAssemblies (916ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (434ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (866ms)
-			TypeCache.Refresh (657ms)
-				TypeCache.ScanAssembly (621ms)
-			BuildScriptInfoCaches (174ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2490ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (244ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1003ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2089ms)
+		SetupLoadedEditorAssemblies (840ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (587ms)
-			ProcessInitializeOnLoadAttributes (1232ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5107 unused Assets / (0.9 MB). Loaded Objects now: 5740.
-Memory consumption went from 101.8 MB to 100.8 MB.
-Total: 20.883300 ms (FindLiveObjects: 1.003500 ms CreateObjectMapping: 0.988300 ms MarkObjects: 16.340000 ms  DeleteObjects: 2.549000 ms)
+Unloading 5112 unused Assets / (1.4 MB). Loaded Objects now: 5745.
+Memory consumption went from 102.6 MB to 101.2 MB.
+Total: 12.372100 ms (FindLiveObjects: 0.745900 ms CreateObjectMapping: 1.059500 ms MarkObjects: 8.488600 ms  DeleteObjects: 2.075100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8844.635449 seconds.
-  path: Assets/AutoGeneration/Ancestries/Vanara.prefab
-  artifactKey: Guid(07231547a3605504abc157da555fd62e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Vanara.prefab using Guid(07231547a3605504abc157da555fd62e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8184a3a87e064baf0988f26d54cc568b') in 0.3752535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 47297.836225 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Charlatan.prefab
+  artifactKey: Guid(8ebd8546d85962e4c83707ae15235e4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Charlatan.prefab using Guid(8ebd8546d85962e4c83707ae15235e4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3f41a2d0392c11edf2f39e53acc2864') in 0.1879997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/AutoGeneration/Ancestries/Azarketi.prefab
-  artifactKey: Guid(c8cd829eabbdcbb4492aa0de1ff5aa05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Azarketi.prefab using Guid(c8cd829eabbdcbb4492aa0de1ff5aa05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c313d1c1459adb358dea5a4233e97ff') in 0.0775571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000046 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Energy Scarred.prefab
+  artifactKey: Guid(acb76d52dab5f924e90250cbe84c6b2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Energy Scarred.prefab using Guid(acb76d52dab5f924e90250cbe84c6b2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e140cc2b3b14e6cad3cadae23580036') in 0.0385856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/AutoGeneration/Ancestries/Grippli.prefab
-  artifactKey: Guid(76790ddf76665cc49afb652fd0cc7ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Grippli.prefab using Guid(76790ddf76665cc49afb652fd0cc7ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '979b5e7a1d885a976ca1cb6d3ef001db') in 0.072469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Goldhand Arms Dealer.prefab
+  artifactKey: Guid(d8db6e1f49aee22419563792ebc20214) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Goldhand Arms Dealer.prefab using Guid(d8db6e1f49aee22419563792ebc20214) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99f563bf1d44b06e61d808c9045531be') in 0.0356461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/AutoGeneration/Ancestries/Automaton.prefab
-  artifactKey: Guid(6861ce85dd552ae43aaf5c390c7df580) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Automaton.prefab using Guid(6861ce85dd552ae43aaf5c390c7df580) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e929d82bd22ce8d6735171999135db9') in 0.0683833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000045 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Hermit.prefab
+  artifactKey: Guid(fdfce4339c76bc54a8d37eb1ddf6af4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Hermit.prefab using Guid(fdfce4339c76bc54a8d37eb1ddf6af4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '910d37d06a9e871230d85a7f9fb50207') in 0.0357182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/Component/ComponentInjector.cs
+  artifactKey: Guid(ee3c5eb78932c414f855fb3dfdded637) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Component/ComponentInjector.cs using Guid(ee3c5eb78932c414f855fb3dfdded637) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5f1e83e496a9ecb887e953ab8c6eb81') in 0.0142776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Doomcaller.prefab
+  artifactKey: Guid(e18d2d908f2dc6c40a95a0507a3498f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Doomcaller.prefab using Guid(e18d2d908f2dc6c40a95a0507a3498f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '381cf2776abaec0299ceae0a6b3855e5') in 0.0335294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Amnesiac.prefab
+  artifactKey: Guid(2211b66dc95b1294aa3b79a469a9ad9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Amnesiac.prefab using Guid(2211b66dc95b1294aa3b79a469a9ad9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecd3a46fcde9aa0cf938ca2706ac5b8f') in 0.0376068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/AssetManager/AssetManagerInjector.cs
+  artifactKey: Guid(9126ca8d9b4768f41aa496cbeca78268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/AssetManager/AssetManagerInjector.cs using Guid(9126ca8d9b4768f41aa496cbeca78268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8eef0db132fa600852da1bbbca9b17cf') in 0.0136339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Chosen One.prefab
+  artifactKey: Guid(2fc62ad1518d03549aeb58f00bb65083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Chosen One.prefab using Guid(2fc62ad1518d03549aeb58f00bb65083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a44a6a06de5c9ca55e479715a6a913e3') in 0.037906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Magical Merchant.prefab
+  artifactKey: Guid(787c7d6f57186e7448eba6d2cb6e17f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Magical Merchant.prefab using Guid(787c7d6f57186e7448eba6d2cb6e17f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '739f991777673671968f4465080a1b4f') in 0.0339598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Acolyte.prefab
+  artifactKey: Guid(655fb174be56cc2418214ea4250b29a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Acolyte.prefab using Guid(655fb174be56cc2418214ea4250b29a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07a9d38e054bce1bdcc9372ebd867791') in 0.0353804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Elementally Infused.prefab
+  artifactKey: Guid(fa94d38c58f3ea048a7125ea2d9570cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Elementally Infused.prefab using Guid(fa94d38c58f3ea048a7125ea2d9570cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20156a18f45a3fa0f8f20fc1ef35f445') in 0.0321427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Legacy of the Hammer.prefab
+  artifactKey: Guid(76dbdaa0911d7ea4eab41aa987fd2ad0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Legacy of the Hammer.prefab using Guid(76dbdaa0911d7ea4eab41aa987fd2ad0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce18fd8a5185d6031cd640591f335000') in 0.0344728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000089 seconds.
-  path: Assets/AutoGeneration
-  artifactKey: Guid(6730ed29fa92c8d4e846d76535646642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration using Guid(6730ed29fa92c8d4e846d76535646642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5112d8bfab613c013c9216c80fd97156') in 0.0233291 seconds
+  path: Assets/AutoGeneration/Backgrounds/Feral Child.prefab
+  artifactKey: Guid(475e4033158a3d54a9e2a9216383759f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Feral Child.prefab using Guid(475e4033158a3d54a9e2a9216383759f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2969026bce394719e93c42df021acf68') in 0.0339798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Anti-Tech Activist.prefab
+  artifactKey: Guid(5c1545a4035880b418d42a312cc0453c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Anti-Tech Activist.prefab using Guid(5c1545a4035880b418d42a312cc0453c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ff62dabfd99746a2ed987de91794ffa') in 0.0332768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Dendrologist.prefab
+  artifactKey: Guid(3b831c18dab87d742be0cd17f3ec2e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Dendrologist.prefab using Guid(3b831c18dab87d742be0cd17f3ec2e54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f3454013f7fecaf9c4185ac12c17e6f') in 0.0357228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Alkenstar Sojourner.prefab
+  artifactKey: Guid(88f106d48e62ac249ab7b13d5fcc5a18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Alkenstar Sojourner.prefab using Guid(88f106d48e62ac249ab7b13d5fcc5a18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc0979aabbfcf39a3338e2b19198e069') in 0.0336711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Gunsmith.prefab
+  artifactKey: Guid(64143c65047e0c5479e90aaf438b108c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Gunsmith.prefab using Guid(64143c65047e0c5479e90aaf438b108c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8607e62ab3aaf8deac80d1e7a037984f') in 0.0330442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Driver.prefab
+  artifactKey: Guid(e160a50a43c813b49a6fa7c11d523c48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Driver.prefab using Guid(e160a50a43c813b49a6fa7c11d523c48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '221793b953ff5f776984a6076f2520e8') in 0.0333006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Disciple of the Gear.prefab
+  artifactKey: Guid(c75b4f3464fb5734888f7fdf9e756f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Disciple of the Gear.prefab using Guid(c75b4f3464fb5734888f7fdf9e756f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b4ac31a893492a8179b8e3f339daa03') in 0.0356483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoGeneration/Backgrounds
+  artifactKey: Guid(49842aa70604f454db0284e765f59b8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds using Guid(49842aa70604f454db0284e765f59b8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '290bd71de98444a4d6d0c23505ca1910') in 0.0138664 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/AutoGeneration/Ancestries/Goblin.prefab
-  artifactKey: Guid(8ae8f9725c514fc47b373afc11b1b5e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Goblin.prefab using Guid(8ae8f9725c514fc47b373afc11b1b5e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80c10b0585e13b536e107c7d707290ea') in 0.0657569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000139 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Archaeologist.prefab
+  artifactKey: Guid(b33cf8efc9093014bb577dbc1c08ba78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Archaeologist.prefab using Guid(b33cf8efc9093014bb577dbc1c08ba78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13f38edc7d980f2235c53a8272593f3d') in 0.0331173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/AutoGeneration/Ancestries/Fetchling.prefab
-  artifactKey: Guid(68898c328b59f6a40a365d9e0d11d82b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Fetchling.prefab using Guid(68898c328b59f6a40a365d9e0d11d82b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69368b804f57ddfc6a0f737fb57a56e1') in 0.0764259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000083 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Haunted.prefab
+  artifactKey: Guid(8d13536a6602009449f418d5b6d62800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Haunted.prefab using Guid(8d13536a6602009449f418d5b6d62800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9070b0ae5c83beafb0909926b73575a2') in 0.0329518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/AutoGeneration/Ancestries/Orc.prefab
-  artifactKey: Guid(82139ad077c916a49a9cf675a587315b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Orc.prefab using Guid(82139ad077c916a49a9cf675a587315b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e664e119e7a42900a16e5e654c2a9b58') in 0.0742091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000020 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Sailor.prefab
+  artifactKey: Guid(7b679e3d800591148bdfa530e0f2c7f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Sailor.prefab using Guid(7b679e3d800591148bdfa530e0f2c7f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83a8f8aa57480171c2ec35ac5f6a78b3') in 0.0343025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AutoGeneration/Ancestries/Elf.prefab
-  artifactKey: Guid(c6342e3592dbc0a4db891e3fc65acb10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Elf.prefab using Guid(c6342e3592dbc0a4db891e3fc65acb10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb4f6b35f2eab779feb903a178ad3dfd') in 0.0709549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000026 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Nomad.prefab
+  artifactKey: Guid(a31ca57be22200e44b211f975680b923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Nomad.prefab using Guid(a31ca57be22200e44b211f975680b923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b7c5617ee881ec2f9ec6fc23e853f19') in 0.0355941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/AutoGeneration/Ancestries/Skeleton.prefab
-  artifactKey: Guid(021c3683f9591194db2586e8237e02b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Skeleton.prefab using Guid(021c3683f9591194db2586e8237e02b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9630dc09d4bfcf35225e92452a273d55') in 0.0718355 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000021 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Royalty.prefab
+  artifactKey: Guid(f683da783ba0b124db0fa49cd2a88603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Royalty.prefab using Guid(f683da783ba0b124db0fa49cd2a88603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd50cbaedae7b1655402156ddb6b67c9b') in 0.0353211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000059 seconds.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Reborn Soul.prefab
+  artifactKey: Guid(2719dd4afacc3244b8d589f5e36782c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Reborn Soul.prefab using Guid(2719dd4afacc3244b8d589f5e36782c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc939455ec9276ac35de5d27b3ceb808') in 0.0356144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Pathfinder Recruiter.prefab
+  artifactKey: Guid(2958f94d66f20784c8cb0a3fe4fd2ad9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Pathfinder Recruiter.prefab using Guid(2958f94d66f20784c8cb0a3fe4fd2ad9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '942da63ae5bbca8dd09e81f10d257e43') in 0.0360525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Saloon Entertainer.prefab
+  artifactKey: Guid(ac893ce81cd6bfb42bd8e5eece25df2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Saloon Entertainer.prefab using Guid(ac893ce81cd6bfb42bd8e5eece25df2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6906d22ef9e5dbdbdf4f4280394ddade') in 0.0342282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Osprey Warrior.prefab
+  artifactKey: Guid(fdebffb8f655dd2439de96f860e918b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Osprey Warrior.prefab using Guid(fdebffb8f655dd2439de96f860e918b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ade60613cc6d050f8f4da5c11250f5d') in 0.0379544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Relentless Dedication.prefab
+  artifactKey: Guid(e7fea3989c41e824cac4a80400a8e620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Relentless Dedication.prefab using Guid(e7fea3989c41e824cac4a80400a8e620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2507132019e95bb49b69b1929024513c') in 0.0398893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Saboteur.prefab
+  artifactKey: Guid(6ddd68452f8a48f48966bb666dfba5fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Saboteur.prefab using Guid(6ddd68452f8a48f48966bb666dfba5fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1b9b90fbac9e791541092ca5ca05984') in 0.0334036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Outskirt Dweller.prefab
+  artifactKey: Guid(e9169fe00eef3b640b6692ea8a2da239) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Outskirt Dweller.prefab using Guid(e9169fe00eef3b640b6692ea8a2da239) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acfc9190b88ac9d58ca245dc6d5ea4d3') in 0.0361311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Revenant.prefab
+  artifactKey: Guid(1138484f25ca57b41a4ec42dac442926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Revenant.prefab using Guid(1138484f25ca57b41a4ec42dac442926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75de47efa5c8aebca288bafd69dbf3ab') in 0.0367089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Pilgrim.prefab
+  artifactKey: Guid(1cb8708e1eef82f4ab3fdc83e85df02d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Pilgrim.prefab using Guid(1cb8708e1eef82f4ab3fdc83e85df02d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1732bb65317ccb978101dc9888245df0') in 0.0343854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Mechanic.prefab
+  artifactKey: Guid(27ec99c881b6a574295e9c64cd3ddc28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Mechanic.prefab using Guid(27ec99c881b6a574295e9c64cd3ddc28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a67ceb9ffec4370a9082b86bd025846d') in 0.0353695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Spell Seeker.prefab
+  artifactKey: Guid(fc3e81ae87039184eb6ecabf153d33ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Spell Seeker.prefab using Guid(fc3e81ae87039184eb6ecabf153d33ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94733fbaba6fbb32b174b3a9ed01fd88') in 0.0372433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Tide Watcher.prefab
+  artifactKey: Guid(5b3ef9be8ebbbf2468e73493061dccde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Tide Watcher.prefab using Guid(5b3ef9be8ebbbf2468e73493061dccde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b756c396d6275017b95ed60fd0441acc') in 0.0330028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Thrill-Seeker.prefab
+  artifactKey: Guid(7ca0bc044c8013148aae108d6447f365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Thrill-Seeker.prefab using Guid(7ca0bc044c8013148aae108d6447f365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0ac6a98199437f0cf376993ade67d01') in 0.0366181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Union Representative.prefab
+  artifactKey: Guid(1bb5b127c67543245999dd75e340ed2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Union Representative.prefab using Guid(1bb5b127c67543245999dd75e340ed2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1cb32e52d4a9f60f5924adc0ad8cd07') in 0.0404538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Sign Bound.prefab
+  artifactKey: Guid(9b91319fde319984fb1bcc409bbaa653) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Sign Bound.prefab using Guid(9b91319fde319984fb1bcc409bbaa653) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07c7b29581e67c7d3bf145123993f45f') in 0.0361156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Scout.prefab
+  artifactKey: Guid(fa68e7dde53294847b7e745efdb2dfdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Scout.prefab using Guid(fa68e7dde53294847b7e745efdb2dfdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e1d78a7816af2a93976b179240bcddb') in 0.0448021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Street Urchin.prefab
+  artifactKey: Guid(7d4e19b82a539074c8af5075bb466082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Street Urchin.prefab using Guid(7d4e19b82a539074c8af5075bb466082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd98d7b26daeb387fb50b57dc9a523d2d') in 0.0368072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Sewer Dragon.prefab
+  artifactKey: Guid(ae87d9314697d4446825de6fe9920e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Sewer Dragon.prefab using Guid(ae87d9314697d4446825de6fe9920e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f429fc524cc7e2c32ae74f21a27cd727') in 0.0387506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Spotter.prefab
+  artifactKey: Guid(1e377e38d481fea4cb2620b591294d43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Spotter.prefab using Guid(1e377e38d481fea4cb2620b591294d43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9f93dbaec483c8a09874d0d60a12985') in 0.0352201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Student of Magic.prefab
+  artifactKey: Guid(62a8013aa835c534fa4f3e4099313167) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Student of Magic.prefab using Guid(62a8013aa835c534fa4f3e4099313167) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '771fe344e5e11c458fe4cf7a607ebd31') in 0.0338242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Time Traveler.prefab
+  artifactKey: Guid(3f081de23ef4a66498433b925e57331f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Time Traveler.prefab using Guid(3f081de23ef4a66498433b925e57331f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a95159a4c841d976f7b35e87ec543fb6') in 0.0348742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Necromancer's Apprentice.prefab
+  artifactKey: Guid(fd720c1190492ab4580cc4285dc4fcec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Necromancer's Apprentice.prefab using Guid(fd720c1190492ab4580cc4285dc4fcec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e14def569ee3f95cbb17b9f2247abb9f') in 0.0341985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Pyre Tender.prefab
+  artifactKey: Guid(530d64a75f2547542a66eb39df2b8008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Pyre Tender.prefab using Guid(530d64a75f2547542a66eb39df2b8008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f50337dcaa1fe25380ace3203826185a') in 0.0349029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Merchant.prefab
+  artifactKey: Guid(30532cc05481c7947ab4e7f50913c049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Merchant.prefab using Guid(30532cc05481c7947ab4e7f50913c049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16c48553551cb218244bb41d73782c8c') in 0.0348435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/AttributeProvider/RandomBackgroundProvider.cs
+  artifactKey: Guid(3ab9648b94dd0ec429e02009108daf9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/AttributeProvider/RandomBackgroundProvider.cs using Guid(3ab9648b94dd0ec429e02009108daf9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8dc06272eae1131623ce0261f25e9fea') in 0.013397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/AutoGeneration/Ancestries/Azarketi.prefab
+  artifactKey: Guid(c8cd829eabbdcbb4492aa0de1ff5aa05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Azarketi.prefab using Guid(c8cd829eabbdcbb4492aa0de1ff5aa05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4d0062b9785a83b044167f298f8b5c3') in 0.0418633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Willing Host.prefab
+  artifactKey: Guid(5d385e8c5c1d89246b972385f545595f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Willing Host.prefab using Guid(5d385e8c5c1d89246b972385f545595f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a567ba773ebef9b229917bdc305ba74f') in 0.0361311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AutoGeneration/Ancestries/Sprite.prefab
+  artifactKey: Guid(48f344d230d9f6745b822b90ccf1b87b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Sprite.prefab using Guid(48f344d230d9f6745b822b90ccf1b87b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b6c15571cacd56bbe94254d6598528f') in 0.0368232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
   path: Assets/AutoGeneration/Ancestries/Ghoran.prefab
   artifactKey: Guid(70d4313641e8a274b82afc437c785d6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Ghoran.prefab using Guid(70d4313641e8a274b82afc437c785d6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6d24f4e557c0d0392d81f11a90945df') in 0.0714502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AutoGeneration/Ancestries/Leshy.prefab
-  artifactKey: Guid(0910cdb65d4b54b418f0e304b430df53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Leshy.prefab using Guid(0910cdb65d4b54b418f0e304b430df53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb8bcf28cd2ece1fc1ea88086ded6846') in 0.0671132 seconds
+Start importing Assets/AutoGeneration/Ancestries/Ghoran.prefab using Guid(70d4313641e8a274b82afc437c785d6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4ec1677a502b73dc15b97d14be63d41') in 0.035652 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/AutoGeneration/Ancestries/Fleshwarp.prefab
-  artifactKey: Guid(366f0a77f80252142be5a2b5d7814de8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/AutoGeneration/Ancestries/Fleshwarp.prefab using Guid(366f0a77f80252142be5a2b5d7814de8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8494fa61beb00878cb2ccba530972ad8') in 0.0709225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/AutoGeneration/Ancestries/Nagaji.prefab
+  artifactKey: Guid(36b201c7e1a76c64a931e55a4514f17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Nagaji.prefab using Guid(36b201c7e1a76c64a931e55a4514f17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eecc2f49f86503543e94f4958e4b1d62') in 0.0362441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoGeneration/Ancestries/Goblin.prefab
+  artifactKey: Guid(8ae8f9725c514fc47b373afc11b1b5e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Goblin.prefab using Guid(8ae8f9725c514fc47b373afc11b1b5e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6c77ce498d3108636af815c60483c1a') in 0.038224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AutoGeneration/Ancestries/Skeleton.prefab
+  artifactKey: Guid(021c3683f9591194db2586e8237e02b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Skeleton.prefab using Guid(021c3683f9591194db2586e8237e02b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04b780325a752128f63b4bb5196df3c1') in 0.0343097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AutoGeneration/Ancestries/Lizardfolk.prefab
+  artifactKey: Guid(ab87739ab7e3dab498256c99bc194ba6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Lizardfolk.prefab using Guid(ab87739ab7e3dab498256c99bc194ba6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '593c51b4595802fd82b106db2b83552e') in 0.0354914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AutoGeneration/Ancestries/Gnome.prefab
+  artifactKey: Guid(85c1befe1c0d9f34090f41723a6eb276) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Gnome.prefab using Guid(85c1befe1c0d9f34090f41723a6eb276) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d54cc27ae61f3a8ed095a429b065428') in 0.0377514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoGeneration/Ancestries/Human.prefab
+  artifactKey: Guid(bd67522fcb1d7d74097a8a96376186ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Human.prefab using Guid(bd67522fcb1d7d74097a8a96376186ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4aa1c58d4df6490bf2824bcd40fe882') in 0.0338995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Tinker.prefab
+  artifactKey: Guid(d59fdaa22ae190b4ca785c32bcde24b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Tinker.prefab using Guid(d59fdaa22ae190b4ca785c32bcde24b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f91290ee27725b62ed39b69456921168') in 0.0340344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Mystic Tutor.prefab
+  artifactKey: Guid(c246b07eb2a6c414ba531852aa3d1a18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Mystic Tutor.prefab using Guid(c246b07eb2a6c414ba531852aa3d1a18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdd7d705a5b2b88cf1967df6d680493f') in 0.0339928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AutoGeneration/Ancestries/Leshy.prefab
+  artifactKey: Guid(0910cdb65d4b54b418f0e304b430df53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Leshy.prefab using Guid(0910cdb65d4b54b418f0e304b430df53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '595a5d2dd086f8490f230a621d6e0f59') in 0.038865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Criminal.prefab
+  artifactKey: Guid(e6b859e0b62132c4eabd83dd7161ca53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Criminal.prefab using Guid(e6b859e0b62132c4eabd83dd7161ca53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f8bfb7e8a5924ef19f312582cc9a392') in 0.0373773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Astrological Augur.prefab
+  artifactKey: Guid(566741a4fcfa43c4e9298e0824890867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Astrological Augur.prefab using Guid(566741a4fcfa43c4e9298e0824890867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8b74d4f61bba6e83f5bad0e4b0f7482') in 0.0381087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/EntityRecipe/Hero.prefab
+  artifactKey: Guid(891f165982cc82149ab9197c236f9dc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Objects/EntityRecipe/Hero.prefab using Guid(891f165982cc82149ab9197c236f9dc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29b888cd5bbda8647a8fda93f20b4982') in 0.0349656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Undertaker.prefab
+  artifactKey: Guid(e64cefa51ca62c948b6d813044317a67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Undertaker.prefab using Guid(e64cefa51ca62c948b6d813044317a67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6eac70b352de22006a70e532e627a672') in 0.0354018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Farmhand.prefab
+  artifactKey: Guid(1de0363f7c9e9164087a756dd94bc908) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Farmhand.prefab using Guid(1de0363f7c9e9164087a756dd94bc908) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cc30b3042d8932cd59244be3b09b63c') in 0.0387759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Discarded Duplicate.prefab
+  artifactKey: Guid(013e9900b8ff77542aa32362ccea665e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Discarded Duplicate.prefab using Guid(013e9900b8ff77542aa32362ccea665e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c770b043d532165014ef43ca3b4c5cb3') in 0.0393518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Cook.prefab
+  artifactKey: Guid(25c7eb5ca36b6b64d814606f645e258f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Cook.prefab using Guid(25c7eb5ca36b6b64d814606f645e258f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba4571fe42c6a06b7b40e69116078a47') in 0.03396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Cultist.prefab
+  artifactKey: Guid(747e68159932d8a499f3b35a7dd289d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Cultist.prefab using Guid(747e68159932d8a499f3b35a7dd289d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9edf1f8b35dbc45a55c53bafb8dc363') in 0.0329388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Toymaker.prefab
+  artifactKey: Guid(2943f5b50a39dc143897b970a4259867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Toymaker.prefab using Guid(2943f5b50a39dc143897b970a4259867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad1253442e6a9c23ada270d68f24b330') in 0.0364579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Wished Alive.prefab
+  artifactKey: Guid(0eedc8441bd1d2d4497da97fa1fed33b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Wished Alive.prefab using Guid(0eedc8441bd1d2d4497da97fa1fed33b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5299bfea9b5657c224f3581017762d62') in 0.0320495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Tomb Born.prefab
+  artifactKey: Guid(77aaf11b7f377154998c9c12a9360af4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Tomb Born.prefab using Guid(77aaf11b7f377154998c9c12a9360af4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d03e8b0cc186753e6365a4bb8f1f88b') in 0.0346166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Awful Scab.prefab
+  artifactKey: Guid(9dba0d9c05474344fbdfdcd0e63562bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Awful Scab.prefab using Guid(9dba0d9c05474344fbdfdcd0e63562bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74fbd8a69594b830ffe524605d3196af') in 0.0323866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Droskari Disciple.prefab
+  artifactKey: Guid(b1c49de7ec5a9404e86fcab4916b20d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Droskari Disciple.prefab using Guid(b1c49de7ec5a9404e86fcab4916b20d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3c385ceff0432f1f349f351683c098d') in 0.0379424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Deep-Sea Diver.prefab
+  artifactKey: Guid(8f5469aa41869a5438c58779c59ee582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Deep-Sea Diver.prefab using Guid(8f5469aa41869a5438c58779c59ee582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1beda63758c3ca55c9d758d8b4cc3ea') in 0.0334028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Osprey Scion.prefab
+  artifactKey: Guid(5580b100adb72744797933fb5dd18977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Osprey Scion.prefab using Guid(5580b100adb72744797933fb5dd18977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2f5f0dc9683392b354de84a2dccc30b') in 0.0347801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AutoGeneration/Ancestries/Vishkanya.prefab
+  artifactKey: Guid(8fcdcb532719ce445832fdb322f04491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Ancestries/Vishkanya.prefab using Guid(8fcdcb532719ce445832fdb322f04491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9acd0414a0517a000d51dc1b00b9c509') in 0.0381316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Courier.prefab
+  artifactKey: Guid(d9ff387b1cc5e7140a40caf0fd5323ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Courier.prefab using Guid(d9ff387b1cc5e7140a40caf0fd5323ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a1c1af75feedf76ef8efd3c9f4cd544') in 0.0319027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/AssetManager/BackgroundAssetSystem.cs
+  artifactKey: Guid(7d86cf8db7517d84d9ffe4788a51b52c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/AssetManager/BackgroundAssetSystem.cs using Guid(7d86cf8db7517d84d9ffe4788a51b52c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3e7db7700cf940e16b78417abad218a') in 0.0121564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/AutoGeneration/Backgrounds/Insurgent.prefab
+  artifactKey: Guid(66ab05f5f5c5e0f45a8277962a8a9c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoGeneration/Backgrounds/Insurgent.prefab using Guid(66ab05f5f5c5e0f45a8277962a8a9c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29bd7085c04c8ec9fe5cd673b37b10f1') in 0.0362499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

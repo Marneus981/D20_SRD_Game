@@ -36,7 +36,7 @@ public static class SkillsInjector
         ISurvivalSystem.Register(new SurvivalSystem());
         IThieveryProficiencySystem.Register(new ThieveryProficiencySystem());
         IThieverySystem.Register(new ThieverySystem());
-        IProficiencySystem.Register(new ProficiencySystem());
+        ISkillProficiencySystem.Register(new SkillProficiencySystem());
         ISkillSystem.Register(new SkillSystem());
     }
 }

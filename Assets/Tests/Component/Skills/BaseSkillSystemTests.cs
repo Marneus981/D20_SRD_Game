@@ -10,7 +10,7 @@ public class BaseSkillSystemTests
         IAbilityScoreSystem.Register(new MockAbilityScoreSystem());
         IDataSystem.Register(new MockDataSystem());
         ILevelSystem.Register(new LevelSystem());
-        IProficiencySystem.Register(new MockProficiencySystem());
+        ISkillProficiencySystem.Register(new MockSkillProficienySystem());
 
         IDataSystem.Resolve().Create();//use the real level system: need to inject a mock data system
     }
@@ -21,7 +21,7 @@ public class BaseSkillSystemTests
         IAbilityScoreSystem.Reset();
         IDataSystem.Reset();
         ILevelSystem.Reset();
-        IProficiencySystem.Reset();
+        ISkillProficiencySystem.Reset();
     }
 
     [Test]
@@ -32,7 +32,7 @@ public class BaseSkillSystemTests
         var hero = new Entity(1);
         hero[AbilityScore.Attribute.Strength] = 18;
         hero.Level = 1;
-        IProficiencySystem.Resolve().Set(hero, Skill.Athletics, Proficiency.Trained);
+        ISkillProficiencySystem.Resolve().Set(hero, Skill.Athletics, Proficiency.Trained);
 
         // Act
         sut.Setup(hero);
@@ -49,7 +49,7 @@ public class BaseSkillSystemTests
         var hero = new Entity(1);
         hero[AbilityScore.Attribute.Strength] = 12;
         hero.Level = 1;
-        IProficiencySystem.Resolve().Set(hero, Skill.Athletics, Proficiency.Untrained);
+        ISkillProficiencySystem.Resolve().Set(hero, Skill.Athletics, Proficiency.Untrained);
 
         // Act
         sut.Setup(hero);
