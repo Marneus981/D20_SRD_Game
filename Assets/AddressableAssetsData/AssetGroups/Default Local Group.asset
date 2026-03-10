@@ -15,6 +15,26 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 7a3b9ecb1ad231f4994a0aad3b5ca05a
   m_SerializeEntries:
+  - m_GUID: 002447af3fd4a434b993ee9a53fe4807
+    m_Address: Assets/AutoGeneration/Backgrounds/Osprey Barnraiser.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0079d4cfd4dc4ea459b5c56f86cb1690
+    m_Address: Assets/AutoGeneration/Backgrounds/Surge Investigator.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 011967b157e18bd4f8d9f0fc6664a518
+    m_Address: Assets/AutoGeneration/Backgrounds/Bandit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 013e9900b8ff77542aa32362ccea665e
+    m_Address: Assets/AutoGeneration/Backgrounds/Discarded Duplicate.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 021c3683f9591194db2586e8237e02b5
     m_Address: Assets/AutoGeneration/Ancestries/Skeleton.prefab
     m_ReadOnly: 0
@@ -30,8 +50,58 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 074e4283a784dfd438622ea8613ef912
+    m_Address: Assets/AutoGeneration/Backgrounds/Ward.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08bd9823fc972924b9948a961af5e911
+    m_Address: Assets/AutoGeneration/Backgrounds/Hounded Thief.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0910cdb65d4b54b418f0e304b430df53
     m_Address: Assets/AutoGeneration/Ancestries/Leshy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 094334abe6860284d8b92d3bb398e07f
+    m_Address: Assets/AutoGeneration/Backgrounds/Magical Experiment.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ae54e0ba6d07114fbeed086171b82ae
+    m_Address: Assets/AutoGeneration/Backgrounds/Alloysmith.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bbb1f96849b12545806d90d2ab9a11b
+    m_Address: Assets/AutoGeneration/Backgrounds/Refugee.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0eedc8441bd1d2d4497da97fa1fed33b
+    m_Address: Assets/AutoGeneration/Backgrounds/Wished Alive.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1006a7db3514e3246a4deeac05794561
+    m_Address: Assets/AutoGeneration/Backgrounds/Teacher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 108ba23d9c2f7374db37227ef5c6b160
+    m_Address: Assets/AutoGeneration/Backgrounds/Artist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10c4b24c14fcb37458d45a113866fc3f
+    m_Address: Assets/AutoGeneration/Backgrounds/Astrologer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1138484f25ca57b41a4ec42dac442926
+    m_Address: Assets/AutoGeneration/Backgrounds/Revenant.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -40,8 +110,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 135d7095272c86d43b5c8bf29b7e171f
+    m_Address: Assets/AutoGeneration/Backgrounds/Harrow-Chosen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1610dcdc4607b084da418c82995cbd41
+    m_Address: Assets/AutoGeneration/Backgrounds/Unremarkable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16b0aad0c70d8054bb3e0a543df253be
+    m_Address: Assets/AutoGeneration/Backgrounds/Mechanical Symbiosis.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1852571807c28ff48b2af589c476b6ff
     m_Address: Assets/AutoGeneration/Ancestries/Ratfolk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18f1947d4b3135041bd6bbb773ceff57
+    m_Address: Assets/AutoGeneration/Backgrounds/Alkenstar Outlaw.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a085ba8a9788a7409b182b2e7c46dd0
+    m_Address: Assets/AutoGeneration/Backgrounds/Guard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ac42ea0125249d4abe4e87bd859a763
+    m_Address: Assets/AutoGeneration/Backgrounds/Street Preacher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bb5b127c67543245999dd75e340ed2f
+    m_Address: Assets/AutoGeneration/Backgrounds/Union Representative.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -50,8 +155,48 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c639abe1001cfa429ac69d6137aff94
+    m_Address: Assets/AutoGeneration/Backgrounds/Otherworldly Mission.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cb8708e1eef82f4ab3fdc83e85df02d
+    m_Address: Assets/AutoGeneration/Backgrounds/Pilgrim.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1de0363f7c9e9164087a756dd94bc908
+    m_Address: Assets/AutoGeneration/Backgrounds/Farmhand.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e072a7781feb9c4cbdde153c998e726
+    m_Address: Assets/AutoGeneration/Backgrounds/Miner.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e377e38d481fea4cb2620b591294d43
+    m_Address: Assets/AutoGeneration/Backgrounds/Spotter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 20582aa8b9319d5479c195d5de880fd7
     m_Address: Assets/AutoGeneration/Ancestries/Kobold.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2211b66dc95b1294aa3b79a469a9ad9c
+    m_Address: Assets/AutoGeneration/Backgrounds/Amnesiac.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2552cfb687ee57b44abcca692a0553a1
+    m_Address: Assets/AutoGeneration/Backgrounds/Hired Killer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25c7eb5ca36b6b64d814606f645e258f
+    m_Address: Assets/AutoGeneration/Backgrounds/Cook.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -60,8 +205,73 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2719dd4afacc3244b8d589f5e36782c9
+    m_Address: Assets/AutoGeneration/Backgrounds/Reborn Soul.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27ec99c881b6a574295e9c64cd3ddc28
+    m_Address: Assets/AutoGeneration/Backgrounds/Mechanic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 291064d18caa15d42a7d037690d2f81c
+    m_Address: Assets/AutoGeneration/Backgrounds/Acrobat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2943f5b50a39dc143897b970a4259867
+    m_Address: Assets/AutoGeneration/Backgrounds/Toymaker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2958f94d66f20784c8cb0a3fe4fd2ad9
+    m_Address: Assets/AutoGeneration/Backgrounds/Pathfinder Recruiter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c84207d4ba3f4c42861c29b3a79dcad
+    m_Address: Assets/AutoGeneration/Backgrounds/Prisoner.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dd3928abd538f545b99dca0f708ca05
+    m_Address: Assets/AutoGeneration/Backgrounds/Blessed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dfa9372d4c1f89499b69542be4993b2
+    m_Address: Assets/AutoGeneration/Backgrounds/Raised by Belief.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2e18139d9d71054489a2125c04bcfdd2
     m_Address: Assets/Objects/Entries/Entry_06.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e455ccbc3b2608409201869e824ea88
+    m_Address: Assets/AutoGeneration/Backgrounds/Firebrand Follower.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fc62ad1518d03549aeb58f00bb65083
+    m_Address: Assets/AutoGeneration/Backgrounds/Chosen One.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 304918cecd0373542847e55d64a46f50
+    m_Address: Assets/AutoGeneration/Backgrounds/Northridge Scholar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30532cc05481c7947ab4e7f50913c049
+    m_Address: Assets/AutoGeneration/Backgrounds/Merchant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ce2fd7f6903854c8345861939404cf
+    m_Address: Assets/AutoGeneration/Backgrounds/Press-Ganged (G&G).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -75,8 +285,68 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3915a3750d20a5d4c987e288d14397d8
+    m_Address: Assets/AutoGeneration/Backgrounds/Fortune Teller.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a891323d3143cc43bc6ae3730a782bf
+    m_Address: Assets/AutoGeneration/Backgrounds/Waste Walker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a98af3bfe67c11428d2ac9c3cd87bc5
+    m_Address: Assets/AutoGeneration/Backgrounds/Barkeep.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b64f30bc1072894a88b7a20cd7fc8f0
+    m_Address: Assets/AutoGeneration/Backgrounds/Returned.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b831c18dab87d742be0cd17f3ec2e54
+    m_Address: Assets/AutoGeneration/Backgrounds/Dendrologist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c9b4be624bcd02418400a5e622f9191
+    m_Address: Assets/AutoGeneration/Backgrounds/Osprey Scribe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cdb0e76658534b47a35d5766bdbaa0d
+    m_Address: Assets/AutoGeneration/Backgrounds/Hookclaw Digger.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f081de23ef4a66498433b925e57331f
+    m_Address: Assets/AutoGeneration/Backgrounds/Time Traveler.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f0b2708c78e2f048a0864baeac6f435
+    m_Address: Assets/AutoGeneration/Backgrounds/Reclaimed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f109c97599cc5b4d8a2fba085db5848
+    m_Address: Assets/AutoGeneration/Backgrounds/Folklore Enthusiast.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4024bc69df4098c4ca7b935201457c49
     m_Address: Assets/AutoGeneration/Ancestries/Dwarf.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 409d8a7302940094091e8030c62c1607
+    m_Address: Assets/AutoGeneration/Backgrounds/Planar Migrant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41febb213591e774498d6512055502bf
+    m_Address: Assets/AutoGeneration/Backgrounds/Gambler.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -85,8 +355,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 442edbac59bc83547a90c9a02505634f
+    m_Address: Assets/AutoGeneration/Backgrounds/Plant Whisperer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 449c70d44f3d1e7469a9db7cb01e120d
+    m_Address: Assets/AutoGeneration/Backgrounds/Dreamer of the Verdant Moon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 454064f07751f584cab6e0c092478ea7
+    m_Address: Assets/AutoGeneration/Backgrounds/Bookkeeper.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 475e4033158a3d54a9e2a9216383759f
+    m_Address: Assets/AutoGeneration/Backgrounds/Feral Child.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48a6e51e1a10cb547b7327e2956fd436
+    m_Address: Assets/AutoGeneration/Backgrounds/Tyrant Witness.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48f344d230d9f6745b822b90ccf1b87b
     m_Address: Assets/AutoGeneration/Ancestries/Sprite.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49a81aa579442bb45a4b8d6b7ce6f5bf
+    m_Address: Assets/AutoGeneration/Backgrounds/Crystal Healer.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -95,13 +395,128 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b3b2a5a90108f047a88496b45303885
+    m_Address: Assets/AutoGeneration/Backgrounds/Empty Whispers.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e8130742a8ab17459b5b7619e5ceff7
+    m_Address: Assets/AutoGeneration/Backgrounds/Magical Misfit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50e3bdf482e222e428b74fc68451b83e
+    m_Address: Assets/AutoGeneration/Backgrounds/Outrider.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5157a13895699d644a29ac83c0583534
+    m_Address: Assets/AutoGeneration/Backgrounds/Detective.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 530d64a75f2547542a66eb39df2b8008
+    m_Address: Assets/AutoGeneration/Backgrounds/Pyre Tender.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5496fe88acad4464a851a9a84587abe6
+    m_Address: Assets/AutoGeneration/Backgrounds/Once Bitten.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54def33b70261cc4999980ae2b198c31
+    m_Address: Assets/AutoGeneration/Backgrounds/Farmsteader.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5580b100adb72744797933fb5dd18977
+    m_Address: Assets/AutoGeneration/Backgrounds/Osprey Scion.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 566741a4fcfa43c4e9298e0824890867
+    m_Address: Assets/AutoGeneration/Backgrounds/Astrological Augur.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56f0aa94bd1a4b4488af4aed06e58716
+    m_Address: Assets/AutoGeneration/Backgrounds/Sheriff.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 586d3bac2befd124a80dd662010e9939
+    m_Address: Assets/AutoGeneration/Backgrounds/Eidolon Contact.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 592f3d4fcdf3b8a46a90390f19158037
     m_Address: Assets/AutoGeneration/Ancestries/Poppet.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b3ef9be8ebbbf2468e73493061dccde
+    m_Address: Assets/AutoGeneration/Backgrounds/Tide Watcher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c1545a4035880b418d42a312cc0453c
+    m_Address: Assets/AutoGeneration/Backgrounds/Anti-Tech Activist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d0a9e052ca24d64890836cb4be5cd00
+    m_Address: Assets/AutoGeneration/Backgrounds/Squire.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d385e8c5c1d89246b972385f545595f
+    m_Address: Assets/AutoGeneration/Backgrounds/Willing Host.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5ec4ef52baee8d94d8c7fa5978f3c99d
     m_Address: Assets/Objects/Entries/Entry_10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6145d4338a090de468e611bc2b976e8a
+    m_Address: Assets/AutoGeneration/Backgrounds/Eclipseborn.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 615928c9d11cf204db037ebff63909c7
+    m_Address: Assets/AutoGeneration/Backgrounds/Willowshire Urchin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61950b34d46ca88459afdbd699562532
+    m_Address: Assets/AutoGeneration/Backgrounds/Laborer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62a8013aa835c534fa4f3e4099313167
+    m_Address: Assets/AutoGeneration/Backgrounds/Student of Magic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64143c65047e0c5479e90aaf438b108c
+    m_Address: Assets/AutoGeneration/Backgrounds/Gunsmith.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 655fb174be56cc2418214ea4250b29a1
+    m_Address: Assets/AutoGeneration/Backgrounds/Acolyte.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65a0970bcd0eb1d4983a4a346517428f
+    m_Address: Assets/AutoGeneration/Backgrounds/Wandering Preacher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66ab05f5f5c5e0f45a8277962a8a9c4a
+    m_Address: Assets/AutoGeneration/Backgrounds/Insurgent.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -115,8 +530,58 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a3c5db5f5ddb9e4b8cfac391aac5b83
+    m_Address: Assets/AutoGeneration/Backgrounds/Genie-Blessed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b1def3b396759e49877e22da4beeded
+    m_Address: Assets/AutoGeneration/Backgrounds/Noble.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ba5cf9682e8bbe4eab904c1883a3465
+    m_Address: Assets/AutoGeneration/Backgrounds/Song of the Deep.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c0f6c385a38db246a40c2b3c7ce9c38
+    m_Address: Assets/AutoGeneration/Backgrounds/Sun Dancer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ddd68452f8a48f48966bb666dfba5fb
+    m_Address: Assets/AutoGeneration/Backgrounds/Saboteur.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e944b6d3260ec14bbcb433948b90053
     m_Address: Assets/AutoGeneration/Ancestries/Kashrishi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f482f6fb02dfea44b2f2feb41aee731
+    m_Address: Assets/AutoGeneration/Backgrounds/Tax Collector.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fc55a9732ab45b4591c9d731b64c41c
+    m_Address: Assets/AutoGeneration/Backgrounds/Emissary.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fda9d039f82b2144973d04b46af24b2
+    m_Address: Assets/AutoGeneration/Backgrounds/Hunter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7041102d90ff6694290c2c51f7e18577
+    m_Address: Assets/AutoGeneration/Backgrounds/Circuit Judge.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 705a04a48b3b6d14da2f5a669dafefa7
+    m_Address: Assets/AutoGeneration/Backgrounds/Servant.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -125,8 +590,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 728f74248c7af304b96b9fb1fcf5c144
+    m_Address: Assets/AutoGeneration/Backgrounds/Starless One.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 729a4707701d149ce8fec6d93c216116
     m_Address: Assets/Prefabs/Combatants/Heroes/Warrior.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 729f0c55b0ffa5a46a886c4454625215
+    m_Address: Assets/AutoGeneration/Backgrounds/Reclaimed Investigator.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 747e68159932d8a499f3b35a7dd289d1
+    m_Address: Assets/AutoGeneration/Backgrounds/Cultist.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -140,8 +620,63 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76baae39980ebe3439285462a68b7f95
+    m_Address: Assets/AutoGeneration/Backgrounds/Seer of the Dead.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76dbdaa0911d7ea4eab41aa987fd2ad0
+    m_Address: Assets/AutoGeneration/Backgrounds/Legacy of the Hammer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77744f6e6e6f7d04a8df5da7528a11d9
+    m_Address: Assets/AutoGeneration/Backgrounds/Scholar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77aaf11b7f377154998c9c12a9360af4
+    m_Address: Assets/AutoGeneration/Backgrounds/Tomb Born.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 787bfa61130fbdf42bc595da6c678ff7
+    m_Address: Assets/AutoGeneration/Backgrounds/Concordance Scout.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 787c7d6f57186e7448eba6d2cb6e17f6
+    m_Address: Assets/AutoGeneration/Backgrounds/Magical Merchant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7950c0601d179964b9140a1ffcfddc5b
+    m_Address: Assets/AutoGeneration/Backgrounds/Haunted Citizen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b679e3d800591148bdfa530e0f2c7f0
+    m_Address: Assets/AutoGeneration/Backgrounds/Sailor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7c3f0d636d10be24dafb90b5e0719726
     m_Address: Assets/Objects/Entries/Entry_05.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ca0bc044c8013148aae108d6447f365
+    m_Address: Assets/AutoGeneration/Backgrounds/Thrill-Seeker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d4e19b82a539074c8af5075bb466082
+    m_Address: Assets/AutoGeneration/Backgrounds/Street Urchin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dc7db58cb8c5a7498f928e7fc91b219
+    m_Address: Assets/AutoGeneration/Backgrounds/Barber.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -155,8 +690,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82b9b1b5f9c7ea14d8ef9e58abc6b348
+    m_Address: Assets/AutoGeneration/Backgrounds/Artisan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 831ecaf6b36eebf488b9984a264531a1
+    m_Address: Assets/AutoGeneration/Backgrounds/Field Medic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8345548ce3379464289c758d40bd56a4
+    m_Address: Assets/AutoGeneration/Backgrounds/Quick Refugee.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 847b1adeaf0101e44a04c435c9ffe294
+    m_Address: Assets/AutoGeneration/Backgrounds/Deckhand.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84e79b239322e414bb5d7130f03481d0
+    m_Address: Assets/AutoGeneration/Backgrounds/Runner.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8532c72cfc0945346b08e7001c6ae102
+    m_Address: Assets/AutoGeneration/Backgrounds/Printer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 85c1befe1c0d9f34090f41723a6eb276
     m_Address: Assets/AutoGeneration/Ancestries/Gnome.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88f106d48e62ac249ab7b13d5fcc5a18
+    m_Address: Assets/AutoGeneration/Backgrounds/Alkenstar Sojourner.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -170,6 +740,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ba3b8b58ac5c0f4f9573099605cd2c2
+    m_Address: Assets/AutoGeneration/Backgrounds/Anti-Magical.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c931f79cb539674c99581d7f65e588a
+    m_Address: Assets/AutoGeneration/Backgrounds/Scavenger.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ca9aef0158168a4caec3b14f9b89608
+    m_Address: Assets/AutoGeneration/Backgrounds/Clockwork Researcher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ccdfaf5cae5f4a0a861158c2e556e56
     m_Address: Assets/Prefabs/Grid.prefab
     m_ReadOnly: 0
@@ -180,13 +765,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d13536a6602009449f418d5b6d62800
+    m_Address: Assets/AutoGeneration/Backgrounds/Haunted.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ebd8546d85962e4c83707ae15235e4e
+    m_Address: Assets/AutoGeneration/Backgrounds/Charlatan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8f085ed098ee5604b8f53b8fab2d7f17
     m_Address: Assets/AutoGeneration/Ancestries/Tengu.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f201aa46c3816b4cb4032c0d6bdea60
+    m_Address: Assets/AutoGeneration/Backgrounds/Osprey Scout.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f5469aa41869a5438c58779c59ee582
+    m_Address: Assets/AutoGeneration/Backgrounds/Deep-Sea Diver.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8fcdcb532719ce445832fdb322f04491
     m_Address: Assets/AutoGeneration/Ancestries/Vishkanya.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91fc21585f3cdb242ba1433741511e85
+    m_Address: Assets/AutoGeneration/Backgrounds/Night Watch.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 926b9058e4b6ee145888b284729b680f
+    m_Address: Assets/AutoGeneration/Backgrounds/Gladiator.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -200,6 +815,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96a8182032eb94846bc2fbd2ac162c9d
+    m_Address: Assets/AutoGeneration/Backgrounds/Academy Dropout.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96be9f9148274894d947e46a10e23665
+    m_Address: Assets/AutoGeneration/Backgrounds/Child of the Twin Village.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 96cd10a4f933ea24fa08a02408c67fbd
     m_Address: Assets/Objects/Entries/Entry_03.prefab
     m_ReadOnly: 0
@@ -210,8 +835,73 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b91319fde319984fb1bcc409bbaa653
+    m_Address: Assets/AutoGeneration/Backgrounds/Sign Bound.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dba0d9c05474344fbdfdcd0e63562bf
+    m_Address: Assets/AutoGeneration/Backgrounds/Awful Scab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a278097f8511d1b4490ee50334dd8af6
+    m_Address: Assets/AutoGeneration/Backgrounds/Musical Prodigy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a31ca57be22200e44b211f975680b923
+    m_Address: Assets/AutoGeneration/Backgrounds/Nomad.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5c85ee8fa5013647b139281ae48e288
+    m_Address: Assets/AutoGeneration/Backgrounds/Concordance Researcher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6a65d309fae05e4ea0e4defc098b23f
+    m_Address: Assets/AutoGeneration/Backgrounds/Clockfighter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aae4e52d727d80740832b1e7faeb8a82
+    m_Address: Assets/AutoGeneration/Backgrounds/Tall-Tale.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ab87739ab7e3dab498256c99bc194ba6
     m_Address: Assets/AutoGeneration/Ancestries/Lizardfolk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac893ce81cd6bfb42bd8e5eece25df2f
+    m_Address: Assets/AutoGeneration/Backgrounds/Saloon Entertainer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acb76d52dab5f924e90250cbe84c6b2d
+    m_Address: Assets/AutoGeneration/Backgrounds/Energy Scarred.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae87d9314697d4446825de6fe9920e28
+    m_Address: Assets/AutoGeneration/Backgrounds/Sewer Dragon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0a5bad461215794c9ff77d170d40901
+    m_Address: Assets/AutoGeneration/Backgrounds/Translator.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b16e5b369825dfa42a5bc36a9f543389
+    m_Address: Assets/AutoGeneration/Backgrounds/Beast Blessed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1c49de7ec5a9404e86fcab4916b20d6
+    m_Address: Assets/AutoGeneration/Backgrounds/Droskari Disciple.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -220,8 +910,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3197420eb160844099c39d2eb62469c
+    m_Address: Assets/AutoGeneration/Backgrounds/Highborn Snoop.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b33cf8efc9093014bb577dbc1c08ba78
+    m_Address: Assets/AutoGeneration/Backgrounds/Archaeologist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3c2a49c7e45fc64888cac52bae09188
+    m_Address: Assets/AutoGeneration/Backgrounds/Sentinel Reflectance.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b629b425651d88a4688b81e98e998d69
+    m_Address: Assets/AutoGeneration/Backgrounds/Osprey Fisher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b6b12652df6d7584786927b98e064ee6
     m_Address: Assets/Objects/CombatAction/Strike (Shortsword).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6ddd03718340ac4897e19c0bd146db7
+    m_Address: Assets/AutoGeneration/Backgrounds/Grave Robber.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -230,13 +945,53 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b88bf0783124b8440b7ca8cd3d07d60f
+    m_Address: Assets/AutoGeneration/Backgrounds/Feybound.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba55484d5c86da7429b0f665ee436795
+    m_Address: Assets/AutoGeneration/Backgrounds/False Medium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bd67522fcb1d7d74097a8a96376186ba
     m_Address: Assets/AutoGeneration/Ancestries/Human.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be50698cf2ca55344ac1a370d4ca7101
+    m_Address: Assets/AutoGeneration/Backgrounds/Saved by Clockwork.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c246b07eb2a6c414ba531852aa3d1a18
+    m_Address: Assets/AutoGeneration/Backgrounds/Mystic Tutor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c32944c79fa4ed448854d4c4d6893ff2
+    m_Address: Assets/AutoGeneration/Backgrounds/Harrow-Led.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5476e10176f6f34d9adcc471562417c
+    m_Address: Assets/AutoGeneration/Backgrounds/Pillar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c569c7f331e00924e961fe8f806e8cb2
+    m_Address: Assets/AutoGeneration/Backgrounds/Fightbreaker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c6342e3592dbc0a4db891e3fc65acb10
     m_Address: Assets/AutoGeneration/Ancestries/Elf.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c75b4f3464fb5734888f7fdf9e756f08
+    m_Address: Assets/AutoGeneration/Backgrounds/Disciple of the Gear.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -250,8 +1005,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cab4b1fd8a1ce9742ad22df56aba9778
+    m_Address: Assets/AutoGeneration/Backgrounds/Scion of Slayers.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cbfa456bfd3e43547a6b475d8437fbb1
     m_Address: Assets/AutoGeneration/Ancestries/Anadi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd699c173e36ddd4da6eed6251f3eddc
+    m_Address: Assets/AutoGeneration/Backgrounds/Cannoneer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceea60efd933cb04fb852e294c1f094e
+    m_Address: Assets/AutoGeneration/Backgrounds/Close Ties.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d09aa0b96b211f940b854f353ac55ee4
+    m_Address: Assets/AutoGeneration/Backgrounds/Medicinal Clocksmith.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2d074685715e4d44ad0776ce655ee50
+    m_Address: Assets/AutoGeneration/Backgrounds/Occult Librarian.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -260,13 +1040,133 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d435558a6c67ee94d8768bd58d01f4a0
+    m_Address: Assets/AutoGeneration/Backgrounds/Deputy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d59fdaa22ae190b4ca785c32bcde24b3
+    m_Address: Assets/AutoGeneration/Backgrounds/Tinker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8db6e1f49aee22419563792ebc20214
+    m_Address: Assets/AutoGeneration/Backgrounds/Goldhand Arms Dealer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9ff387b1cc5e7140a40caf0fd5323ae
+    m_Address: Assets/AutoGeneration/Backgrounds/Courier.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db77d94eac26451418e41c584465073b
+    m_Address: Assets/AutoGeneration/Backgrounds/Martial Disciple.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd049355d9b40004abea67420863529d
+    m_Address: Assets/AutoGeneration/Backgrounds/Sky Rider.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de65013776767f74eabcc4cfac6f4b69
+    m_Address: Assets/AutoGeneration/Backgrounds/Back-Alley Doctor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfbf6ecb2f3f59d4cb02c3825b2b8ac9
+    m_Address: Assets/AutoGeneration/Backgrounds/Animal Whisperer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0a96445361e7de46863af6d1ea70ba0
+    m_Address: Assets/AutoGeneration/Backgrounds/Junker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0e73584a6d06c642b65238ed3a8c647
+    m_Address: Assets/AutoGeneration/Backgrounds/Barrister.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e160a50a43c813b49a6fa7c11d523c48
+    m_Address: Assets/AutoGeneration/Backgrounds/Driver.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e18d2d908f2dc6c40a95a0507a3498f7
+    m_Address: Assets/AutoGeneration/Backgrounds/Doomcaller.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e42270f57d32f48b1a416f50cfb19180
     m_Address: Assets/Prefabs/Combatants/Monsters/Rat.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e47739705a1ad58488fa4b87b2711e64
+    m_Address: Assets/AutoGeneration/Backgrounds/Southbank Traditionalist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4c89612842045d47b209ee2034eb85b
+    m_Address: Assets/AutoGeneration/Backgrounds/Free Spirit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e504ce849194dd244b54b967ced0618b
+    m_Address: Assets/AutoGeneration/Backgrounds/Osprey Spellcaster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e64cefa51ca62c948b6d813044317a67
+    m_Address: Assets/AutoGeneration/Backgrounds/Undertaker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6b859e0b62132c4eabd83dd7161ca53
+    m_Address: Assets/AutoGeneration/Backgrounds/Criminal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6cceac61626cc64eb063601d1e1f888
+    m_Address: Assets/AutoGeneration/Backgrounds/Fire Warden.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7fea3989c41e824cac4a80400a8e620
+    m_Address: Assets/AutoGeneration/Backgrounds/Relentless Dedication.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9169fe00eef3b640b6692ea8a2da239
+    m_Address: Assets/AutoGeneration/Backgrounds/Outskirt Dweller.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaa09dc5945226a4d9706afc14d01c37
+    m_Address: Assets/AutoGeneration/Backgrounds/Dauntless.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ebea00c7ebe264640bc9767e718c1d0e
     m_Address: Assets/AutoGeneration/Ancestries/Shisk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec34668b8f5821845b8045774cad13ba
+    m_Address: Assets/AutoGeneration/Backgrounds/Bounty Hunter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed1305a9445c42544b4cdc6012df0793
+    m_Address: Assets/AutoGeneration/Backgrounds/Fireworks Performer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed9adc9c1b7e59844b2a02b5e80ddcc1
+    m_Address: Assets/AutoGeneration/Backgrounds/Nocturnal Navigator.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -290,13 +1190,103 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3a861e99f0dc22429d4cdd14b251797
+    m_Address: Assets/AutoGeneration/Backgrounds/Warrior.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f48c0eb94a20c1a4b9e1d00d5f0e94ca
+    m_Address: Assets/AutoGeneration/Backgrounds/Curandero.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e5a1617d7a44b44ba782b6941058fa
+    m_Address: Assets/AutoGeneration/Backgrounds/Root Worker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5a946036abe5cb4198654c45fabe524
+    m_Address: Assets/AutoGeneration/Backgrounds/Cursed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f683da783ba0b124db0fa49cd2a88603
+    m_Address: Assets/AutoGeneration/Backgrounds/Royalty.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f77f6e04020304344b249583e7d4d31e
+    m_Address: Assets/AutoGeneration/Backgrounds/Tech-Reliant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f83ab3e35f4535f47a418ec173622bed
+    m_Address: Assets/AutoGeneration/Backgrounds/Entertainer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f94c7737a02e26349ad12bad09e7afb8
+    m_Address: Assets/AutoGeneration/Backgrounds/Herbalist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa68e7dde53294847b7e745efdb2dfdd
+    m_Address: Assets/AutoGeneration/Backgrounds/Scout.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa937756aaf154540addd6242abc9176
     m_Address: Assets/Objects/Entries/Entry_09.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa94d38c58f3ea048a7125ea2d9570cd
+    m_Address: Assets/AutoGeneration/Backgrounds/Elementally Infused.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb4ddb2db8dc69047a155b011ddb7e0e
+    m_Address: Assets/AutoGeneration/Backgrounds/Trailblazer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fb92cc47dda2ae84aa86599bc0b520a2
     m_Address: Assets/Objects/Entries/Entry_08.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc3e81ae87039184eb6ecabf153d33ac
+    m_Address: Assets/AutoGeneration/Backgrounds/Spell Seeker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd0c71146938ebe44a5a254a3f48dbd4
+    m_Address: Assets/AutoGeneration/Backgrounds/Ozem Experience.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd720c1190492ab4580cc4285dc4fcec
+    m_Address: Assets/AutoGeneration/Backgrounds/Necromancer's Apprentice.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdebffb8f655dd2439de96f860e918b5
+    m_Address: Assets/AutoGeneration/Backgrounds/Osprey Warrior.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdfce4339c76bc54a8d37eb1ddf6af4b
+    m_Address: Assets/AutoGeneration/Backgrounds/Hermit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fea9ebe59c7451a47871cba4458690e7
+    m_Address: Assets/AutoGeneration/Backgrounds/Codebreaker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff1f5a6dba7dd2341a4f5b6494ba0191
+    m_Address: Assets/AutoGeneration/Backgrounds/Junk Collector.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

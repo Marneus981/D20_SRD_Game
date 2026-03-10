@@ -23,6 +23,7 @@ public class CreateHeroPartyFlow : ICreateHeroPartyFlow
             var entity = await IEntityRecipeSystem.Resolve().Create("Hero");
             entity.PartyOrder = i;
             await LoadAncestry(entity, autoChosenAncestries[i]);
+            await LoadBackground(entity);
         }
         await UniTask.CompletedTask;
     }
@@ -33,6 +34,15 @@ public class CreateHeroPartyFlow : ICreateHeroPartyFlow
         var assetSystem = IAncestryAssetSystem.Resolve();
         var ancestryAsset = await assetSystem.Load(ancestry);
         foreach (var provider in ancestryAsset.AttributeProviders)
+        {
+            provider.Setup(entity);
+        }
+    }
+    async UniTask LoadBackground(Entity entity)
+    {
+        UnityEngine.Debug.Log(string.Format("Loading Background: {0}", entity.Background));
+        var backgroundAsset = await IBackgroundAssetSystem.Resolve().Load(entity.Background);
+        foreach (var provider in backgroundAsset.AttributeProviders)
         {
             provider.Setup(entity);
         }

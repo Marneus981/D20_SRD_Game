@@ -10,7 +10,7 @@ public class SkillsProficiencyProvider : MonoBehaviour, IAttributeProvider
         public Proficiency proficiency;
     }
 
-    [SerializeField] List<ValuePair> valuePairs;
+    public List<ValuePair> valuePairs;
 
     public void Setup(Entity entity)
     {

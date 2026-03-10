@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8782918304367589166}
   - component: {fileID: -4535449705276337598}
   - component: {fileID: -124232362165128427}
-  - component: {fileID: 909294229190683423}
   - component: {fileID: 7813026119700802540}
   - component: {fileID: 4387472940711686421}
   - component: {fileID: -3135587340706974650}
@@ -72,33 +71,6 @@ MonoBehaviour:
   intelligence: 10
   wisdom: 10
   charisma: 10
---- !u!114 &909294229190683423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9173158476050149741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 240123c1bc2907045a93062df032ea8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Scripts::SkillsProficiencyProvider
-  valuePairs:
-  - skill: 0
-    proficiency: 1
-  - skill: 2
-    proficiency: 1
-  - skill: 3
-    proficiency: 1
-  - skill: 5
-    proficiency: 1
-  - skill: 6
-    proficiency: 1
-  - skill: 7
-    proficiency: 1
-  - skill: 15
-    proficiency: 1
 --- !u!114 &7813026119700802540
 MonoBehaviour:
   m_ObjectHideFlags: 0

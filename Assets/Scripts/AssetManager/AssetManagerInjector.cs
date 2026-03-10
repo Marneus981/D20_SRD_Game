@@ -6,5 +6,6 @@ public static class AssetManagerInjector
         IEncounterAssetSystem.Register(new EncounterAssetSystem());
         IEntryAssetSystem.Register(new EntryAssetSystem());
         IAncestryAssetSystem.Register(new AncestryAssetSystem());
+        IBackgroundAssetSystem.Register(new BackgroundAssetSystem());
     }
 }

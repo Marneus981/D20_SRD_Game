@@ -62,6 +62,9 @@ public static class AncestryParser
         var asset = new GameObject(data.name);
         AddAncestry(asset, data);
 
+        var backgrounds = CommaSeparatedStrings(data.backgrounds);
+        asset.AddComponent<RandomBackgroundProvider>().names = backgrounds;
+
         var names = CommaSeparatedStrings(data.names);
         asset.AddComponent<RandomNameProvider>().names = names;
 

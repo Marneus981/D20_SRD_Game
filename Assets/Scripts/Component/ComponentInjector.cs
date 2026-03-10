@@ -21,5 +21,6 @@ public static class ComponentInjector
         IPartyOrderSystem.Register(new PartyOrderSystem());
         IRaritySystem.Register(new RaritySystem());
         IAncestrySystem.Register(new AncestrySystem());
+        IBackgroundSystem.Register(new BackgroundSystem());
     }
 }

@@ -1,0 +1,3120 @@
+{
+    "datas": [
+        {
+            "title": "Academy Dropout",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Arcana",
+                "Academia Lore"
+            ],
+            "feats": [
+                "Dubious Knowledge"
+            ],
+            "rarity": "Common",
+            "summary": "You were enrolled at a prestigious magical academy, but you've since dropped out. Maybe there was a momentous incident, maybe you had to return to …"
+        },
+        {
+            "title": "Acolyte",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Religion",
+                "Scribing Lore"
+            ],
+            "feats": [
+                "Student of the Canon"
+            ],
+            "rarity": "Common",
+            "summary": "You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or …"
+        },
+        {
+            "title": "Acrobat",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Acrobatics",
+                "Circus Lore"
+            ],
+            "feats": [
+                "Steady Balance"
+            ],
+            "rarity": "Common",
+            "summary": "In a circus or on the streets, you earned your pay by performing as an acrobat. You might have turned to adventuring when the money dried up, or …"
+        },
+        {
+            "title": "Alkenstar Outlaw",
+            "abilities": [
+                "Dexterity",
+                "Constitution"
+            ],
+            "skills": [
+                "Thievery",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Subtle Theft"
+            ],
+            "rarity": "Uncommon",
+            "summary": "You're an outlaw whose first crime was stealing the guns from Alkenstar's Gunworks which allowed you to commence a crime spree of epic proportions. …"
+        },
+        {
+            "title": "Alkenstar Sojourner",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Society",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Streetwise"
+            ],
+            "rarity": "Uncommon",
+            "summary": "You came to Alkenstar because you heard they had guns, but you stayed because of the atmosphere. Or the guns. Either way, journalism and scientific …"
+        },
+        {
+            "title": "Alloysmith",
+            "abilities": [
+                "Strength",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Plane of Metal Lore"
+            ],
+            "feats": [
+                "Specialty Crafting"
+            ],
+            "rarity": "Common",
+            "summary": "Blacksmithing might be an ancient profession, but you are its cutting edge. You've studied the properties of different metals, experimented with them …"
+        },
+        {
+            "title": "Amnesiac",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Your background is… well… honestly, you can’t remember! You might have inklings deep within your mind, undercurrents of unusual emotions or …"
+        },
+        {
+            "title": "Animal Whisperer",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Nature",
+                "Lore related to one terrain inhabited by animals you like (such as Plains Lore or Swamp Lore)."
+            ],
+            "feats": [
+                "Train Animal"
+            ],
+            "rarity": "Common",
+            "summary": "You have always felt a connection to animals, and it was only a small leap to learn to train them. As you travel, you continuously encounter …"
+        },
+        {
+            "title": "Anti-Magical",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Lore of your choice"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Magic has never worked quite right around you. Perhaps you have become a magic-user in spite of that, or perhaps you use your unique ability to fight …"
+        },
+        {
+            "title": "Anti-Tech Activist",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Intimidation",
+                "Guild Lore"
+            ],
+            "feats": [
+                "Group Coercion"
+            ],
+            "rarity": "Common",
+            "summary": "You've seen the sorts of things that technology brings— polluted environments, workers put out of their jobs or horribly injured, and the slow …"
+        },
+        {
+            "title": "Archaeologist",
+            "abilities": [
+                "Constitution",
+                "Intelligence"
+            ],
+            "skills": [
+                "Society",
+                "Architecture Lore"
+            ],
+            "feats": [
+                "Additional Lore"
+            ],
+            "rarity": "Common",
+            "summary": "You've excavated enough sites to know that ancient civilizations aren't lost; they're merely buried and waiting for the right scholar to unearth them …"
+        },
+        {
+            "title": "Artisan",
+            "abilities": [
+                "Strength",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Guild Lore"
+            ],
+            "feats": [
+                "Specialty Crafting"
+            ],
+            "rarity": "Common",
+            "summary": "As an apprentice, you practiced a particular form of building or crafting, developing specialized skill. You might have been a blacksmith’s …"
+        },
+        {
+            "title": "Artist",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Crafting",
+                "Art Lore"
+            ],
+            "feats": [
+                "Specialty Crafting"
+            ],
+            "rarity": "Common",
+            "summary": "Your art is your greatest passion, whatever form it takes. Adventuring might help you find inspiration, or simply be a way to survive until you …"
+        },
+        {
+            "title": "Astrologer",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Occultism",
+                "Astrology Lore"
+            ],
+            "feats": [
+                "Oddity Identification"
+            ],
+            "rarity": "Common",
+            "summary": "Astrologers look to the stars for signs and portents, using their positions to chart courses for those living beneath them. As the celestial spheres …"
+        },
+        {
+            "title": "Astrological Augur",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Astrology Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "During your formative years, you learned the stars are a gateway to mystical power or glimpses into the future. Perhaps you grew up surrounded by …"
+        },
+        {
+            "title": "Awful Scab",
+            "abilities": [
+                "Dexterity",
+                "Constitution"
+            ],
+            "skills": [
+                "Medicine",
+                "Fleshforged Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Prior to the Evisceration of 4707, the district of V'drysha was a lovely borough on the southern edge of Ecanus. Now, it's the Awful, a vast morass …"
+        },
+        {
+            "title": "Back-Alley Doctor",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Medicine",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Risky Surgery"
+            ],
+            "rarity": "Common",
+            "summary": "You're the medic many turn to when a more official clinic or healer might not be available. You may specialize in stitching up bullet wounds or have …"
+        },
+        {
+            "title": "Bandit",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Intimidation",
+                "Lore related to the terrain you worked in (such as Desert Lore or Plains Lore)."
+            ],
+            "feats": [
+                "Group Coercion"
+            ],
+            "rarity": "Common",
+            "summary": "Your past includes no small amount of rural banditry, robbing travelers on the road and scraping by. Whether your robbery was sanctioned by a local …"
+        },
+        {
+            "title": "Barber",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Medicine",
+                "Surgery Lore"
+            ],
+            "feats": [
+                "Risky Surgery"
+            ],
+            "rarity": "Common",
+            "summary": "Haircuts, dentistry, bloodletting, and surgery—if it takes a steady hand and a razor, you do it. You may have taken to the road to expand your …"
+        },
+        {
+            "title": "Barkeep",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Alcohol Lore"
+            ],
+            "feats": [
+                "Hobnobber"
+            ],
+            "rarity": "Common",
+            "summary": "You have five specialties: hefting barrels, drinking, polishing steins, drinking, and drinking. You worked in a bar, where you learned how to hold …"
+        },
+        {
+            "title": "Barrister",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Legal Lore"
+            ],
+            "feats": [
+                "Group Impression"
+            ],
+            "rarity": "Common",
+            "summary": "Piles of legal manuals, stern teachers, and experience in the courtroom have instructed you in legal matters. You’re capable of mounting a …"
+        },
+        {
+            "title": "Beast Blessed",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You once freed a magical beast from captivity and, whether it was intentional or a byproduct of another action, the grateful creature bestowed a …"
+        },
+        {
+            "title": "Blessed",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You have been blessed by a divinity. For an unknown reason, and irrespective of your actual beliefs, a deity has granted you a boon to use for good …"
+        },
+        {
+            "title": "Bookkeeper",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Society",
+                "Accounting Lore"
+            ],
+            "feats": [
+                "Eye for Numbers"
+            ],
+            "rarity": "Common",
+            "summary": "You ran the numbers on a large farm, for a merchant’s endeavors, or with a major guild in the city. You kept track of expenses, payroll, profits, and …"
+        },
+        {
+            "title": "Bounty Hunter",
+            "abilities": [
+                "Strength",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Legal Lore"
+            ],
+            "feats": [
+                "Experienced Tracker"
+            ],
+            "rarity": "Common",
+            "summary": "Bringing in lawbreakers lined your pockets. Maybe you had an altruistic motive and sought to bring in criminals to make the streets safer, or maybe …"
+        },
+        {
+            "title": "Cannoneer",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Athletics",
+                "Warfare Lore"
+            ],
+            "feats": [
+                "Hefty Hauler"
+            ],
+            "rarity": "Common",
+            "summary": "You served as a crewmate aboard a military vessel or pirate ship and were responsible for the use and maintenance of the ship's cannons. A strong …"
+        },
+        {
+            "title": "Charlatan",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Deception",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Charming Liar"
+            ],
+            "rarity": "Common",
+            "summary": "You traveled from place to place, peddling false fortunes and snake oil in one town, pretending to be royalty in exile to seduce a wealthy heir in …"
+        },
+        {
+            "title": "Child of the Twin Village",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Dreamlands Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You were born in a village where everyone has a twin with a special link. You have moved to the wider world for reasons of your own, but you still …"
+        },
+        {
+            "title": "Chosen One",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Fortune-Teller Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Your birth has fulfilled a prediction, and people close to you are counting on you to do great things. There's intense pressure on you to be up to …"
+        },
+        {
+            "title": "Circuit Judge",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Deception",
+                "Legal Lore"
+            ],
+            "feats": [
+                "Lie to Me"
+            ],
+            "rarity": "Uncommon",
+            "summary": "You're a circuit judge, a courtroom on horseback who serves a group of communities out in the Mana Wastes or a similar backwoods region. You show up …"
+        },
+        {
+            "title": "Clockfighter",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Crafting",
+                "Gladiatorial Lore"
+            ],
+            "feats": [
+                "Experienced Professional"
+            ],
+            "rarity": "Common",
+            "summary": "While others choose to use their engineering ability to heal the injured or make brilliant innovations, you've used your skill to repair and modify …"
+        },
+        {
+            "title": "Clockwork Researcher",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Society",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Eye for Numbers"
+            ],
+            "rarity": "Common",
+            "summary": "New forms of clockwork technology are incredibly interesting to you, and you've been studying examples of them to see where else they might be best …"
+        },
+        {
+            "title": "Close Ties",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Tea Lore"
+            ],
+            "feats": [
+                "Specialty Crafting"
+            ],
+            "rarity": "Rare",
+            "summary": "You've forged a close friendship with one of Willowshore's notable citizens, and you have a long tradition of sharing tea with each other while …"
+        },
+        {
+            "title": "Codebreaker",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Society",
+                "Cryptography Lore"
+            ],
+            "feats": [
+                "Glean Contents"
+            ],
+            "rarity": "Common",
+            "summary": "Whether you're employed by a military organization to decipher coded messages sent by enemy factions or work independently to crack an enigma created …"
+        },
+        {
+            "title": "Concordance Researcher",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Uncommon",
+            "summary": "Tasked by the Concordance of Elements to research a variety of enigmatic planar phenomena, you've acquired very specific knowledge about the planes …"
+        },
+        {
+            "title": "Concordance Scout",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy"
+            ],
+            "feats": [
+                "Hobnobber"
+            ],
+            "rarity": "Uncommon",
+            "summary": "You were hired by the Concordance of Elements to seek out rumors of planar breaches or other evidence of planar imbalances. After reporting back to …"
+        },
+        {
+            "title": "Cook",
+            "abilities": [
+                "Constitution",
+                "Intelligence"
+            ],
+            "skills": [
+                "Survival",
+                "Cooking Lore"
+            ],
+            "feats": [
+                "Seasoned"
+            ],
+            "rarity": "Common",
+            "summary": "You grew up in the kitchens of a tavern or other dining establishment and excelled there, becoming an exceptional cook. Baking, cooking, a little …"
+        },
+        {
+            "title": "Courier",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Society",
+                "Lore for the city in which you were raised."
+            ],
+            "feats": [
+                "Glean Contents"
+            ],
+            "rarity": "Common",
+            "summary": "In your youth, you earned coin running messages for persons of wealth and influence, darting through crowded cobblestone streets. Your dogged …"
+        },
+        {
+            "title": "Criminal",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Stealth",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Experienced Smuggler"
+            ],
+            "rarity": "Common",
+            "summary": "As an unscrupulous independent or as a member of an underworld organization, you lived a life of crime. You might have become an adventurer to seek …"
+        },
+        {
+            "title": "Crystal Healer",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Nature",
+                "Plane of Earth Lore"
+            ],
+            "feats": [
+                "Natural Medicine"
+            ],
+            "rarity": "Common",
+            "summary": "Mineral formations can be beautiful things, sparkling and arrayed in geometric configurations. To you, they are also potent natural healing aids. You …"
+        },
+        {
+            "title": "Cultist",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Occultism",
+                "Lore related to your deity or cult."
+            ],
+            "feats": [
+                "Schooled in Secrets"
+            ],
+            "rarity": "Common",
+            "summary": "You were (or still are) a member of a cult whose rites may involve sacred dances to ensure a strong harvest or dire rituals that call upon dark …"
+        },
+        {
+            "title": "Curandero",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Medicine",
+                "Herbalism Lore"
+            ],
+            "feats": [
+                "Inoculation"
+            ],
+            "rarity": "Common",
+            "summary": "You learned the healing arts of your community wielding your ceremonial chonta, a tool you carved yourself and imbued with sacred oils and herbs. …"
+        },
+        {
+            "title": "Cursed",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You are the victim of a personal or hereditary curse. Through great effort and occult study, you have learned to fend off the curse's worst effects …"
+        },
+        {
+            "title": "Dauntless",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "As a child, you chose to face each of your deepest fears and, time and again, emerged victorious. You have learned to conquer fear itself, and by …"
+        },
+        {
+            "title": "Deckhand",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Acrobatics",
+                "Sailing Lore"
+            ],
+            "feats": [
+                "Cat Fall"
+            ],
+            "rarity": "Common",
+            "summary": "The rolling waves of the high seas, the constant sway of the deck underfoot, and the creaking heights of a ship's rigging are as familiar to you as …"
+        },
+        {
+            "title": "Deep-Sea Diver",
+            "abilities": [
+                "Strength",
+                "Wisdom"
+            ],
+            "skills": [
+                "Athletics",
+                "Plane of Water Lore"
+            ],
+            "feats": [
+                "Underwater Marauder"
+            ],
+            "rarity": "Common",
+            "summary": "The sapphire depths of the seas and the mysteries they hold beneath their surface have always piqued your interest. Your obsession with the ocean …"
+        },
+        {
+            "title": "Dendrologist",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Plane of Wood Lore"
+            ],
+            "feats": [
+                "Terrain Expertise"
+            ],
+            "rarity": "Common",
+            "summary": "Trees grow in every biome, and your awe at their ability to conquer terrain has inspired deeper study into their workings. There are trees …"
+        },
+        {
+            "title": "Deputy",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Hunting Lore"
+            ],
+            "feats": [
+                "Experienced Tracker"
+            ],
+            "rarity": "Common",
+            "summary": "While your life may have taken some twists and turns in the intervening years, you were once deputized as the lawful protector of a community. While …"
+        },
+        {
+            "title": "Detective",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Society",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Streetwise"
+            ],
+            "rarity": "Common",
+            "summary": "You solved crimes as a police inspector or took jobs for wealthy clients as a private investigator. You might have become an adventurer as part of …"
+        },
+        {
+            "title": "Discarded Duplicate",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Someone created you for a specific purpose. Some important person, be they a storied royal, a contentious politician, or a stark military leader, …"
+        },
+        {
+            "title": "Disciple of the Gear",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Crafting",
+                "Lore for the deity you worship."
+            ],
+            "feats": [
+                "Quick Repair"
+            ],
+            "rarity": "Common",
+            "summary": "While many regard science and faith as incompatible, you believe scientific advancement is your deity's will. Perhaps you're a follower of Brigh , …"
+        },
+        {
+            "title": "Doomcaller",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Occultism",
+                "Star Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "In the stars you see not guidance or wisdom but a twinkling door to the impending end of all things. You might have been raised in this ideology, …"
+        },
+        {
+            "title": "Dreamer of the Verdant Moon",
+            "abilities": [
+                "Strength",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Zevgavizeb Lore"
+            ],
+            "feats": [
+                "Ravening's Desperation"
+            ],
+            "rarity": "Uncommon",
+            "summary": "You spent your early days in the aftermath of one of the great ravenings. You survived thanks to your resourcefulness and perhaps your patron’s …"
+        },
+        {
+            "title": "Driver",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Acrobatics",
+                "Piloting Lore"
+            ],
+            "feats": [
+                "Assurance"
+            ],
+            "rarity": "Common",
+            "summary": "You practically live behind the controls of a vehicle, and can handle just about anything the road, waves, and sky can throw at you. You likely …"
+        },
+        {
+            "title": "Droskari Disciple",
+            "abilities": [
+                "Constitution",
+                "Intelligence"
+            ],
+            "skills": [
+                "Lore",
+                "Droskar Lore"
+            ],
+            "feats": [
+                "Skill Training"
+            ],
+            "rarity": "Common",
+            "summary": "You grew up in the church of the Dark Smith, where you learned the value of hard work and achieving vocational mastery."
+        },
+        {
+            "title": "Eclipseborn",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You were born at the exact moment of a solar or lunar eclipse. At the eclipse's junction, or not long after, a catastrophe fell upon the area of your …"
+        },
+        {
+            "title": "Eidolon Contact",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Lore for the creature associated with your contacted eidolon (such as Angel Lore or Dragon Lore)."
+            ],
+            "feats": [
+                "Dubious Knowledge"
+            ],
+            "rarity": "Common",
+            "summary": "You've come into contact with a disembodied being of magical essence known as an eidolon . You might have forged a powerful conduit with that …"
+        },
+        {
+            "title": "Elementally Infused",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You were exposed to a strong burst of elemental essence originating directly from an elemental plane, most likely caused by a planar breach. Your …"
+        },
+        {
+            "title": "Emissary",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Society",
+                "Lore related to one city you've visited often."
+            ],
+            "feats": [
+                "Multilingual"
+            ],
+            "rarity": "Common",
+            "summary": "As a diplomat or messenger, you traveled to lands far and wide. Communicating with new people and forming alliances were your stock and trade."
+        },
+        {
+            "title": "Empty Whispers",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Occultism",
+                "Planar Rift Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You knew someone once, and now you know only a life stitched together and healed over, nary even a scar remaining. You hear voices of souls that have …"
+        },
+        {
+            "title": "Energy Scarred",
+            "abilities": [
+                "Constitution"
+            ],
+            "skills": [
+                "Lore associated with the chosen energy (such as Fire Lore)"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Exposure to a significant magical event overloaded you with magical energy. Perhaps you were exposed to dangerous levels of magical energy that left …"
+        },
+        {
+            "title": "Entertainer",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance",
+                "Theater Lore"
+            ],
+            "feats": [
+                "Fascinating Performance"
+            ],
+            "rarity": "Common",
+            "summary": "Through an education in the arts or sheer dogged practice, you learned to entertain crowds. You might have been an actor, a dancer, a musician, a …"
+        },
+        {
+            "title": "False Medium",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Occultism",
+                "Fortune-Telling Lore"
+            ],
+            "feats": [
+                "Deceptive Worship"
+            ],
+            "rarity": "Common",
+            "summary": "There are people in this world who possess the ability to pierce the veil between the world of the living and the world of the dead, allowing them to …"
+        },
+        {
+            "title": "Farmhand",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Athletics",
+                "Farming Lore"
+            ],
+            "feats": [
+                "Assurance"
+            ],
+            "rarity": "Common",
+            "summary": "With a strong back and an understanding of seasonal cycles, you tilled the land and tended crops. Your farm could have been razed by invaders, you …"
+        },
+        {
+            "title": "Farmsteader",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Farming Lore"
+            ],
+            "feats": [
+                "Forager"
+            ],
+            "rarity": "Common",
+            "summary": "You built your house using wood from the trees surrounding it. Raised it up from the dirt and called it home. You thought that it would be where you …"
+        },
+        {
+            "title": "Feral Child",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You spent your youth in the wilderness, living close to or perhaps raised by animals. You have a close, mystical connection with these animals and …"
+        },
+        {
+            "title": "Feybound",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You have spent time in the First World or another realm of the fey and aren't entirely the same person you were before. Perhaps you made a purchase …"
+        },
+        {
+            "title": "Field Medic",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Medicine",
+                "Warfare Lore"
+            ],
+            "feats": [
+                "Battle Medicine"
+            ],
+            "rarity": "Common",
+            "summary": "In the chaotic rush of battle, you learned to adapt to rapidly changing conditions as you administered to battle casualties. You patched up soldiers, …"
+        },
+        {
+            "title": "Fightbreaker",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Lore for the city or settlement you lined in when you became a Fightbreaker"
+            ],
+            "feats": [
+                "Group Impression"
+            ],
+            "rarity": "Common",
+            "summary": "You have a knack for picking up on simmering tensions and calming frayed nerves. You rely on your intuition to discern how and when violence is …"
+        },
+        {
+            "title": "Fire Warden",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Athletics",
+                "Plane of Fire Lore"
+            ],
+            "feats": [
+                "Breath Control"
+            ],
+            "rarity": "Common",
+            "summary": "Whether you fought against fires in the wilderness or in crowded city streets, you've had your fair share of dealing with uncontrolled flames. …"
+        },
+        {
+            "title": "Firebrand Follower",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Athletics or Performance",
+                "Firebrand Lore"
+            ],
+            "feats": [
+                "Assurance"
+            ],
+            "rarity": "Common",
+            "summary": "You were once rescued or liberated from a hopeless situation by a group of Firebrands, and you have since aspired to become a Firebrand to continue …"
+        },
+        {
+            "title": "Fireworks Performer",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Fascinating Performance"
+            ],
+            "rarity": "Common",
+            "summary": "Few celebrations in Tian-Xia are complete without a show of fireworks, and your job is to make sure they go off without a hitch. You load the …"
+        },
+        {
+            "title": "Folklore Enthusiast",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Religion",
+                "Art Lore"
+            ],
+            "feats": [
+                "Oddity Identification"
+            ],
+            "rarity": "Rare",
+            "summary": "Willowshore is a small town in a rural part of Shenmen, but that doesn't exempt it from the world of the strange and unexplained. There are plenty of …"
+        },
+        {
+            "title": "Fortune Teller",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Occultism",
+                "Fortune-Telling Lore"
+            ],
+            "feats": [
+                "Oddity Identification"
+            ],
+            "rarity": "Common",
+            "summary": "The strands of fate are clear to you, as you have learned many traditional forms by which laypeople can divine the future. You might have used these …"
+        },
+        {
+            "title": "Free Spirit",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Survival",
+                "Lore for a specific settlement or terrain you have traveled through."
+            ],
+            "feats": [
+                "Forager"
+            ],
+            "rarity": "Common",
+            "summary": "You've always lived your life straying from the path laid before you. Like a leaf blowing in the wind, your journey takes you where it will, …"
+        },
+        {
+            "title": "Gambler",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Deception",
+                "Games Lore"
+            ],
+            "feats": [
+                "Lie to Me"
+            ],
+            "rarity": "Common",
+            "summary": "The thrill of the win drew you into games of chance. This might have been a lucrative sideline that paled in comparison to the real risks of …"
+        },
+        {
+            "title": "Genie-Blessed",
+            "abilities": [
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Genie Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You've sought out a powerful genie and requested their blessing, hoping to increase your fortune. Your wish was vague, but fortune and the genie …"
+        },
+        {
+            "title": "Gladiator",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance",
+                "Gladiatorial Lore"
+            ],
+            "feats": [
+                "Impressive Performance"
+            ],
+            "rarity": "Common",
+            "summary": "The bloody games of the arena taught you the art of combat. Before you attained true fame, you departed—or escaped—the arena to explore the world. …"
+        },
+        {
+            "title": "Goldhand Arms Dealer",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Mercantile Lore"
+            ],
+            "feats": [
+                "Group Impression"
+            ],
+            "rarity": "Uncommon",
+            "summary": "You're a dwarven agent of the Goldhand Lodge, a collection of dwarven merchants based out of Dongun Hold who seeks to sell guns far and wide. High …"
+        },
+        {
+            "title": "Grave Robber",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Stealth",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Experienced Smuggler"
+            ],
+            "rarity": "Common",
+            "summary": "Resurrectionist. Body snatcher. No matter what you're called, you know where the bodies are buried, and how many coins they'll fetch when dug up. …"
+        },
+        {
+            "title": "Guard",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Intimidation",
+                "Legal Lore or Warfare Lore skill."
+            ],
+            "feats": [
+                "Quick Coercion"
+            ],
+            "rarity": "Common",
+            "summary": "You served in the guard, out of either patriotism or the need for coin. Either way, you know how to get a difficult suspect to talk. However you left …"
+        },
+        {
+            "title": "Gunsmith",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Quick Repair"
+            ],
+            "rarity": "Common",
+            "summary": "From a young age, you apprenticed to an experienced gunsmith and over time your skill and knowledge rose to match that of your master. Today, you can …"
+        },
+        {
+            "title": "Harrow-Chosen",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Unbeknownst to you, a powerful divination has confirmed that you're destined for greatness. This divination hints at a great potential you're only …"
+        },
+        {
+            "title": "Harrow-Led",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                "Harrow Lore"
+            ],
+            "feats": [
+                "Dubious Knowledge"
+            ],
+            "rarity": "Common",
+            "summary": "You were the subject of a harrow reading at a pivotal point in your life, such as on an important birthday, or upon reaching adulthood. The reading …"
+        },
+        {
+            "title": "Haunted",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You are followed by a spirit or entity, either from childhood or since a traumatic or momentous event. You may have seen this entity. Others may have …"
+        },
+        {
+            "title": "Haunted Citizen",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Lore for your home settlement."
+            ],
+            "feats": [
+                "No Cause for Alarm"
+            ],
+            "rarity": "Common",
+            "summary": "You grew up in a region where undead lurk everywhere. This could be a domain as small as a vampire's fief or as vast as the nation of Ustalav. As an …"
+        },
+        {
+            "title": "Herbalist",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Nature",
+                "Herbalism Lore"
+            ],
+            "feats": [
+                "Natural Medicine"
+            ],
+            "rarity": "Common",
+            "summary": "As a formally trained apothecary or a rural practitioner of folk medicine, you learned the healing properties of various herbs. You’re adept at …"
+        },
+        {
+            "title": "Hermit",
+            "abilities": [
+                "Constitution",
+                "Intelligence"
+            ],
+            "skills": [
+                "Nature or Occultism",
+                "Lore related to the terrain you lived in as a hermit (such as Cave Lore or Desert Lore)."
+            ],
+            "feats": [
+                "Dubious Knowledge"
+            ],
+            "rarity": "Common",
+            "summary": "In an isolated place—like a cave, remote oasis, or secluded mansion—you lived a life of solitude. Adventuring might represent your first foray out …"
+        },
+        {
+            "title": "Highborn Snoop",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Society",
+                "Guild Lore"
+            ],
+            "feats": [
+                "Courtly Graces"
+            ],
+            "rarity": "Common",
+            "summary": "The machinations and scheming of King's Crown have trained you to be on the lookout for those who seem out of place. You've learned to spot when the …"
+        },
+        {
+            "title": "Hired Killer",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Stealth",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Terrain Stalker"
+            ],
+            "rarity": "Common",
+            "summary": "Your life truly began after your first kill. Maybe you killed in self-defense, maybe it was a crime of passion, or maybe it was just an accident and …"
+        },
+        {
+            "title": "Hookclaw Digger",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Crafting",
+                "Mining Lore and the Engineering Lore skill."
+            ],
+            "feats": [
+                "Improvise Tool"
+            ],
+            "rarity": "Rare",
+            "summary": "You are a digger from the Hookclaw kobold tribe, born beneath the streets of Absalom, with muscles and mind hardened by years spent tunneling through …"
+        },
+        {
+            "title": "Hounded Thief",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Thievery",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Pickpocket"
+            ],
+            "rarity": "Common",
+            "summary": "Some time ago, you stole a unique item from a strange individual. It might have been a piece of clockwork from a far-off land or some other bit of …"
+        },
+        {
+            "title": "Hunter",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Tanning Lore"
+            ],
+            "feats": [
+                "Survey Wildlife"
+            ],
+            "rarity": "Common",
+            "summary": "You stalked and took down animals and other creatures of the wild. Skinning animals, harvesting their flesh, and cooking them were also part of your …"
+        },
+        {
+            "title": "Insurgent",
+            "abilities": [
+                "Strength",
+                "Wisdom"
+            ],
+            "skills": [
+                "Deception",
+                "Warfare Lore"
+            ],
+            "feats": [
+                "Lengthy Diversion"
+            ],
+            "rarity": "Common",
+            "summary": "You were more than a rebel; you were a revolutionary, fighting for the promise of a new or better country. You may or may not still believe in the …"
+        },
+        {
+            "title": "Junk Collector",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Engineering Lore or Mining Lore skill."
+            ],
+            "feats": [
+                "Crafter's Appraisal"
+            ],
+            "rarity": "Common",
+            "summary": "You live by the adage that one person's trash is another's treasure. Whether by sifting through scrap heaps or digging up old battlefields, you …"
+        },
+        {
+            "title": "Junker",
+            "abilities": [
+                "Strength",
+                "Wisdom"
+            ],
+            "skills": [
+                "Athletics",
+                "Lore of the terrain in which you scavenge."
+            ],
+            "feats": [
+                "Hefty Hauler"
+            ],
+            "rarity": "Common",
+            "summary": "You live on the outskirts of civilization, combing through the detritus left behind for interesting trinkets to sell or use in your own crafting. …"
+        },
+        {
+            "title": "Laborer",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Athletics",
+                "Labor Lore"
+            ],
+            "feats": [
+                "Hefty Hauler"
+            ],
+            "rarity": "Common",
+            "summary": "You’ve spent years performing arduous physical labor. It was a difficult life, but you somehow survived. You may have embraced adventuring as an …"
+        },
+        {
+            "title": "Legacy of the Hammer",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Thievery",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Concealing Legerdemain"
+            ],
+            "rarity": "Uncommon",
+            "summary": "Your introduction to the criminal life was spurred forward by a seemingly innocuous hammer that provided you with all kinds of innovative criminal …"
+        },
+        {
+            "title": "Magical Experiment",
+            "abilities": [
+                "Constitution"
+            ],
+            "skills": [
+                "Occultism",
+                "Academia Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "At some point in your life, powerful people performed magical experiments on you that changed you permanently. You may have signed up for this …"
+        },
+        {
+            "title": "Magical Merchant",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Crafting",
+                "Mercantile Lore"
+            ],
+            "feats": [
+                "Crafter's Appraisal"
+            ],
+            "rarity": "Common",
+            "summary": "Selling magic items isn't like being an ordinary merchant. The wares you buy and sell are expensive, making each sale rare and lucrative. You've …"
+        },
+        {
+            "title": "Magical Misfit",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Arcana",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Trick Magic Item"
+            ],
+            "rarity": "Common",
+            "summary": "You don't understand folks who claim that magical talent is some sort of burden or great responsibility; you've always used your magic to cause …"
+        },
+        {
+            "title": "Martial Disciple",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Acrobatics or Athletics",
+                "Warfare Lore"
+            ],
+            "feats": [
+                "Cat Fall",
+                "Quick Jump"
+            ],
+            "rarity": "Common",
+            "summary": "You dedicated yourself to intense training and rigorous study to become a great warrior. The school you attended might have been a traditionalist …"
+        },
+        {
+            "title": "Mechanic",
+            "abilities": [
+                "Strength",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Quick Repair"
+            ],
+            "rarity": "Common",
+            "summary": "The intricate inner workings of machines are no stranger to you. Whether they are mundane devices or complex clockworks, you know what makes them …"
+        },
+        {
+            "title": "Mechanical Symbiosis",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Arcana"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Whether you purposefully took it on or had it thrust upon you, a bronze, clockwork object latched onto some part of your body. It may have sunk its …"
+        },
+        {
+            "title": "Medicinal Clocksmith",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Medicine",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Risky Surgery"
+            ],
+            "rarity": "Common",
+            "summary": "While others might have looked to clockwork as a mechanical innovation, you see the potential in the technology to improve the health of patients. …"
+        },
+        {
+            "title": "Merchant",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Mercantile Lore"
+            ],
+            "feats": [
+                "Bargain Hunter"
+            ],
+            "rarity": "Common",
+            "summary": "In a dusty shop, market stall, or merchant caravan, you bartered wares for coin and trade goods. The skills you picked up still apply in the …"
+        },
+        {
+            "title": "Miner",
+            "abilities": [
+                "Strength",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Mining Lore"
+            ],
+            "feats": [
+                "Terrain Expertise"
+            ],
+            "rarity": "Common",
+            "summary": "You earned a living wrenching precious minerals from the lightless depths of the earth. Adventuring might have seemed lucrative or glamorous compared …"
+        },
+        {
+            "title": "Musical Prodigy",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance",
+                "Music Lore"
+            ],
+            "feats": [
+                "Virtuosic Performer"
+            ],
+            "rarity": "Common",
+            "summary": "Ever since you were young, you've been almost supernaturally skilled in a particular type of music. The people around you were sure you'd grow up to …"
+        },
+        {
+            "title": "Mystic Tutor",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Arcana or Occultism",
+                "Academia Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You spent years predicting, identifying, and harnessing the innate magical talents of those around you. A magic-rich world has taught you that you …"
+        },
+        {
+            "title": "Necromancer's Apprentice",
+            "abilities": [
+                "Constitution",
+                "Intelligence"
+            ],
+            "skills": [
+                "Arcana",
+                "Necromancy Lore"
+            ],
+            "feats": [
+                "Quick Identification"
+            ],
+            "rarity": "Common",
+            "summary": "You apprenticed under a necromancer—a hard education in a field where a cadaver you were dissecting could suddenly animate and every magical artifact …"
+        },
+        {
+            "title": "Night Watch",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Intimidation",
+                "Legal Lore"
+            ],
+            "feats": [
+                "Quick Coercion"
+            ],
+            "rarity": "Common",
+            "summary": "When everyone else slumbers, you're on guard. You might have been a watch member in a teeming metropolis, the guard in an unquiet cemetery, or a …"
+        },
+        {
+            "title": "Noble",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Society",
+                "Genealogy Lore or Heraldry Lore skill."
+            ],
+            "feats": [
+                "Courtly Graces"
+            ],
+            "rarity": "Common",
+            "summary": "To the common folk, the life of a noble seems one of idyllic luxury, but growing up as a noble or member of the aspiring gentry, you know the …"
+        },
+        {
+            "title": "Nocturnal Navigator",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You have a great affinity for the night skies. You watch the stars, and you feel they speak secret messages specifically to you, which help you …"
+        },
+        {
+            "title": "Nomad",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Lore related to one terrain you traveled in (such as Desert Lore or Swamp Lore)."
+            ],
+            "feats": [
+                "Assurance"
+            ],
+            "rarity": "Common",
+            "summary": "Traveling far and wide, you picked up basic tactics for surviving on the road and in unknown lands, getting by with few supplies and even fewer …"
+        },
+        {
+            "title": "Northridge Scholar",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Society",
+                "Academia Lore"
+            ],
+            "feats": [
+                "Additional Lore"
+            ],
+            "rarity": "Rare",
+            "summary": "The political faction of Northridge is focused on modern pragmatism and urban growth. While there are certainly those in this faction who regard …"
+        },
+        {
+            "title": "Occult Librarian",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Occultism",
+                "Academia Lore"
+            ],
+            "feats": [
+                "Schooled in Secrets"
+            ],
+            "rarity": "Common",
+            "summary": "Hours spent reading numerous compendiums dedicated to various occult topics honed your knowledge of these more obscure magical arts. You might have …"
+        },
+        {
+            "title": "Once Bitten",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Medicine",
+                "Undead Lore"
+            ],
+            "feats": [
+                "Battle Medicine"
+            ],
+            "rarity": "Common",
+            "summary": "After an altercation with an undead creature, you feared you might be infected. Either through medical intervention, luck, or misunderstanding how …"
+        },
+        {
+            "title": "Osprey Barnraiser",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Nature",
+                "Architecture Lore"
+            ],
+            "feats": [
+                "Natural Medicine"
+            ],
+            "rarity": "Rare",
+            "summary": "A person cannot live on fish alone, which is why you work with Elder Bo'Mel on her farm. Elder Ordwi asked you to accompany her to Iron Harbor …"
+        },
+        {
+            "title": "Osprey Fisher",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Crafting",
+                "Sailing Lore"
+            ],
+            "feats": [
+                "Quick Repair"
+            ],
+            "rarity": "Rare",
+            "summary": "Fishing is Osprey Cove's number one profession, and you've apprenticed under the best of them: Elder Anlorgog. You're also a keen study of boats and …"
+        },
+        {
+            "title": "Osprey Scion",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Xin-Edasseril Lore"
+            ],
+            "feats": [
+                "Hobnobber"
+            ],
+            "rarity": "Rare",
+            "summary": "You are the birth or adopted child of one of the five elders of Osprey Cove, and your parent or guardian volunteers you to accompany Elder Ordwi on …"
+        },
+        {
+            "title": "Osprey Scout",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Scouting Lore"
+            ],
+            "feats": [
+                "Experienced Tracker"
+            ],
+            "rarity": "Rare",
+            "summary": "Though Osprey Cove is a quiet village, you've scouted the wilderness inland, watching for any dangerous wildlife or creatures in order to keep it …"
+        },
+        {
+            "title": "Osprey Scribe",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Society",
+                "Demon Lore"
+            ],
+            "feats": [
+                "Streetwise"
+            ],
+            "rarity": "Rare",
+            "summary": "Either as a punishment or because of political ambition, you work for Elder Vandous. On her trip to Iron Harbor, Elder Ordwi needs someone at her …"
+        },
+        {
+            "title": "Osprey Spellcaster",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Acrobatics"
+            ],
+            "feats": [
+                "Quick Identification"
+            ],
+            "rarity": "Rare",
+            "summary": "Whether by instinct or study, magic is one of your most notable talents. Your understanding of the traditions of ancient Thassilon has helped you …"
+        },
+        {
+            "title": "Osprey Warrior",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Athletics",
+                "Gorum Lore"
+            ],
+            "feats": [
+                "Hefty Hauler"
+            ],
+            "rarity": "Rare",
+            "summary": "You'd always been the most athletic child of your play group, leading the other children in games of skill and strategy. As an adult, there are few …"
+        },
+        {
+            "title": "Otherworldly Mission",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Religion"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You're called to serve a specific purpose—your deity told you so, and so it must be true. Maybe you grew up knowing all along, or maybe it came to …"
+        },
+        {
+            "title": "Outrider",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Nature",
+                "Plains Lore"
+            ],
+            "feats": [
+                "Express Rider"
+            ],
+            "rarity": "Common",
+            "summary": "In your youth, you galloped on horseback over vast prairies, serving as a vanguard for your settlement, an army, or another group. Seeing so many …"
+        },
+        {
+            "title": "Outskirt Dweller",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Nature",
+                "Hunting Lore"
+            ],
+            "feats": [
+                "Terrain Expertise"
+            ],
+            "rarity": "Rare",
+            "summary": "While Willowshore is a lovely small town, even a population of 200 is a bit much for you. Whether you grew up in the town's outskirts, or you grew …"
+        },
+        {
+            "title": "Ozem Experience",
+            "abilities": [
+                "Strength",
+                "Intelligence"
+            ],
+            "skills": [
+                "Society",
+                "Warfare Lore"
+            ],
+            "feats": [
+                "Courtly Graces"
+            ],
+            "rarity": "Common",
+            "summary": "You or someone close to you worked with the Knights of Ozem before Lastwall fell. In addition to knowledge of the organization's tenets and goals, …"
+        },
+        {
+            "title": "Pathfinder Recruiter",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Lore related to one city you've visited often."
+            ],
+            "feats": [
+                "Group Impression"
+            ],
+            "rarity": "Common",
+            "summary": "The Pathfinder Society's always on the lookout for talent, but that talent rarely just stumbles into the Grand Lodge. Whether you're professionally …"
+        },
+        {
+            "title": "Pilgrim",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Religion",
+                "Lore for your patron deity."
+            ],
+            "feats": [
+                "Pilgrim's Token"
+            ],
+            "rarity": "Common",
+            "summary": "In your youth, you made several pilgrimages to important shrines and holy sites. You might have been a mendicant friar, a seller of holy relics (real …"
+        },
+        {
+            "title": "Pillar",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Labor Lore"
+            ],
+            "feats": [
+                "Additional Lore"
+            ],
+            "rarity": "Common",
+            "summary": "Not every Knight of Lastwall contributes to the crusade through combat. Pillars provide essential upkeep and service at camps, enjoying the same rank …"
+        },
+        {
+            "title": "Planar Migrant",
+            "abilities": [
+                "Dexterity",
+                "Constitution"
+            ],
+            "skills": [
+                "Athletics"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Your birthplace was on one of the elemental planes, but you traveled to the Universe for some reason. Maybe you left on good terms, or maybe you were …"
+        },
+        {
+            "title": "Plant Whisperer",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Nature",
+                "Plant Lore"
+            ],
+            "feats": [
+                "Natural Medicine"
+            ],
+            "rarity": "Common",
+            "summary": "You've always had a green thumb, allowing you to care for plants that others found too difficult to grow and tend with a skill that borders on the …"
+        },
+        {
+            "title": "Press-Ganged (G&G)",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Athletics",
+                "Labor Lore"
+            ],
+            "feats": [
+                "Armor Assist"
+            ],
+            "rarity": "Uncommon",
+            "summary": "Was it five shots or six? It doesn't really matter in the end, because after those nice folks bought all your drinks, you woke up on the lowest rung …"
+        },
+        {
+            "title": "Printer",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Society",
+                "Scribing Lore"
+            ],
+            "feats": [
+                "Multilingual"
+            ],
+            "rarity": "Common",
+            "summary": "Keeping your finger on the pulse of the city, you write a small news broadsheet to sell on street corners. You rent the use of a printing press to …"
+        },
+        {
+            "title": "Prisoner",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Stealth",
+                "Underworld Lore"
+            ],
+            "feats": [
+                "Experienced Smuggler"
+            ],
+            "rarity": "Common",
+            "summary": "You might have been imprisoned for crimes (whether you were guilty or not), or enslaved for some part of your upbringing. In your adventuring life, …"
+        },
+        {
+            "title": "Pyre Tender",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Funeral Lore"
+            ],
+            "feats": [
+                "Alchemical Crafting"
+            ],
+            "rarity": "Common",
+            "summary": "You're experienced at building funeral pyres. You might have lit flaming biers in the Land of the Linnorm Kings, tended the cremation pits of Cheliax …"
+        },
+        {
+            "title": "Quick Refugee",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Stealth",
+                "Undead Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "The living residents of Geb are known as the quick, and is not, overall, a very pleasant thing to be. While some of the quick choose to make their …"
+        },
+        {
+            "title": "Raised by Belief",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                "Lore skill with a subcategory associated with your deity (Abadar Lore",
+                "for instance)."
+            ],
+            "feats": [
+                "Assurance"
+            ],
+            "rarity": "Common",
+            "summary": "Whether in a monastery, a religious household, or just as part of your everyday life, your upbringing was steeped in the traditions of a faith or …"
+        },
+        {
+            "title": "Reborn Soul",
+            "abilities": [
+                "Constitution",
+                "Intelligence"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You were given a second opportunity at life by mysterious forces in the Lands of Second Souls. You remember your life before your death and now live …"
+        },
+        {
+            "title": "Reclaimed",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Intimidation",
+                "Crimson Reclaimers Lore"
+            ],
+            "feats": [
+                "Group Coercion"
+            ],
+            "rarity": "Common",
+            "summary": "A unit of Crimson Reclaimers saved you from certain death in the Gravelands. You spent time with one or more Crimson Reclaimers as they escorted you …"
+        },
+        {
+            "title": "Reclaimed Investigator",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Occultism",
+                "Crimson Reclaimers Lore"
+            ],
+            "feats": [
+                "Oddity Identification"
+            ],
+            "rarity": "Common",
+            "summary": "You believe the mysterious patron of the Crimson Reclaimers has an ulterior motive that bedevils the Knights of Lastwall. Whatever the organization …"
+        },
+        {
+            "title": "Refugee",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Society",
+                "Lore related to the settlement you came from."
+            ],
+            "feats": [
+                "Streetwise"
+            ],
+            "rarity": "Common",
+            "summary": "You come from a land very distant from the one you now find yourself in, driven by war, plague, or simply in the pursuit of opportunity. Regardless …"
+        },
+        {
+            "title": "Relentless Dedication",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Warfare Lore"
+            ],
+            "feats": [
+                "Canny Acumen"
+            ],
+            "rarity": "Rare",
+            "summary": "Recruiters invite many candidates like you to train to be Knights of Lastwall, but only a select few make the cut. Whereas others lose heart, your …"
+        },
+        {
+            "title": "Returned",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You died and miraculously returned with knowledge of the realms beyond death and a stronger link to life. Some dead and undead souls might feel a …"
+        },
+        {
+            "title": "Revenant",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Religion",
+                "Boneyard Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You died. No real doubt about that. Bullet to the brain or knife to the throat, you were dead as dead can be. Then you got back up again. Maybe you …"
+        },
+        {
+            "title": "Root Worker",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Occultism",
+                "Herbalism Lore"
+            ],
+            "feats": [
+                "Root Magic"
+            ],
+            "rarity": "Common",
+            "summary": "Some ailments can’t be cured by herbs alone. You learned ritual remedies as well, calling on nature spirits to soothe aches and ward off the evil …"
+        },
+        {
+            "title": "Royalty",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You are a prominent member of a royal family. You have taken up the life of an adventurer—perhaps you're a deposed queen hoping to regain her throne, …"
+        },
+        {
+            "title": "Runner",
+            "abilities": [
+                "Strength",
+                "Intelligence"
+            ],
+            "skills": [
+                "Athletics",
+                "Lore for the city in which you were a messenger."
+            ],
+            "feats": [
+                "Quick Jump"
+            ],
+            "rarity": "Common",
+            "summary": "You served as a messenger for a specific faction, guild, house, or individual, often running those messages on a short timeline. Finding the quickest …"
+        },
+        {
+            "title": "Saboteur",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Thievery",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Concealing Legerdemain"
+            ],
+            "rarity": "Common",
+            "summary": "Whether you do it for personal enjoyment or at the behest of a mercenary company or military organization, you have a knack for destroying things. …"
+        },
+        {
+            "title": "Sailor",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Athletics",
+                "Sailing Lore"
+            ],
+            "feats": [
+                "Underwater Marauder"
+            ],
+            "rarity": "Common",
+            "summary": "You heard the call of the sea from a young age. Perhaps you signed onto a merchant’s vessel, joined the navy, or even fell in with a crew of pirates …"
+        },
+        {
+            "title": "Saloon Entertainer",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance",
+                "Lore of your choice."
+            ],
+            "feats": [
+                "Virtuosic Performer"
+            ],
+            "rarity": "Common",
+            "summary": "All you want to do is entertain the people, but sure enough, bad news seems to follow you. Gunfights, brawls, robberies, and more befall …"
+        },
+        {
+            "title": "Saved by Clockwork",
+            "abilities": [
+                "Strength",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Through bloody combat, a terrible accident, or purposeful sacrifice, you've lost some piece of your body that has been replaced with a clockwork …"
+        },
+        {
+            "title": "Scavenger",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Lore for the settlement you grew up scavenging in."
+            ],
+            "feats": [
+                "Forager"
+            ],
+            "rarity": "Common",
+            "summary": "You’ve made a living sorting through the things society throws away. You might have scavenged simply to survive, or plied a trade as a ragpicker, …"
+        },
+        {
+            "title": "Scholar",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Academia Lore"
+            ],
+            "feats": [
+                "Assurance"
+            ],
+            "rarity": "Common",
+            "summary": "You have a knack for learning, and sequestered yourself from the outside world to learn all you could. You read about so many wondrous places and …"
+        },
+        {
+            "title": "Scion of Slayers",
+            "abilities": [
+                "Strength",
+                "Intelligence"
+            ],
+            "skills": [
+                "Athletics",
+                "Undead Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You were born into a lineage of undead slayers. No mere occupation, in your family slaying is a mantle of almost mystic responsibility passed from …"
+        },
+        {
+            "title": "Scout",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Lore related to one terrain you scouted in (such as Forest Lore or Cavern Lore)."
+            ],
+            "feats": [
+                "Forager"
+            ],
+            "rarity": "Common",
+            "summary": "You called the wilderness home as you found trails and guided travelers. Your wanderlust could have called you to the adventuring life, or perhaps …"
+        },
+        {
+            "title": "Seer of the Dead",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Religion",
+                "Undead Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You have long been gifted with the ability to see and speak with the departed. This could have manifested at your birth or when a chance encounter …"
+        },
+        {
+            "title": "Sentinel Reflectance",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Shining Sentinels Lore"
+            ],
+            "feats": [
+                "No Cause for Alarm"
+            ],
+            "rarity": "Common",
+            "summary": "Either through witnessing their deeds and devout heroics firsthand, or through reading chronicles of their exploits, the Shining Sentinels of the …"
+        },
+        {
+            "title": "Servant",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Society",
+                "Labor Lore"
+            ],
+            "feats": [
+                "Read Lips"
+            ],
+            "rarity": "Common",
+            "summary": "You held a role of servitude, waiting on nobles and engendering their trust as one of the confidantes of the household. You might have walked away on …"
+        },
+        {
+            "title": "Sewer Dragon",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Kobold Lore"
+            ],
+            "feats": [
+                "Snare Crafting"
+            ],
+            "rarity": "Common",
+            "summary": "You are one of the Sewer Dragons, born in Absalom's sewers, strengthened by a life defending your territory."
+        },
+        {
+            "title": "Sheriff",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Intimidation",
+                "Hunting Lore"
+            ],
+            "feats": [
+                "Group Coercion"
+            ],
+            "rarity": "Uncommon",
+            "summary": "You hold an official title of sheriff or deputy in a small community. Those that would do harm to others flee your gaze, for they know it brings the …"
+        },
+        {
+            "title": "Sign Bound",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You were born under a powerful manifestation of a specific constellation, and its connection to you is obvious. You tend to feel most at ease while …"
+        },
+        {
+            "title": "Sky Rider",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Acrobatics",
+                "Plane of Air Lore"
+            ],
+            "feats": [
+                "Cat Fall"
+            ],
+            "rarity": "Common",
+            "summary": "The freedom of a bird in flight is something to envy, and envy it you did, but not for long. You've borrowed mechanical gliders or sought out the …"
+        },
+        {
+            "title": "Song of the Deep",
+            "abilities": [
+                ""
+            ],
+            "skills": [
+                "Athletics",
+                "Ocean Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "During a sea voyage, you washed overboard, ingested sea water, and drowned. Merfolk, kelpies, sea serpents, or another magical denizen of the sea …"
+        },
+        {
+            "title": "Southbank Traditionalist",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Crafting",
+                "Farming Lore"
+            ],
+            "feats": [
+                "Hobnobber"
+            ],
+            "rarity": "Rare",
+            "summary": "The political faction of Southbank represents the original founders of Willowshore, a hearty band of settlers whose skills and focus tend toward the …"
+        },
+        {
+            "title": "Spell Seeker",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Arcana or Occultism",
+                "Library Lore"
+            ],
+            "feats": [
+                "Recognize Spell"
+            ],
+            "rarity": "Common",
+            "summary": "Conventional magic can only hold your attention for so long. Instead, you've devoted yourself to understanding truly esoteric spells, which …"
+        },
+        {
+            "title": "Spotter",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Stealth",
+                "Scouting Lore"
+            ],
+            "feats": [
+                "Terrain Stalker"
+            ],
+            "rarity": "Common",
+            "summary": "An eye for detail, a sense for the wind, and a strong trust in your gut feelings. These qualities have set you apart from others when it comes to …"
+        },
+        {
+            "title": "Squire",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Athletics",
+                "Heraldry Lore or Warfare Lore."
+            ],
+            "feats": [
+                "Armor Assist"
+            ],
+            "rarity": "Common",
+            "summary": "You trained at the feet of a knight, maintaining their gear and supporting them at tourneys and in battle. Now you search for a challenge that will …"
+        },
+        {
+            "title": "Starless One",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Occultism",
+                "Astrology Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You were born on a night when not a single star was in the night sky. While this is likely due to a haze, cloud cover, or other natural phenomena, …"
+        },
+        {
+            "title": "Street Preacher",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Religion",
+                "Lore for your patron deity."
+            ],
+            "feats": [
+                "Dubious Knowledge"
+            ],
+            "rarity": "Common",
+            "summary": "Forget the church orthodoxy and the stuffy cloisters— spreading the word of your god to the people is your calling. You've preached on the street …"
+        },
+        {
+            "title": "Street Urchin",
+            "abilities": [
+                "Dexterity",
+                "Constitution"
+            ],
+            "skills": [
+                "Thievery",
+                "Lore for the city you lived in as a street urchin (such as Absalom Lore or Magnimar Lore)."
+            ],
+            "feats": [
+                "Pickpocket"
+            ],
+            "rarity": "Common",
+            "summary": "You eked out a living by picking pockets on the streets of a major city, never knowing where you’d find your next meal. While some folk adventure for …"
+        },
+        {
+            "title": "Student of Magic",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Academia Lore"
+            ],
+            "feats": [
+                "Recognize Spell"
+            ],
+            "rarity": "Common",
+            "summary": "You are currently enrolled at a school of magic, where you're learning the fundamentals of your magical tradition. Whether your adventuring occurs …"
+        },
+        {
+            "title": "Sun Dancer",
+            "abilities": [
+                "Dexterity",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance"
+            ],
+            "feats": [
+                "Fascinating Performance"
+            ],
+            "rarity": "Rare",
+            "summary": "You've been taught the Burning Mother's blessings could be invited through dances done under its presence, such as in welcoming the first rays of …"
+        },
+        {
+            "title": "Surge Investigator",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Nature or Occultism",
+                "Magical Terrain Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "From rivers that charm all who come near to forests that speak through dream messages, you have seen and studied many kinds of magical terrain. The …"
+        },
+        {
+            "title": "Tall-Tale",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance"
+            ],
+            "feats": [
+                "Impressive Performance"
+            ],
+            "rarity": "Rare",
+            "summary": "You've ridden a tornado, lassoed a river, mooned a dragon under a full moon, and shot six zombies with one bullet. That's what the stories say, …"
+        },
+        {
+            "title": "Tax Collector",
+            "abilities": [
+                "Strength",
+                "Charisma"
+            ],
+            "skills": [
+                "Intimidation",
+                "Lore for the settlement that employed you."
+            ],
+            "feats": [
+                "Quick Coercion"
+            ],
+            "rarity": "Common",
+            "summary": "Reviled but required, you were sent when taxes were due. Performing your job might have required travel and persuasion, or perhaps you were …"
+        },
+        {
+            "title": "Teacher",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Performance or Society",
+                "Academia Lore"
+            ],
+            "feats": [
+                "Experienced Professional"
+            ],
+            "rarity": "Common",
+            "summary": "You are incredibly knowledgeable, skilled, and perhaps even trained to teach children and adults about the world and its wonders. From books to …"
+        },
+        {
+            "title": "Tech-Reliant",
+            "abilities": [
+                "Constitution",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting or Medicine"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Some event, be it an accident, attack, or disaster, has left you horribly scarred by magic. Your body no longer tolerates magical healing, and you …"
+        },
+        {
+            "title": "Thrill-Seeker",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Athletics",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Combat Climber"
+            ],
+            "rarity": "Common",
+            "summary": "You once survived a life-or-death situation and found it surprisingly exhilarating, so now you chase that feeling of invincibility you only get when …"
+        },
+        {
+            "title": "Tide Watcher",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Nature",
+                "Ocean Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Where you hail from, the ocean is the lifeblood of your community; knowing how it changes according to the moon was integral to everyday life. You've …"
+        },
+        {
+            "title": "Time Traveler",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                ""
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You come from a different time. Whether by your own doing or a terrible accident, powerful magic has resulted in you coming to this time from the …"
+        },
+        {
+            "title": "Tinker",
+            "abilities": [
+                "Dexterity",
+                "Intelligence"
+            ],
+            "skills": [
+                "Crafting",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Specialty Crafting"
+            ],
+            "rarity": "Common",
+            "summary": "Creating all sorts of minor inventions scratches your itch for problem-solving. Your engineering skills take a particularly creative bent, and no one …"
+        },
+        {
+            "title": "Tomb Born",
+            "abilities": [
+                "Dexterity",
+                "Constitution"
+            ],
+            "skills": [
+                "Undead Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Your parents conceived you for a fell purpose at a site tainted by death, like a wight's barrow, mass grave, or ossuary. Their reasons could be a …"
+        },
+        {
+            "title": "Toymaker",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Crafting",
+                "Mercantile Lore"
+            ],
+            "feats": [
+                "Specialty Crafting"
+            ],
+            "rarity": "Common",
+            "summary": "You delight in making little trinkets for children of all ages, and seeing their faces light up thanks to one of your creations brings joy to your …"
+        },
+        {
+            "title": "Trailblazer",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Cartography Lore"
+            ],
+            "feats": [
+                "Terrain Expertise"
+            ],
+            "rarity": "Common",
+            "summary": "Uncharted realms have always intrigued you, and you've explored and mapped large territories in service to merchants, governments, or your own …"
+        },
+        {
+            "title": "Translator",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Society",
+                "Scribing Lore"
+            ],
+            "feats": [
+                "Multilingual"
+            ],
+            "rarity": "Common",
+            "summary": "In your youth, you learned to transcribe books and translate scrolls to preserve knowledge or perhaps to aid wealthy merchants and politicians. …"
+        },
+        {
+            "title": "Tyrant Witness",
+            "abilities": [
+                "Dexterity",
+                "Wisdom"
+            ],
+            "skills": [
+                "Undead Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "When Tar-Baphon broke free of Gallowspire, you saw him emerge. When the god-slaying lich obliterated Vigil and Roslar's Coffer, you scrambled to …"
+        },
+        {
+            "title": "Undertaker",
+            "abilities": [
+                "Intelligence",
+                "Wisdom"
+            ],
+            "skills": [
+                "Medicine",
+                "Lore specializing in one local type of undead."
+            ],
+            "feats": [
+                "Forensic Acumen"
+            ],
+            "rarity": "Common",
+            "summary": "People die. This is the unfortunate fact of life on which you've founded your business, because wherever people die, there is a demand for mortuary …"
+        },
+        {
+            "title": "Union Representative",
+            "abilities": [
+                "Intelligence",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy",
+                "Legal Lore"
+            ],
+            "feats": [
+                "Contract Negotiator"
+            ],
+            "rarity": "Common",
+            "summary": "You might have fought for fairer ore distribution for the Metalmaker's Union, higher chef's pay in the Provisioners' Union, or better mercenary …"
+        },
+        {
+            "title": "Unremarkable",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Deception",
+                "Acting Lore"
+            ],
+            "feats": [
+                "Lengthy Diversion"
+            ],
+            "rarity": "Common",
+            "summary": "Your face is particularly unremarkable, even if your presence or actions may not be. You know how to use this to your advantage, making it difficult …"
+        },
+        {
+            "title": "Wandering Preacher",
+            "abilities": [
+                "Constitution",
+                "Wisdom"
+            ],
+            "skills": [
+                "Religion",
+                "Lore associated with the deity you preach for (such as Pharasmin Lore)."
+            ],
+            "feats": [
+                "Pilgrim's Token"
+            ],
+            "rarity": "Common",
+            "summary": "While you once spoke to a small congregation in a ramshackle church, those days are behind you now. Your church was destroyed, your congregants …"
+        },
+        {
+            "title": "Ward",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Performance",
+                "Genealogy Lore"
+            ],
+            "feats": [
+                "Fascinating Performance"
+            ],
+            "rarity": "Common",
+            "summary": "When you were young, you became the ward of another house—boarded, fed, and educated, but never quite a part of the family. Perhaps you had to tend …"
+        },
+        {
+            "title": "Warrior",
+            "abilities": [
+                "Strength",
+                "Constitution"
+            ],
+            "skills": [
+                "Intimidation",
+                "Warfare Lore"
+            ],
+            "feats": [
+                "Intimidating Glare"
+            ],
+            "rarity": "Common",
+            "summary": "In your younger days, you waded into battle as a mercenary, a warrior defending a nomadic people, or a member of a militia or army. You might have …"
+        },
+        {
+            "title": "Waste Walker",
+            "abilities": [
+                "Strength",
+                "Wisdom"
+            ],
+            "skills": [
+                "Survival",
+                "Mana Wastes Lore (or another similar Lore skill associated with the wastes where you grew up)."
+            ],
+            "feats": [
+                "Forager"
+            ],
+            "rarity": "Common",
+            "summary": "Whether you grew up in the Mana Wastes or another similarly desolate place, you quickly learned that only the strong survive. You and your family …"
+        },
+        {
+            "title": "Willing Host",
+            "abilities": [
+                "Wisdom",
+                "Charisma"
+            ],
+            "skills": [
+                "Spirit Lore"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "You speak to spirits only you can perceive: wispy shreds of lost souls, household guardians, ancestral spirits, and other entities. You can negotiate …"
+        },
+        {
+            "title": "Willowshire Urchin",
+            "abilities": [
+                "Strength",
+                "Dexterity"
+            ],
+            "skills": [
+                "Athletics",
+                "Engineering Lore"
+            ],
+            "feats": [
+                "Charming Liar"
+            ],
+            "rarity": "Rare",
+            "summary": "As with any settlement, not all of Willowshore's citizens are born into easy lives. You grew up on the town streets, either as an orphan or …"
+        },
+        {
+            "title": "Wished Alive",
+            "abilities": [
+                "Constitution",
+                "Charisma"
+            ],
+            "skills": [
+                "Diplomacy"
+            ],
+            "feats": [
+                ""
+            ],
+            "rarity": "Rare",
+            "summary": "Once you were a simple construct or inanimate doll, but due to a deeply felt wish, either yours or another's, you came to life, and so you're now a …"
+        }
+    ]
+}
