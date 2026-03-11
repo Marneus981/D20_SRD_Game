@@ -59,6 +59,7 @@
     <Compile Include="Assets\Tests\Data\CoreDictionaryTests.cs" />
     <Compile Include="Assets\Tests\Component\Skills\MockSkillProficienySystem.cs" />
     <Compile Include="Assets\Tests\Entity\MockEntityRecipeSystem.cs" />
+    <Compile Include="Assets\Tests\Equipment\Weapon\WeaponProficiencySystemTests.cs" />
     <Compile Include="Assets\Tests\Data\MockDataStore.cs" />
     <Compile Include="Assets\Tests\AttributeProvider\AbilityScoreProviderTests.cs" />
     <Compile Include="Assets\Tests\Component\AbilityScore\MockAbilityScoreSystem.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Assets\Tests\Combat\Damage\DamageSystemTests.cs" />
     <Compile Include="Assets\Tests\Entity\EntitySystemTests.cs" />
     <Compile Include="Assets\Tests\Component\Skills\BaseSkillSystemTests.cs" />
+    <Compile Include="Assets\Tests\Equipment\Weapon\WeaponFilterSystemTests.cs" />
     <Compile Include="Assets\Tests\Component\EntityTableSystemTests.cs" />
   </ItemGroup>
   <ItemGroup>

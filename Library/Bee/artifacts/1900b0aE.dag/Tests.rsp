@@ -432,6 +432,8 @@
 "Assets/Tests/Entity/EntityRecipeSystemTests.cs"
 "Assets/Tests/Entity/EntitySystemTests.cs"
 "Assets/Tests/Entity/MockEntityRecipeSystem.cs"
+"Assets/Tests/Equipment/Weapon/WeaponFilterSystemTests.cs"
+"Assets/Tests/Equipment/Weapon/WeaponProficiencySystemTests.cs"
 -langversion:9.0
 /deterministic
 /optimize+

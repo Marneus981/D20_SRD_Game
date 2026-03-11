@@ -25,5 +25,6 @@ public static class ComponentInjector
         SavingThrowsInjector.Inject();
         PerceptionInjector.Inject();
         IInitiativeSystem.Register(new InitiativeSystem());
+        WeaponInjector.Inject();
     }
 }

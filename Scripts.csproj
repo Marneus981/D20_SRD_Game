@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Combat\CombatActions\MoveToNearestTarget.cs" />
     <Compile Include="Assets\Scripts\Component\ArmorClassSystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\RandomNameProvider.cs" />
+    <Compile Include="Assets\Scripts\Component\Equipment\Weapon\WeaponProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Flow\GameFlow.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\SoloAdventureInjector.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\Scripts\Combat\CombatActions\AttackRollSystem.cs" />
     <Compile Include="Assets\Scripts\AssetManager\CombatActionAssetSystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\AbilityScoreProvider.cs" />
+    <Compile Include="Assets\Scripts\Component\Equipment\Weapon\WeaponGroupSystem.cs" />
     <Compile Include="Assets\Scripts\Data\DataInjector.cs" />
     <Compile Include="Assets\Scripts\Flow\AppFlow.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\SizeProvider.cs" />
@@ -133,12 +135,14 @@
     <Compile Include="Assets\Scripts\Component\Skills\Systems\AcrobaticsProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\AcrobaticsSystem.cs" />
     <Compile Include="Assets\Scripts\Component\PartyOrderSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Equipment\Weapon\WeaponFilterSystem.cs" />
     <Compile Include="Assets\Scripts\Component\SpeedSystem.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\MockAttributeProvider.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\EncounterEntryOption.cs" />
     <Compile Include="Assets\Scripts\Component\Position\Point.cs" />
     <Compile Include="Assets\Scripts\Dependency\Injector.cs" />
+    <Compile Include="Assets\Scripts\Component\Equipment\Weapon\WeaponInjector.cs" />
     <Compile Include="Assets\Scripts\Dependency\SetUpSystem.cs" />
     <Compile Include="Assets\Scripts\Component\SavingThrows\Systems\ReflexSystem.cs" />
     <Compile Include="Assets\Scripts\Animation\CanvasGroupAlphaTween.cs" />
@@ -232,6 +236,7 @@
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\CombatantAssetSystem.cs" />
     <Compile Include="Assets\Scripts\Flow\EncounterFlow.cs" />
     <Compile Include="Assets\Scripts\Combat\TurnSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Equipment\Weapon\WeaponCategorySystem.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\SoloAdventureAttack.cs" />
     <Compile Include="Assets\Scripts\Flow\MainMenuFlow.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\ArmorClassProvider.cs" />
