@@ -8,5 +8,6 @@ public static class CombatInjector
         IRoundSystem.Register(new RoundSystem());
         ITurnSystem.Register(new TurnSystem());
         DamageInjector.Inject();
+        IRollInitiativeSystem.Register(new RollInitiativeSystem());
     }
 }

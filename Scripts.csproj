@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AttributeProvider\DamageWeaknessProvider.cs" />
     <Compile Include="Assets\Scripts\Animation\LayoutTween.cs" />
+    <Compile Include="Assets\Scripts\Component\Perception\PerceptionInjector.cs" />
     <Compile Include="Assets\Scripts\DiceRoll\RandomNumberGenerator.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\DamageResistanceProvider.cs" />
     <Compile Include="Assets\Scripts\Animation\CanvasGroupAnimationExtensions.cs" />
@@ -69,6 +70,8 @@
     <Compile Include="Assets\Scripts\Component\AbilityScore\DexteritySystem.cs" />
     <Compile Include="Assets\Scripts\UI\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Component\NameSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Perception\PerceptionSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\Perception\PerceptionProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Combat\Damage\DamageResistanceSystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\AbilityBoostProvider.cs" />
     <Compile Include="Assets\Scripts\Animation\TransformLocalEulerTween.cs" />
@@ -83,10 +86,11 @@
     <Compile Include="Assets\Scripts\Tools\BoardGenerator.cs" />
     <Compile Include="Assets\Scripts\Combat\Damage\DamageImmunitySystem.cs" />
     <Compile Include="Assets\Scripts\Animation\TransformRotationTween.cs" />
-    <Compile Include="Assets\Scripts\Combat\CombatInjector.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\SkillProficiencySystem.cs" />
+    <Compile Include="Assets\Scripts\Combat\CombatInjector.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\EntityViewProvider.cs" />
     <Compile Include="Assets\Scripts\Component\Position\PositionSystem.cs" />
+    <Compile Include="Assets\Scripts\AttributeProvider\PerceptionProficiencyProvider.cs" />
     <Compile Include="Assets\Scripts\Animation\Tween.cs" />
     <Compile Include="Assets\Scripts\Component\Health\HealthPresenter.cs" />
     <Compile Include="Assets\Scripts\Combat\Damage\DamageInjector.cs" />
@@ -182,6 +186,7 @@
     <Compile Include="Assets\Scripts\Component\Skills\Systems\LoreProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Proficiency.cs" />
     <Compile Include="Assets\Scripts\Component\SavingThrows\Systems\WillSystem.cs" />
+    <Compile Include="Assets\Scripts\Combat\RollInitiativeSystem.cs" />
     <Compile Include="Assets\Scripts\Component\SavingThrows\SavingThrowSystem.cs" />
     <Compile Include="Assets\Scripts\Entity\EntityInjector.cs" />
     <Compile Include="Assets\Scripts\Component\Health\HealthInjector.cs" />
@@ -190,8 +195,8 @@
     <Compile Include="Assets\Scripts\UI\Layout.cs" />
     <Compile Include="Assets\Scripts\Combat\RoundSystem.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Explore\EntryOptions\ExploreEntryOption.cs" />
-    <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\SavingThrowsProficiencyProvider.cs" />
+    <Compile Include="Assets\Scripts\Component\Skills\Systems\MedicineProficiencySystem.cs" />
     <Compile Include="Assets\Scripts\Actions\CheckSystem.cs" />
     <Compile Include="Assets\Scripts\Board\BoardHighlightSystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\SkillsProficiencyProvider.cs" />
@@ -264,6 +269,7 @@
     <Compile Include="Assets\Scripts\Component\Dying\DyingSystem.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\CombatantProvider.cs" />
     <Compile Include="Assets\Scripts\SoloAdventure\Encounter\PositionSelectionSystem.cs" />
+    <Compile Include="Assets\Scripts\Component\InitiativeSystem.cs" />
     <Compile Include="Assets\Scripts\Animation\TransformPositionTween.cs" />
     <Compile Include="Assets\Scripts\AttributeProvider\DamageImmunityProvider.cs" />
     <Compile Include="Assets\Scripts\Component\Skills\Systems\DiplomacyProficiencySystem.cs" />

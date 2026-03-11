@@ -23,5 +23,7 @@ public static class ComponentInjector
         IAncestrySystem.Register(new AncestrySystem());
         IBackgroundSystem.Register(new BackgroundSystem());
         SavingThrowsInjector.Inject();
+        PerceptionInjector.Inject();
+        IInitiativeSystem.Register(new InitiativeSystem());
     }
 }

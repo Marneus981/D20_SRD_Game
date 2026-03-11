@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using System;
+using System.Collections.Generic;
 
 public interface ICombatFlow : IDependency<ICombatFlow>
 {
@@ -18,7 +19,9 @@ public struct CombatFlow : ICombatFlow
 
     async UniTask Enter()
     {
-        // TODO: initiative, surprise attacks, etc
+        // TODO: surprise attacks, etc
+        var entities = new List<Entity>(ICombatantSystem.Resolve().Table);
+        IRollInitiativeSystem.Resolve().Roll(entities);
         await UniTask.CompletedTask;
     }
 

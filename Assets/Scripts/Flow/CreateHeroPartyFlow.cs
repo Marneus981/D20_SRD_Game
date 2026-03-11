@@ -26,6 +26,7 @@ public class CreateHeroPartyFlow : ICreateHeroPartyFlow
             await LoadBackground(entity);
             ISkillSystem.Resolve().SetupAllSkills(entity);
             ISavingThrowSystem.Resolve().SetupAllSavingThrows(entity);
+            IPerceptionSystem.Resolve().Setup(entity);
         }
         await UniTask.CompletedTask;
     }

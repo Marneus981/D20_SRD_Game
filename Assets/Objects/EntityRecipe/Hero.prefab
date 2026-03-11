@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 293314235866312684}
   - component: {fileID: -2858242732368213795}
   - component: {fileID: 6037648339929669402}
+  - component: {fileID: -3388517248961280505}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -185,3 +186,16 @@ MonoBehaviour:
     proficiency: 1
   - savingThrow: 2
     proficiency: 2
+--- !u!114 &-3388517248961280505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173158476050149741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689733fd661f6604db2ad57a4e0f9ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::PerceptionProficiencyProvider
+  proficiency: 1
