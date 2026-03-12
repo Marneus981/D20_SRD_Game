@@ -38,7 +38,7 @@ public class CreateHeroPartyFlow : ICreateHeroPartyFlow
         var ancestryAsset = await assetSystem.Load(ancestry);
         foreach (var provider in ancestryAsset.AttributeProviders)
         {
-            provider.Setup(entity);
+            await provider.SetupFlow(entity);//provider.Setup(entity);
         }
     }
     async UniTask LoadBackground(Entity entity)
@@ -47,7 +47,7 @@ public class CreateHeroPartyFlow : ICreateHeroPartyFlow
         var backgroundAsset = await IBackgroundAssetSystem.Resolve().Load(entity.Background);
         foreach (var provider in backgroundAsset.AttributeProviders)
         {
-            provider.Setup(entity);
+            await provider.SetupFlow(entity);//provider.Setup(entity);
         }
     }
 }

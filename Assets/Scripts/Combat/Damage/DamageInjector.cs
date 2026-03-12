@@ -17,5 +17,7 @@ public static class DamageInjector
         IDamageWeaknessSystem.Register(new DamageWeaknessSystem());
         IDamageResistanceSystem.Register(new DamageResistanceSystem());
         IDamageResistanceExceptionSystem.Register(new DamageResistanceExceptionSystem());
+        //Weapons
+        IDamageRollSystem.Register(new DamageRollSystem());
     }
 }

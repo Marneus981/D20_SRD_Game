@@ -6,5 +6,7 @@ public static class WeaponInjector
         IWeaponFilterSystem.Register(new WeaponFilterSystem());
         IWeaponGroupSystem.Register(new WeaponGroupSystem());
         IWeaponProficiencySystem.Register(new WeaponProficiencySystem());
+        //Weapons
+        IWeaponTypeSystem.Register(new WeaponTypeSystem());
     }
 }

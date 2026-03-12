@@ -30,6 +30,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 012fa79ccf21e6147a427874f72c8d01
+    m_Address: Assets/AutoGeneration/Weapons/Backpack Catapult.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 013e9900b8ff77542aa32362ccea665e
     m_Address: Assets/AutoGeneration/Backgrounds/Discarded Duplicate.prefab
     m_ReadOnly: 0
@@ -40,8 +45,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0299e2e3eb1a9e948b6286ca9487dccf
+    m_Address: Assets/AutoGeneration/Weapons/Light Hammer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02fc186ed05da664584a54e6202b20de
+    m_Address: Assets/AutoGeneration/Weapons/Buugeng.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0366e7e1a1c200f4da9f4cb48462bd92
     m_Address: Assets/Objects/EntityRecipe/Rat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 052b3f52e74d5414f893afdee047a824
+    m_Address: Assets/AutoGeneration/Weapons/Khopesh.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06714f1176fe6fb44b8347fdad1cbe3d
+    m_Address: Assets/AutoGeneration/Weapons/Halberd.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -52,6 +77,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 074e4283a784dfd438622ea8613ef912
     m_Address: Assets/AutoGeneration/Backgrounds/Ward.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 080c493968b06f842ae64abaafff62e1
+    m_Address: Assets/AutoGeneration/Weapons/Ranseur.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08357220b14c56f488d54ca2ed734d63
+    m_Address: Assets/AutoGeneration/Weapons/Dueling Spear.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,8 +115,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c7a76c3d483d8245b0d4fc261d8cd6c
+    m_Address: Assets/AutoGeneration/Weapons/Claw Blade.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0de333657db06d34999df823ff9ea67b
+    m_Address: Assets/AutoGeneration/Weapons/Longbow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e85951f63460d54783600221594f35f
+    m_Address: Assets/AutoGeneration/Weapons/Flintlock Musket.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0eedc8441bd1d2d4497da97fa1fed33b
     m_Address: Assets/AutoGeneration/Backgrounds/Wished Alive.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f1cc0dbeb469534c8728309f3ccebe3
+    m_Address: Assets/AutoGeneration/Weapons/Backpack Ballista Bolts.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fd59619c801016478647acccc058b63
+    m_Address: Assets/AutoGeneration/Weapons/Long Hammer.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -100,6 +160,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10f49b94ee30aed4dadc56db4d61a77f
+    m_Address: Assets/AutoGeneration/Weapons/Spray Pellet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1138484f25ca57b41a4ec42dac442926
     m_Address: Assets/AutoGeneration/Backgrounds/Revenant.prefab
     m_ReadOnly: 0
@@ -115,6 +180,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1440825b6733ebb4c9e42107138a634b
+    m_Address: Assets/AutoGeneration/Weapons/Gauntlet Bow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14d8a69d9332f6a46ad98741a613b360
+    m_Address: Assets/AutoGeneration/Weapons/Katana.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15a4e398145709149959a6f5cd02d2d9
+    m_Address: Assets/AutoGeneration/Weapons/Mace.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1610dcdc4607b084da418c82995cbd41
     m_Address: Assets/AutoGeneration/Backgrounds/Unremarkable.prefab
     m_ReadOnly: 0
@@ -125,8 +205,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16be049a221264b4baad4cfb0fc5e923
+    m_Address: Assets/AutoGeneration/Weapons/Wish Blade.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16cf62c4e9d193e4da15ed97d8f8d5c8
+    m_Address: Assets/AutoGeneration/Weapons/Dwarven Scattergun.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16e788fb4f61bd647bc72bf9f1b039d4
+    m_Address: Assets/AutoGeneration/Weapons/Spiral Rapier.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1852571807c28ff48b2af589c476b6ff
     m_Address: Assets/AutoGeneration/Ancestries/Ratfolk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1881851e5ddaad34cac8e9543b73ef35
+    m_Address: Assets/AutoGeneration/Weapons/Tricky Pick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18d763e4501cf4446bfde1265a72bb96
+    m_Address: Assets/AutoGeneration/Weapons/Greataxe.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -135,8 +240,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18f57241c88a1534480e5a25dd4e4775
+    m_Address: Assets/AutoGeneration/Weapons/Corset Knife.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 194c371e52e8fde45a3ab507af69a2cf
+    m_Address: Assets/AutoGeneration/Weapons/Wakizashi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19c95a0962d1c9d47a51207fab4f2d4e
+    m_Address: Assets/AutoGeneration/Weapons/Shield Bow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1a085ba8a9788a7409b182b2e7c46dd0
     m_Address: Assets/AutoGeneration/Backgrounds/Guard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a3bf60eb5380c04d8da5edd1158912e
+    m_Address: Assets/AutoGeneration/Weapons/Reinforced Stock.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -145,13 +270,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b0fd824aebb278418f4ba8a32224562
+    m_Address: Assets/AutoGeneration/Weapons/Composite Shortbow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1bb5b127c67543245999dd75e340ed2f
     m_Address: Assets/AutoGeneration/Backgrounds/Union Representative.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bfc8623cede4c14fa7dd0b2d4bce062
+    m_Address: Assets/AutoGeneration/Weapons/Rapier Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c363d6736edb2d4da54576d3bf456e8
     m_Address: Assets/AutoGeneration/Ancestries/Strix.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c4867bffc96f6a46b1effd6401b2b47
+    m_Address: Assets/AutoGeneration/Weapons/Gaff.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -162,6 +302,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1cb8708e1eef82f4ab3fdc83e85df02d
     m_Address: Assets/AutoGeneration/Backgrounds/Pilgrim.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ce4d29fc958d724fadce006a7fc57ef
+    m_Address: Assets/AutoGeneration/Weapons/Dart.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -180,8 +325,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f5e3818a6e5dd24796ed7b63aba558e
+    m_Address: Assets/AutoGeneration/Weapons/Donchak.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 20582aa8b9319d5479c195d5de880fd7
     m_Address: Assets/AutoGeneration/Ancestries/Kobold.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20e165368ebeda3488ffb9fa798a0615
+    m_Address: Assets/AutoGeneration/Weapons/Sansetsukon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21a767f3e9a9cb14da38bf2fb0a5d590
+    m_Address: Assets/AutoGeneration/Weapons/Alchemical Bomb.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21c493c572328944790f131a3e283851
+    m_Address: Assets/AutoGeneration/Weapons/Dagger.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -190,8 +355,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 226600a997a0b494bbb0e4f45c2d5dbb
+    m_Address: Assets/AutoGeneration/Weapons/Rope Dart.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22a5e0a150b13a24295f2c42fa42947d
+    m_Address: Assets/AutoGeneration/Weapons/Greatclub.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 230158e27ff5ed8409ee9b21033250f5
+    m_Address: Assets/AutoGeneration/Weapons/Bastard Sword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23e2f8af0a0cb614eab0c1e6217bcd4d
+    m_Address: Assets/AutoGeneration/Weapons/Juggling Club.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2452439c6755ab040a6816e98852297e
+    m_Address: Assets/AutoGeneration/Weapons/Fire Poi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2552cfb687ee57b44abcca692a0553a1
     m_Address: Assets/AutoGeneration/Backgrounds/Hired Killer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2558005b1b2a44e40997e9f707291ed5
+    m_Address: Assets/AutoGeneration/Weapons/Shortbow.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -215,8 +410,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 285134c8f352af2498d722f8331ee54d
+    m_Address: Assets/AutoGeneration/Weapons/Chakri.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 291064d18caa15d42a7d037690d2f81c
     m_Address: Assets/AutoGeneration/Backgrounds/Acrobat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29393baad96ddee43bbe1af12f2c4b71
+    m_Address: Assets/AutoGeneration/Weapons/Heavy Crossbow.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -230,8 +435,63 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a5dcfc0024fed84a93b720bfdcfc9f9
+    m_Address: Assets/AutoGeneration/Weapons/Harpoon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a8671703a9cdd2488df069ab62af241
+    m_Address: Assets/AutoGeneration/Weapons/Stiletto Pen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2abcb9ae6db802a449e3b8c793862ae1
+    m_Address: Assets/AutoGeneration/Weapons/Three-Section Naginata.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2afb7c9e17b2762478a1123c79ee8d32
+    m_Address: Assets/AutoGeneration/Weapons/Panabas.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b076e270dc0b494dac499fdb991f93b
+    m_Address: Assets/AutoGeneration/Weapons/Forked Bipod.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bd81523953327d43aafe061c6e247f5
+    m_Address: Assets/AutoGeneration/Weapons/Dwarven Dorn-Dergar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c4e13c5b3502dd4aaa42b76a76a75b9
+    m_Address: Assets/AutoGeneration/Weapons/Elven Branched Spear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c7fa47f9304baf499c5cadabf196135
+    m_Address: Assets/AutoGeneration/Weapons/Double-Barreled Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2c84207d4ba3f4c42861c29b3a79dcad
     m_Address: Assets/AutoGeneration/Backgrounds/Prisoner.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c999e0e0b90cdd4fb9226c28d03d04d
+    m_Address: Assets/AutoGeneration/Weapons/Lion Scythe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d283cee2c61abe4db084b7f8170203f
+    m_Address: Assets/AutoGeneration/Weapons/Backpack Catapult Stones.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dc9a94242e441c48844c215df9dce3a
+    m_Address: Assets/AutoGeneration/Weapons/Wooden Taws.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -260,8 +520,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 302db78a76f256345994f9e8d4d80060
+    m_Address: Assets/AutoGeneration/Weapons/Jiu Huan Dao.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 304918cecd0373542847e55d64a46f50
     m_Address: Assets/AutoGeneration/Backgrounds/Northridge Scholar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 304c417ed989c724ba7a9a6112feacbe
+    m_Address: Assets/AutoGeneration/Weapons/Horsechopper.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -270,8 +540,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 311911c8ed9898949b9dd46ce942bf16
+    m_Address: Assets/AutoGeneration/Weapons/Boarding Pike.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 31ce2fd7f6903854c8345861939404cf
     m_Address: Assets/AutoGeneration/Backgrounds/Press-Ganged (G&G).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32e16a46f728cf54096918619c27edde
+    m_Address: Assets/AutoGeneration/Weapons/Pepperbox.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32f8fd1933f3c8c4097ab0afd96aa4d3
+    m_Address: Assets/AutoGeneration/Weapons/Orc Necksplitter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35a595c5d3aed7048bf5e25536349746
+    m_Address: Assets/AutoGeneration/Weapons/Whip Claw.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 362d9e87f29649b40bcec1c01a46791c
+    m_Address: Assets/AutoGeneration/Weapons/Atlatl.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -285,8 +580,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b8b8e2bfb40c54aba103bac00a2fd0
+    m_Address: Assets/AutoGeneration/Weapons/Feng Huo Lun.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e79a40a0d316440a042ce6cfbb2414
+    m_Address: Assets/AutoGeneration/Weapons/Dancer's Spear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38bb44b642acfb340b329fd0e94939a1
+    m_Address: Assets/AutoGeneration/Weapons/Harmona Gun.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3915a3750d20a5d4c987e288d14397d8
     m_Address: Assets/AutoGeneration/Backgrounds/Fortune Teller.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a44fdaa79364b34a9c729d0440d4b9a
+    m_Address: Assets/AutoGeneration/Weapons/Piranha Kiss.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -297,6 +612,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3a98af3bfe67c11428d2ac9c3cd87bc5
     m_Address: Assets/AutoGeneration/Backgrounds/Barkeep.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aac0245917ee6d4aae4ef595087d9da
+    m_Address: Assets/AutoGeneration/Weapons/Shield Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3adfd6d30f179c747b211a50fb91fec4
+    m_Address: Assets/AutoGeneration/Weapons/Fangwire.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -320,6 +645,31 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d760c51244b87944a868fd769243160
+    m_Address: Assets/AutoGeneration/Weapons/Pick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d7f8c698c847b7479c87686913d5682
+    m_Address: Assets/AutoGeneration/Weapons/Probing Cane.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8d579556657bc46878306425e5b1cc
+    m_Address: Assets/Objects/CombatAction/Attack.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e388eb0e3f04e944b17019a0608021f
+    m_Address: Assets/AutoGeneration/Weapons/Battle Saddle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e735a77cf223b244a83f3991b201208
+    m_Address: Assets/AutoGeneration/Weapons/Hongali Hornbow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3f081de23ef4a66498433b925e57331f
     m_Address: Assets/AutoGeneration/Backgrounds/Time Traveler.prefab
     m_ReadOnly: 0
@@ -340,8 +690,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 402f45773375ac941ba0136abb734845
+    m_Address: Assets/AutoGeneration/Weapons/Flyssa.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4075eeaa09bd82f439db5011a30e2fdb
+    m_Address: Assets/AutoGeneration/Weapons/Starknife.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 409d8a7302940094091e8030c62c1607
     m_Address: Assets/AutoGeneration/Backgrounds/Planar Migrant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40ecd0452407c944e8604b4249449635
+    m_Address: Assets/AutoGeneration/Weapons/Rungu.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41631f95d9939d54fbc95681a0b6aec2
+    m_Address: Assets/AutoGeneration/Weapons/Bladed Hoop.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41dfccc22e793344ab66b921267ff091
+    m_Address: Assets/AutoGeneration/Weapons/Elven Curve Blade.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41e088d4952523040af0960d888ffc6a
+    m_Address: Assets/AutoGeneration/Weapons/Flintlock Pistol.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -355,6 +735,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 427359c09200bee4eaff014ce7c32c73
+    m_Address: Assets/AutoGeneration/Weapons/Hand Adze.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 434afb75c06337949b46ca18137ef027
+    m_Address: Assets/AutoGeneration/Weapons/Mambele.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 442edbac59bc83547a90c9a02505634f
     m_Address: Assets/AutoGeneration/Backgrounds/Plant Whisperer.prefab
     m_ReadOnly: 0
@@ -365,13 +755,58 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 452d89c99ab7cdc42be4e0c717b63e2c
+    m_Address: Assets/AutoGeneration/Weapons/Combat Lure.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 454064f07751f584cab6e0c092478ea7
     m_Address: Assets/AutoGeneration/Backgrounds/Bookkeeper.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 454fabde64cae9d419e2af5b345a1ce2
+    m_Address: Assets/AutoGeneration/Weapons/Dragon Mouth Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 459310552b9d35140a37307a40b23f0c
+    m_Address: Assets/AutoGeneration/Weapons/Nodachi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 475d13931eb9f744593618e93a01f72f
+    m_Address: Assets/AutoGeneration/Weapons/Kris.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 475e4033158a3d54a9e2a9216383759f
     m_Address: Assets/AutoGeneration/Backgrounds/Feral Child.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 476db0fe500d86543967a536539d737d
+    m_Address: Assets/AutoGeneration/Weapons/Tonfa.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 480c2b4c4c27d184dba990f084a5ca7b
+    m_Address: Assets/AutoGeneration/Weapons/Thunder Sling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48374072aed9ad14bb149ff9b983d9cf
+    m_Address: Assets/AutoGeneration/Weapons/Ogre Hook.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 484d7ad6a0644f04590c393a0b35e393
+    m_Address: Assets/AutoGeneration/Weapons/Sun Sling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 484f4d16cb1934a479c65b93c662ee06
+    m_Address: Assets/AutoGeneration/Weapons/Knuckle Duster.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -385,8 +820,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 491191026dfefb04fa386a8920621c37
+    m_Address: Assets/AutoGeneration/Weapons/Hand Cannon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 493fe0339e98f7540925506396c158f1
+    m_Address: Assets/AutoGeneration/Weapons/Magazine (Long Air Repeater).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4992192932bf7e342b0ca43179a10714
+    m_Address: Assets/AutoGeneration/Weapons/Chain Sword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 49a81aa579442bb45a4b8d6b7ce6f5bf
     m_Address: Assets/AutoGeneration/Backgrounds/Crystal Healer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49b2368281ab27c43a6ed5be1ef3019a
+    m_Address: Assets/AutoGeneration/Weapons/Shears.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -395,8 +850,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4acbf0f2fe4d46549b2ac3d68e7d0fa0
+    m_Address: Assets/AutoGeneration/Weapons/Maul.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b2696f5d1dd88644bf13c179bee109a
+    m_Address: Assets/AutoGeneration/Weapons/Scourge.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4b3b2a5a90108f047a88496b45303885
     m_Address: Assets/AutoGeneration/Backgrounds/Empty Whispers.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b83a357db7358d48a9371c44a5eb180
+    m_Address: Assets/AutoGeneration/Weapons/Club.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cff3030a4be8134f8782d0d07e83572
+    m_Address: Assets/AutoGeneration/Weapons/Mithral Tree.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e71bbb51d62c7748a01b530e6cb88e1
+    m_Address: Assets/AutoGeneration/Weapons/Clockwork Macuahuitl.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -405,8 +885,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ef11a380f956d648b6df8c6139f8d6f
+    m_Address: Assets/AutoGeneration/Weapons/Daikyu.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50aa67deac3b916409a279b1844f8f34
+    m_Address: Assets/AutoGeneration/Weapons/Khakkara.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50bf89c4ef0ce4147a981ea2e1af6ac6
+    m_Address: Assets/AutoGeneration/Weapons/Light Pick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 50e3bdf482e222e428b74fc68451b83e
     m_Address: Assets/AutoGeneration/Backgrounds/Outrider.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5130e81ea5ce78649a6950d5c81bce43
+    m_Address: Assets/AutoGeneration/Weapons/Breaching Pike.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -415,8 +915,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51cf86f0b66255641995aafde415c822
+    m_Address: Assets/AutoGeneration/Weapons/Piercing Wind.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52a321846c209c84cbc2ef9c5ba4658e
+    m_Address: Assets/AutoGeneration/Weapons/Tamchal Chakram.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 530d64a75f2547542a66eb39df2b8008
     m_Address: Assets/AutoGeneration/Backgrounds/Pyre Tender.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53a5cdfb3c85b1449b316b6f51189cb7
+    m_Address: Assets/AutoGeneration/Weapons/Longspear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5412925f6cab81541b205fa1d09e0aa4
+    m_Address: Assets/AutoGeneration/Weapons/Taw Launcher.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -445,8 +965,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 575b297f852307f4e9f39e2afa2d08fe
+    m_Address: Assets/AutoGeneration/Weapons/Gauntlet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57ce1dd304992a64f9f04ef045d52498
+    m_Address: Assets/AutoGeneration/Weapons/Whipstaff.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 586d3bac2befd124a80dd662010e9939
     m_Address: Assets/AutoGeneration/Backgrounds/Eidolon Contact.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58d81aabfa627554999b9bb09e0b4b16
+    m_Address: Assets/AutoGeneration/Weapons/Scizore.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -455,13 +990,53 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5941fa592787dce41949d737ccd870dc
+    m_Address: Assets/AutoGeneration/Weapons/Talwar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 594b7637f865f7a42b29f004b1940b22
+    m_Address: Assets/AutoGeneration/Weapons/Crossbow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f45c0626e0dcd4db57339e60b7d9eb
+    m_Address: Assets/AutoGeneration/Weapons/Halfling Sling Staff.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ac65821681e4914fb3789b18ce89b8b
+    m_Address: Assets/AutoGeneration/Weapons/Zulfikar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b080bd6154027d45bbe82169b77453b
+    m_Address: Assets/AutoGeneration/Weapons/Filcher's Fork.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5b3ef9be8ebbbf2468e73493061dccde
     m_Address: Assets/AutoGeneration/Backgrounds/Tide Watcher.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bf2cdb5b550f4a4189629f7a16a45f5
+    m_Address: Assets/AutoGeneration/Weapons/Aldori Dueling Sword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c1545a4035880b418d42a312cc0453c
     m_Address: Assets/AutoGeneration/Backgrounds/Anti-Tech Activist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c42087861c7f9e43becb50db7fb88a9
+    m_Address: Assets/AutoGeneration/Weapons/Monkey's Fist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cc95267764cbae4b9c34956d291f1eb
+    m_Address: Assets/AutoGeneration/Weapons/Greatsword.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -475,8 +1050,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d536713288c1d0478c290f684df35b0
+    m_Address: Assets/AutoGeneration/Weapons/Composite Longbow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5ec4ef52baee8d94d8c7fa5978f3c99d
     m_Address: Assets/Objects/Entries/Entry_10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f7feccd86edc664784bf22b926d2ce2
+    m_Address: Assets/AutoGeneration/Weapons/Bladed Scarf.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -490,8 +1075,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 615d0969fe8a01b4a8de771022ac8f80
+    m_Address: Assets/AutoGeneration/Weapons/Fauchard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61909f2b9b7dbf242af0e85f2a136954
+    m_Address: Assets/AutoGeneration/Weapons/Dogslicer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61950b34d46ca88459afdbd699562532
     m_Address: Assets/AutoGeneration/Backgrounds/Laborer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 628a3152754123f4882eaa3bd949ff0e
+    m_Address: Assets/AutoGeneration/Weapons/Lance.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -505,8 +1105,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64cc641c42975b34bb95618d05488051
+    m_Address: Assets/AutoGeneration/Weapons/Wrist Launcher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 655fb174be56cc2418214ea4250b29a1
     m_Address: Assets/AutoGeneration/Backgrounds/Acolyte.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 658bc4af9dabcda46a035713083229e5
+    m_Address: Assets/AutoGeneration/Weapons/Dwarven Waraxe.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -515,8 +1125,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6629bdb5a2ca67b499e6b0a7eb0afa37
+    m_Address: Assets/AutoGeneration/Weapons/Urumi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 66ab05f5f5c5e0f45a8277962a8a9c4a
     m_Address: Assets/AutoGeneration/Backgrounds/Insurgent.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67c49caa0704e2b40b4608b76facd038
+    m_Address: Assets/AutoGeneration/Weapons/Umbrella Injector.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67dd5aa865640974caea0f2421ee0463
+    m_Address: Assets/AutoGeneration/Weapons/Leiomano.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -525,8 +1150,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6881d72c62862f149b6f5ba2bfd3b8ae
+    m_Address: Assets/AutoGeneration/Weapons/Flingflenser.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68898c328b59f6a40a365d9e0d11d82b
     m_Address: Assets/AutoGeneration/Ancestries/Fetchling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6975c7e2c6b2b044083effa8ad6fb0f9
+    m_Address: Assets/AutoGeneration/Weapons/Arquebus.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6996b9fd9bbc2ff4e80a3f9501091503
+    m_Address: Assets/AutoGeneration/Weapons/Longsword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69ffbcd3133546441bf99d0245c3c9c0
+    m_Address: Assets/AutoGeneration/Weapons/Kalis.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -550,8 +1195,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d77f99a0042b424db632833f67503d9
+    m_Address: Assets/AutoGeneration/Weapons/Gill Hook.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6ddd68452f8a48f48966bb666dfba5fb
     m_Address: Assets/AutoGeneration/Backgrounds/Saboteur.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6df18d22973f3374fbf571bccc49284f
+    m_Address: Assets/AutoGeneration/Weapons/Sickle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e2c5c51dd070a449a61d88516f098ab
+    m_Address: Assets/AutoGeneration/Weapons/Morningstar.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -585,8 +1245,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7066a54015ac7c24082bcac2fc80a1a5
+    m_Address: Assets/AutoGeneration/Weapons/Butchering Axe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 70d4313641e8a274b82afc437c785d6f
     m_Address: Assets/AutoGeneration/Ancestries/Ghoran.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 712cfaa62bb623b49b15a560643532f1
+    m_Address: Assets/AutoGeneration/Weapons/Hammer Gun.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -605,13 +1275,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72ad17ed6e29c6a4f9d94317bc5200a9
+    m_Address: Assets/AutoGeneration/Weapons/Visap.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 732a752295c64dd4dbb69ac92dace5c0
+    m_Address: Assets/AutoGeneration/Weapons/Big Boom Gun.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73498e6a4f24634489a1ba5a2c185700
+    m_Address: Assets/AutoGeneration/Weapons/Adze.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 747e68159932d8a499f3b35a7dd289d1
     m_Address: Assets/AutoGeneration/Backgrounds/Cultist.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74d381c61c622b34bbd9dd7973f00401
+    m_Address: Assets/AutoGeneration/Weapons/Boarding Axe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 751826bf73db867429a7491255e1cbca
     m_Address: Assets/Objects/Entries/Entry_07.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 756ea11e2494fe14eb537213cf082448
+    m_Address: Assets/AutoGeneration/Weapons/Sling Bullets.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -630,13 +1325,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7730ab06954f7d141b6ec492b882d03d
+    m_Address: Assets/AutoGeneration/Weapons/Blunderbuss.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77744f6e6e6f7d04a8df5da7528a11d9
     m_Address: Assets/AutoGeneration/Backgrounds/Scholar.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77909dc0951a4804ea4b134aa9eb3df7
+    m_Address: Assets/AutoGeneration/Weapons/Bola.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77aaf11b7f377154998c9c12a9360af4
     m_Address: Assets/AutoGeneration/Backgrounds/Tomb Born.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77ad2a7e499161e409e62c1fd73c4a60
+    m_Address: Assets/AutoGeneration/Weapons/Earthbreaker.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -650,8 +1360,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 788191d7c8eb26540b8cf42e7fdd97a7
+    m_Address: Assets/AutoGeneration/Weapons/Exquisite Sword Cane.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78c4bbfb521568941a3143802e992bc1
+    m_Address: Assets/AutoGeneration/Weapons/Gnome Amalgam Musket.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78e711d33415c7f4696184703c6fec2e
+    m_Address: Assets/AutoGeneration/Weapons/Mace Multipistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78e80cae58e47a5449fb9b708f350dfc
+    m_Address: Assets/AutoGeneration/Weapons/Thundermace.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7950c0601d179964b9140a1ffcfddc5b
     m_Address: Assets/AutoGeneration/Backgrounds/Haunted Citizen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a034cf2e4698114090e0ae1f3fa5519
+    m_Address: Assets/AutoGeneration/Weapons/Gnome Hooked Hammer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a3acce1e2be67a42875bd5435d80b87
+    m_Address: Assets/AutoGeneration/Weapons/Guisarme.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -670,8 +1410,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ce93adc9ada9bd429ba743718dde9c0
+    m_Address: Assets/AutoGeneration/Weapons/Rhoka Sword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cf38d69d2e309747a365f9ec9d25797
+    m_Address: Assets/AutoGeneration/Weapons/Javelin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7d4e19b82a539074c8af5075bb466082
     m_Address: Assets/AutoGeneration/Backgrounds/Street Urchin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d8b5a3446a6a5b43a69c68fef7893d1
+    m_Address: Assets/AutoGeneration/Weapons/Gun Sword.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -680,8 +1435,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e55f03ff896a1c40980680c611568e8
+    m_Address: Assets/AutoGeneration/Weapons/Butterfly Sword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e8b37173f7acf24991770a5dcdaa406
     m_Address: Assets/Objects/CombatAction/Stride.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f0a828319eb34843bd028fcc9dc04fb
+    m_Address: Assets/AutoGeneration/Weapons/Rapier.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8118ed4d1d2aad3418c3c8dc27db1b36
+    m_Address: Assets/AutoGeneration/Weapons/Dagger Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8182f272601d11d42b664d0b015ca1e7
+    m_Address: Assets/AutoGeneration/Weapons/Fist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e5d6a29cb5c4d46bae666088d2e15c
+    m_Address: Assets/AutoGeneration/Weapons/Temple Sword.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -692,6 +1472,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 82b9b1b5f9c7ea14d8ef9e58abc6b348
     m_Address: Assets/AutoGeneration/Backgrounds/Artisan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82f2c11288225304298d1a506842565f
+    m_Address: Assets/AutoGeneration/Weapons/Glaive.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -720,8 +1505,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 858c8593c8560f24a830ea16ab21b8ba
+    m_Address: Assets/AutoGeneration/Weapons/Explosive Dogslicer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 85c1befe1c0d9f34090f41723a6eb276
     m_Address: Assets/AutoGeneration/Ancestries/Gnome.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87a909fa47bfb7145b608c6bd9529066
+    m_Address: Assets/AutoGeneration/Weapons/Backpack Ballista.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87fd8c7e5589ab4478094bbf8e5e6d2e
+    m_Address: Assets/AutoGeneration/Weapons/Shuriken.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8871d28d58679f644906cb7a1f361776
+    m_Address: Assets/AutoGeneration/Weapons/Orc Knuckle Dagger.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -735,8 +1540,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ad766d1ddd20bb468242e397d9add23
+    m_Address: Assets/AutoGeneration/Weapons/Firearm Ammunition (10 rounds).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ae8f9725c514fc47b373afc11b1b5e5
     m_Address: Assets/AutoGeneration/Ancestries/Goblin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b1a4dad8b5a7be4c813d23514ad66a0
+    m_Address: Assets/AutoGeneration/Weapons/Jezail.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -785,8 +1600,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f27aeb2e592fe844b003c33290894f9
+    m_Address: Assets/AutoGeneration/Weapons/Three Peaked Tree.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f39ff5649ddfff4fb9f55fe6533e94c
+    m_Address: Assets/AutoGeneration/Weapons/Repeating Heavy Crossbow Magazine.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8f5469aa41869a5438c58779c59ee582
     m_Address: Assets/AutoGeneration/Backgrounds/Deep-Sea Diver.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f9bca6d358515248a4cbf1f8cf8d494
+    m_Address: Assets/AutoGeneration/Weapons/Shauth Lash.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -795,8 +1625,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 907bc15c4a7dede4bbaceee7123c6288
+    m_Address: Assets/AutoGeneration/Weapons/Bolts (Phalanx Piercer).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91ee3200add1771458c26d57454e00a9
+    m_Address: Assets/AutoGeneration/Weapons/Exquisite Sword Cane Sheath.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 91fc21585f3cdb242ba1433741511e85
     m_Address: Assets/AutoGeneration/Backgrounds/Night Watch.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9244162078b7dd941b4aedd36ce4428d
+    m_Address: Assets/AutoGeneration/Weapons/Magazine (Air Repeater).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -805,8 +1650,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93ac6d92e2a208a4d86cd53846e6d52a
+    m_Address: Assets/AutoGeneration/Weapons/Thorn Whip.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 94e585effd8fb3649b052fb33b8cdd4e
     m_Address: Assets/AutoGeneration/Ancestries/Kitsune.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9628f8b694527bd4fa04d793b604475c
+    m_Address: Assets/AutoGeneration/Weapons/Repeating Heavy Crossbow.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -830,8 +1685,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 980d011618a4c3944aca375f594574d5
+    m_Address: Assets/AutoGeneration/Weapons/Sword Cane.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9827c6f32e72b3a40bc05b9a10a8539d
+    m_Address: Assets/AutoGeneration/Weapons/Bec de Corbin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9837bc61cc2b18443b6634f3ec472379
+    m_Address: Assets/AutoGeneration/Weapons/Repeating Hand Crossbow Magazine.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 989646baa41fc364e9a06bab9418916a
+    m_Address: Assets/AutoGeneration/Weapons/Shortsword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9924b5592f0d48748b0a4900452f76ab
+    m_Address: Assets/AutoGeneration/Weapons/Battle Axe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a218e8a8867ce9419d2a05451febb52
     m_Address: Assets/AutoGeneration/Ancestries/Android.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aba871da4c986b4dbde00fe568a06ad
+    m_Address: Assets/AutoGeneration/Weapons/Firearm Ammunition (5 rounds).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ac166bb2749b5d478c1b8f279290601
+    m_Address: Assets/AutoGeneration/Weapons/8-Round Magazine.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -840,8 +1730,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d9f0f0d89ad65f4d83a3797bc9e3a87
+    m_Address: Assets/AutoGeneration/Weapons/Light Mace.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9dba0d9c05474344fbdfdcd0e63562bf
     m_Address: Assets/AutoGeneration/Backgrounds/Awful Scab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e3a35c428506c1408281a8884f3c852
+    m_Address: Assets/AutoGeneration/Weapons/Scythe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0e8fdbf8ee92b64a94c5d3b8d7830a9
+    m_Address: Assets/AutoGeneration/Weapons/Flying Talon.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1daa640f1f3c3849b1976ff5dbf1b84
+    m_Address: Assets/AutoGeneration/Weapons/Nunchaku.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a20e895c2665ea1449f105231974b6fb
+    m_Address: Assets/AutoGeneration/Weapons/Triggerbrand.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -855,8 +1770,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a56d98632f4aca84ab397937b4c05afc
+    m_Address: Assets/AutoGeneration/Weapons/Bow Staff.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5ba8b96b767bc64a96221dcc8ca38bb
+    m_Address: Assets/AutoGeneration/Weapons/Bladed Diabolo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a5c85ee8fa5013647b139281ae48e288
     m_Address: Assets/AutoGeneration/Backgrounds/Concordance Researcher.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a695f5593ef3d354cba850c80b617e2a
+    m_Address: Assets/AutoGeneration/Weapons/Cane Pistol.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -865,13 +1795,48 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6ee5dc2c25c3a84c92f18332ff524fe
+    m_Address: Assets/AutoGeneration/Weapons/Broadspear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7f8fe8bbbe7e944eae7da9105a93ebd
+    m_Address: Assets/AutoGeneration/Weapons/Spraysling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a850d89e0a5ffae49b02aecb50735586
+    m_Address: Assets/AutoGeneration/Weapons/Scimitar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa15410a0de20544e926daad528e0868
+    m_Address: Assets/AutoGeneration/Weapons/Air Repeater.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa39be9492c58de4090ab6d45c24afc2
+    m_Address: Assets/AutoGeneration/Weapons/Shauth Blade.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aae4e52d727d80740832b1e7faeb8a82
     m_Address: Assets/AutoGeneration/Backgrounds/Tall-Tale.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab1e2e243bff7c647a061d820d8f9320
+    m_Address: Assets/AutoGeneration/Weapons/Coat Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ab87739ab7e3dab498256c99bc194ba6
     m_Address: Assets/AutoGeneration/Ancestries/Lizardfolk.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac4790f923e17324daae811b1cb1f6e3
+    m_Address: Assets/AutoGeneration/Weapons/Tetsubo.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -890,13 +1855,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afd7d6904bcf1ba469f5968a28ae6097
+    m_Address: Assets/AutoGeneration/Weapons/Clan Dagger.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b0a5bad461215794c9ff77d170d40901
     m_Address: Assets/AutoGeneration/Backgrounds/Translator.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0b2a18cb5cbd234baede056f5287405
+    m_Address: Assets/AutoGeneration/Weapons/Main-gauche.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b16e5b369825dfa42a5bc36a9f543389
     m_Address: Assets/AutoGeneration/Backgrounds/Beast Blessed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b189b9b2525bd6a46aa4a5149db5d9a2
+    m_Address: Assets/AutoGeneration/Weapons/Whip.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -910,6 +1890,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b279a9bccfa0afb4eb35bb6d249b7ab6
+    m_Address: Assets/AutoGeneration/Weapons/Spiked Gauntlet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b3197420eb160844099c39d2eb62469c
     m_Address: Assets/AutoGeneration/Backgrounds/Highborn Snoop.prefab
     m_ReadOnly: 0
@@ -920,8 +1905,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b362d4ba04bae404ab8123fa61da5759
+    m_Address: Assets/AutoGeneration/Weapons/Crescent Cross.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b3c2a49c7e45fc64888cac52bae09188
     m_Address: Assets/AutoGeneration/Backgrounds/Sentinel Reflectance.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b44956e20fb3bc547b9964aea1c21820
+    m_Address: Assets/AutoGeneration/Weapons/War Flail.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5539751f5bbe7847ba7f58e2da5e830
+    m_Address: Assets/AutoGeneration/Weapons/Mikazuki.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b59a91de733177d4db5b62ed1f4f616e
+    m_Address: Assets/AutoGeneration/Weapons/Aklys.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5f4bde2985c82444a3c9ad54ac1ce8b
+    m_Address: Assets/AutoGeneration/Weapons/Asp Coil.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -945,8 +1955,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7cb0739a98557a4ba64cc157d4e970b
+    m_Address: Assets/AutoGeneration/Weapons/Kama.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b88bf0783124b8440b7ca8cd3d07d60f
     m_Address: Assets/AutoGeneration/Backgrounds/Feybound.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8e768a4d6246d7419213f689d0697d1
+    m_Address: Assets/AutoGeneration/Weapons/Shobhad Longrifle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b91fee03ffbec1f48aeabe02409196b7
+    m_Address: Assets/AutoGeneration/Weapons/Pantograph Gauntlet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b95f53c9d077d6b469011d9d426b87e3
+    m_Address: Assets/AutoGeneration/Weapons/Gada.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b989c09261da3f8429bc9cdff7a9d597
+    m_Address: Assets/AutoGeneration/Weapons/Polytool.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -955,13 +1990,58 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbc3b7861ef4cfb43a06834e9730a379
+    m_Address: Assets/AutoGeneration/Weapons/Bayonet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbd36a1891fabb24c8964801cbc3e1a3
+    m_Address: Assets/AutoGeneration/Weapons/Wrecker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc7792f7a73f6224885b6ca073a84e26
+    m_Address: Assets/AutoGeneration/Weapons/Tekko-Kagi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc9b0ece9021bf240acf02b04e8b1598
+    m_Address: Assets/AutoGeneration/Weapons/Falcata.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcc4e49f2a29d75499be35c073eed031
+    m_Address: Assets/AutoGeneration/Weapons/Black Powder Knuckle Dusters.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bccabc598cde9fb4ea274c17a98581ef
+    m_Address: Assets/AutoGeneration/Weapons/Shield Boss.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bd67522fcb1d7d74097a8a96376186ba
     m_Address: Assets/AutoGeneration/Ancestries/Human.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdd3c6d7ecfdd6b478b08b9c9687df1b
+    m_Address: Assets/AutoGeneration/Weapons/Machete.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bde56b0c5eb18b74baa932c2bdb74611
+    m_Address: Assets/AutoGeneration/Weapons/Griffon Cane.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: be50698cf2ca55344ac1a370d4ca7101
     m_Address: Assets/AutoGeneration/Backgrounds/Saved by Clockwork.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfb441efacfdece428b79e8ac8e8fe00
+    m_Address: Assets/AutoGeneration/Weapons/Kusarigama.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -975,13 +2055,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c421c5025ed5cc84aabfb762228d3c2b
+    m_Address: Assets/AutoGeneration/Weapons/Repeating Crossbow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4991646bf31a374ea7728ebd34d94ff
+    m_Address: Assets/AutoGeneration/Weapons/Axe Musket.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c534d32476ba3684992e7b2a488726a2
+    m_Address: Assets/AutoGeneration/Weapons/Blowgun.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5476e10176f6f34d9adcc471562417c
     m_Address: Assets/AutoGeneration/Backgrounds/Pillar.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c55aa1bc25f9c134487ee3c217cdbccd
+    m_Address: Assets/AutoGeneration/Weapons/Slide Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c569c7f331e00924e961fe8f806e8cb2
     m_Address: Assets/AutoGeneration/Backgrounds/Fightbreaker.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5c47ac10d869ec478a163d48f9d290b
+    m_Address: Assets/AutoGeneration/Weapons/Barricade Buster.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -995,8 +2100,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7b57b0cd1e3b80458fefc1f26c580e8
+    m_Address: Assets/AutoGeneration/Weapons/Battle Lute.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7c52b696d06a3c4494aad59568759d9
+    m_Address: Assets/AutoGeneration/Weapons/Flail.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c85476eaea53a274e82377f89ff0f96a
     m_Address: Assets/Prefabs/Combatants/Monsters/Giant Rat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c882f55eeaab21c4a87cdb97b8d524d5
+    m_Address: Assets/AutoGeneration/Weapons/Alchemical Crossbow.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1005,8 +2125,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c90a961b57b32144086b90d2b2a2b4d5
+    m_Address: Assets/AutoGeneration/Weapons/Dueling Pistol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c987a07c174b24047b91b167f0390b87
+    m_Address: Assets/AutoGeneration/Weapons/Spear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca4e9fca9416c4a49a07623803d16392
+    m_Address: Assets/AutoGeneration/Weapons/Tengu Gale Blade.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cab4b1fd8a1ce9742ad22df56aba9778
     m_Address: Assets/AutoGeneration/Backgrounds/Scion of Slayers.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb18c28c962c09d4facd983a6ff4672c
+    m_Address: Assets/AutoGeneration/Weapons/Double-barreled Musket.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb30acfc6dd6b694280c8f17a46bf621
+    m_Address: Assets/AutoGeneration/Weapons/Gnome Flickmace.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb4f6c2405a4d784d969fd26f7753845
+    m_Address: Assets/AutoGeneration/Weapons/Long Air Repeater.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbf07afa329179e49ba7141d29384db1
+    m_Address: Assets/AutoGeneration/Weapons/Throwing Knife.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1020,13 +2175,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce16266abf986f24f922197073680a8b
+    m_Address: Assets/AutoGeneration/Weapons/Fighting Fan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce91fe48312ef984dadfdf69c38f43a1
+    m_Address: Assets/AutoGeneration/Weapons/Bo Staff.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cee96b715d78e4e4786f66eaa5674df9
+    m_Address: Assets/AutoGeneration/Weapons/Spiked Chain.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ceea60efd933cb04fb852e294c1f094e
     m_Address: Assets/AutoGeneration/Backgrounds/Close Ties.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cffb296aa0cd33a428f4551064600509
+    m_Address: Assets/AutoGeneration/Weapons/Scorpion Whip.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d09aa0b96b211f940b854f353ac55ee4
     m_Address: Assets/AutoGeneration/Backgrounds/Medicinal Clocksmith.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d09f688f37f07a44792cbabe903a75ea
+    m_Address: Assets/AutoGeneration/Weapons/Naginata.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2b67a8f33227404ba11456dcf900cef
+    m_Address: Assets/AutoGeneration/Weapons/Trident.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1040,8 +2225,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3bb39b18cef54a4f8c776c59b6a466e
+    m_Address: Assets/AutoGeneration/Weapons/Shield Bash.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3d6ed74ec1d776459bcffc4b30eb079
+    m_Address: Assets/AutoGeneration/Weapons/Arbalest.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d435558a6c67ee94d8768bd58d01f4a0
     m_Address: Assets/AutoGeneration/Backgrounds/Deputy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d43827ab0aae6b34ba570852d1eebac9
+    m_Address: Assets/AutoGeneration/Weapons/Clan Pistol.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1050,8 +2250,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5d1d0ede6067c6498f6c3e116107fe4
+    m_Address: Assets/AutoGeneration/Weapons/Frying Pan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5f1102ed76727f4693e439357ef9cb6
+    m_Address: Assets/AutoGeneration/Weapons/Switchscythe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d657f9d7953795948808fdc99e0722b1
+    m_Address: Assets/AutoGeneration/Weapons/Staff.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7e3cfb8261b6c245b7721d8946a1d95
+    m_Address: Assets/AutoGeneration/Weapons/Wheel Blades.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d887e0e9443c3824984324393c18a856
+    m_Address: Assets/AutoGeneration/Weapons/Dart Umbrella.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8db6e1f49aee22419563792ebc20214
     m_Address: Assets/AutoGeneration/Backgrounds/Goldhand Arms Dealer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d970ca9ee06de894f97766b0d1fcf56e
+    m_Address: Assets/AutoGeneration/Weapons/Meteor Hammer.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1060,8 +2290,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db05ade57cc4b9142a55f0876ef63b1a
+    m_Address: Assets/AutoGeneration/Weapons/Warhammer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: db77d94eac26451418e41c584465073b
     m_Address: Assets/AutoGeneration/Backgrounds/Martial Disciple.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbeab53bcea1b5e4293e79416e05b17b
+    m_Address: Assets/AutoGeneration/Weapons/Tri-Bladed Katar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dce05b99a8b8d714c89eeae4c1da273c
+    m_Address: Assets/AutoGeneration/Weapons/Spoon Gun.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1070,8 +2315,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd725803e0ce83f46888b4aec830efec
+    m_Address: Assets/AutoGeneration/Weapons/Blowgun Darts.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: de65013776767f74eabcc4cfac6f4b69
     m_Address: Assets/AutoGeneration/Backgrounds/Back-Alley Doctor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de7a84bb2b427af45b1573b76a874282
+    m_Address: Assets/AutoGeneration/Weapons/War Razor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de8d6c93ea0babf4bb2d1e167ddcd7ad
+    m_Address: Assets/AutoGeneration/Weapons/Sickle-Saber.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deb39fcc537dee24dae49cd78dbaf1a2
+    m_Address: Assets/AutoGeneration/Weapons/Fighting Stick.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1085,6 +2350,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0da2a7762554284ba404d7b8d9f5ba0
+    m_Address: Assets/AutoGeneration/Weapons/Rotary Bow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e0e73584a6d06c642b65238ed3a8c647
     m_Address: Assets/AutoGeneration/Backgrounds/Barrister.prefab
     m_ReadOnly: 0
@@ -1095,8 +2365,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e17362b35659d904ea7e7b3ef02f3e49
+    m_Address: Assets/AutoGeneration/Weapons/Lancer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e18d2d908f2dc6c40a95a0507a3498f7
     m_Address: Assets/AutoGeneration/Backgrounds/Doomcaller.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1c2c711405de27408c08742514c07e2
+    m_Address: Assets/AutoGeneration/Weapons/Reinforced Frame.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2d887a64ec558a4ba010a778195ca06
+    m_Address: Assets/AutoGeneration/Weapons/Shield Spikes.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e34e01e3effa97c43ad068505e54ed4e
+    m_Address: Assets/AutoGeneration/Weapons/Chakram.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1115,8 +2405,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4fe28df66349e54aa462b7693e66702
+    m_Address: Assets/AutoGeneration/Weapons/Sukgung.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e504ce849194dd244b54b967ced0618b
     m_Address: Assets/AutoGeneration/Backgrounds/Osprey Spellcaster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e518a4984ab47d948b37ea7656c5661b
+    m_Address: Assets/AutoGeneration/Weapons/Karambit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e57666b8d7b7f5c41b2cf250cb3cdfe4
+    m_Address: Assets/AutoGeneration/Weapons/Hand Crossbow.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1140,8 +2445,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8659aea4ad2b3945b9555df43ae947e
+    m_Address: Assets/AutoGeneration/Weapons/War Lance.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e9169fe00eef3b640b6692ea8a2da239
     m_Address: Assets/AutoGeneration/Backgrounds/Outskirt Dweller.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9537b14f6a71d74f90805569517d9a8
+    m_Address: Assets/AutoGeneration/Weapons/Gakgung.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea74516fe68da2e4283eaa39c69ca335
+    m_Address: Assets/AutoGeneration/Weapons/Katar.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1150,13 +2470,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaae5c32025af6042b26725769512083
+    m_Address: Assets/AutoGeneration/Weapons/Repeating Hand Crossbow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebaf26dda18891c45983551a21d8375f
+    m_Address: Assets/AutoGeneration/Weapons/Wheel Spikes.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ebea00c7ebe264640bc9767e718c1d0e
     m_Address: Assets/AutoGeneration/Ancestries/Shisk.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec09db24d62c6c047a708f57d4a90f6a
+    m_Address: Assets/AutoGeneration/Weapons/Dandpatta.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec34668b8f5821845b8045774cad13ba
     m_Address: Assets/AutoGeneration/Backgrounds/Bounty Hunter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec9522af1a1c2a94b88d5523eefc6beb
+    m_Address: Assets/AutoGeneration/Weapons/Boomerang.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eca9fdadc32afb2489e165dbdd91ae3a
+    m_Address: Assets/AutoGeneration/Weapons/Sling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eccb733a4cf72f24e8e6e7b6fb0f0fd5
+    m_Address: Assets/AutoGeneration/Weapons/Combat Grapnel.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1175,6 +2525,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee33a511861542f4ab9a4ae7d9c963cf
+    m_Address: Assets/AutoGeneration/Weapons/Sap.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee8521c70d0e5fd4a9589ae94283b170
+    m_Address: Assets/AutoGeneration/Weapons/Bolts.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ee88942c66980a24d90a573ce47d74dd
     m_Address: Assets/Objects/Entries/Entry_11.prefab
     m_ReadOnly: 0
@@ -1185,13 +2545,58 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f118aad799d9a3343b84488de3dec23b
+    m_Address: Assets/AutoGeneration/Weapons/Kukri.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f12907275e1fc8e42a154e3a0361a7e9
+    m_Address: Assets/AutoGeneration/Weapons/Wish Knife.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f12a44d53e49b4546bd0f7d8a273266a
+    m_Address: Assets/AutoGeneration/Weapons/Hatchet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f19326d5decc90742973eee3ee21caa9
+    m_Address: Assets/AutoGeneration/Weapons/Repeating Crossbow Magazine.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2f95c3c37882e54b87ad5bf71a9c5f6
+    m_Address: Assets/AutoGeneration/Weapons/Sai.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f35ae068581316649ac1dc9a7b48159e
+    m_Address: Assets/AutoGeneration/Weapons/Nightstick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f35ed1e13864b9242aae761e45fe1413
     m_Address: Assets/AutoGeneration/Ancestries/Goloma.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3736db38d85dbd49baa6f30e0bf6186
+    m_Address: Assets/AutoGeneration/Weapons/Greatpick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f39d22b57d529d347841cf759b818379
+    m_Address: Assets/AutoGeneration/Weapons/Hook Sword.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f3a861e99f0dc22429d4cdd14b251797
     m_Address: Assets/AutoGeneration/Backgrounds/Warrior.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3b2804ec03a9b0479b09ac4d6d86198
+    m_Address: Assets/AutoGeneration/Weapons/Sun Shot.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1205,8 +2610,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f526669c025d7c748b34010931b0a012
+    m_Address: Assets/AutoGeneration/Weapons/Falchion.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5a946036abe5cb4198654c45fabe524
     m_Address: Assets/AutoGeneration/Backgrounds/Cursed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5b962e592e5c5040ac1f8512980be5c
+    m_Address: Assets/AutoGeneration/Weapons/Phalanx Piercer.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1215,8 +2630,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6b57e12a5886514f924048662b7df94
+    m_Address: Assets/AutoGeneration/Weapons/Injection Spear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f77f6e04020304344b249583e7d4d31e
     m_Address: Assets/AutoGeneration/Backgrounds/Tech-Reliant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7e7266d5fbd0b54cb3e62ec5625021b
+    m_Address: Assets/AutoGeneration/Weapons/Fire Lance.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1227,6 +2652,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f94c7737a02e26349ad12bad09e7afb8
     m_Address: Assets/AutoGeneration/Backgrounds/Herbalist.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9588f51298515f4c87a5004a1fa2b45
+    m_Address: Assets/AutoGeneration/Weapons/Bladed Gauntlet.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa343892dfba7684cbb44f229b6b0f80
+    m_Address: Assets/AutoGeneration/Weapons/Poi.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1265,8 +2700,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd582dc3a4f7b52468311c39066d33a9
+    m_Address: Assets/AutoGeneration/Weapons/Sawtooth Saber.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fd720c1190492ab4580cc4285dc4fcec
     m_Address: Assets/AutoGeneration/Backgrounds/Necromancer's Apprentice.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd8f954d7ef5a3740bd0c97702dc9fbd
+    m_Address: Assets/AutoGeneration/Weapons/Arrows.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Assets\Scripts\AssetManager\WeaponAssetSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\AttributeProvider\DamageRollProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\AttributeProvider\WeaponTypeProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\AttributeProvider\WeaponTrainingProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\AttributeProvider\WeaponGroupProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\AttributeProvider\WeaponCategoryProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\AttributeProvider\PrimaryWeaponProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\Combat\CombatActions\Attack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\Combat\CombatActions\WeaponAttack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\Component\EntityRelationTableSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\Component\Equipment\EquipmentInjector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\Component\Equipment\PrimaryHandSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\Component\Equipment\Weapon\WeaponTypeSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\PreProduction\WeaponParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

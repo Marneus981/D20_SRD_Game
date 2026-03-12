@@ -7,5 +7,6 @@ public static class AssetManagerInjector
         IEntryAssetSystem.Register(new EntryAssetSystem());
         IAncestryAssetSystem.Register(new AncestryAssetSystem());
         IBackgroundAssetSystem.Register(new BackgroundAssetSystem());
+        IWeaponAssetSystem.Register(new WeaponAssetSystem());
     }
 }
