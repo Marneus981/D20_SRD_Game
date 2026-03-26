@@ -8,6 +8,7 @@ public interface ILevelSystem : IDependency<ILevelSystem>, IEntityTableSystem<in
 
 }
 
+[Dependency(typeof(ILevelSystem))]
 public class LevelSystem : EntityTableSystem<int>, ILevelSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.level;

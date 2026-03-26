@@ -7,7 +7,7 @@ public interface IAthleticsSystem : IDependency<IAthleticsSystem>, IBaseSkillSys
 {
 
 }
-
+[Dependency(typeof(IAthleticsSystem))]
 public class AthleticsSystem : BaseSkillSystem, IAthleticsSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Athletics;

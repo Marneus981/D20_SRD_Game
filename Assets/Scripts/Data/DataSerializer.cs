@@ -9,6 +9,7 @@ public interface IDataSerializer : IDependency<IDataSerializer>
     Data Deserialize(string json);
 }
 
+[Dependency(typeof(IDataSerializer))]
 public class DataSerializer : IDataSerializer
 /*
 Serializer handles turning our Data model into JSON and creating a Data model from JSON. 

@@ -12,7 +12,7 @@ public interface IEncounterSystem : IDependency<IEncounterSystem>
     string GetName();
     UniTask Setup(IEncounter encounter);
 }
-
+[Dependency(typeof(IEncounterSystem))]
 public class EncounterSystem : IEncounterSystem
 {
     string heroPath = "Assets/Prefabs/Combatants/Heroes/{0}.prefab";

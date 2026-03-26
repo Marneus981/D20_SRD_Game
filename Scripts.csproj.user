@@ -29,16 +29,19 @@
     <Compile Update="Assets\Scripts\Combat\CombatActions\WeaponAttack.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Assets\Scripts\Component\EntityRelationTableSystem.cs">
+    <Compile Update="Assets\Scripts\Combat\Damage\DamageSystemFactory.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Assets\Scripts\Component\Equipment\EquipmentInjector.cs">
+    <Compile Update="Assets\Scripts\Component\EntityRelationTableSystem.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Assets\Scripts\Component\Equipment\PrimaryHandSystem.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Assets\Scripts\Component\Equipment\Weapon\WeaponTypeSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Scripts\Data\DataStoreFactory.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Assets\Scripts\PreProduction\WeaponParser.cs">

@@ -7,7 +7,7 @@ public interface IArcanaProficiencySystem : IDependency<IArcanaProficiencySystem
 {
 
 }
-
+[Dependency(typeof(IArcanaProficiencySystem))]
 public class ArcanaProficiencySystem : EntityTableSystem<Proficiency>, IArcanaProficiencySystem
 //No partial definition for Entity: Proficiency of a skill will only be used to calculate the skill value; 
 //We will use the system directly when needed.

@@ -9,6 +9,7 @@ public interface IAttackRollSystem : IDependency<IAttackRollSystem>
 {
     Check Perform(AttackRollInfo info);
 }
+[Dependency(typeof(IAttackRollSystem))]
 public class AttackRollSystem : IAttackRollSystem
 {
     public Check Perform(AttackRollInfo info)

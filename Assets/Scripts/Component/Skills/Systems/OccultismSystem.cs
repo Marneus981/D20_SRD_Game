@@ -7,7 +7,7 @@ public interface IOccultismSystem : IDependency<IOccultismSystem>, IBaseSkillSys
 {
 
 }
-
+[Dependency(typeof(IOccultismSystem))]
 public class OccultismSystem : BaseSkillSystem, IOccultismSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Occultism;

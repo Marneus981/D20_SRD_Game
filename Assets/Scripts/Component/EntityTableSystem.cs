@@ -23,7 +23,9 @@ public interface IEntityTableSystem<T>
         //Deletes an Entity and its associated data from the Table
 }
 
-public abstract class EntityTableSystem<T> : IEntityTableSystem<T>
+[DependencyCollection(typeof(ISetup))]
+[DependencyCollection(typeof(ITearDown))]
+public abstract class EntityTableSystem<T> : IEntityTableSystem<T>, ISetup, ITearDown
 /*
 Note: The Table itself was left as an abstract property. 
 Any concrete subclass should determine where the Table comes from. 
@@ -34,11 +36,6 @@ it could be defined within the concrete class directly and used only in memory.
 {
     public abstract CoreDictionary<Entity, T> Table { get; }
 
-    public EntityTableSystem()
-    {
-        ISetUpSystem.Resolve().Add(SetUp);
-        ITearDownSystem.Resolve().Add(TearDown);
-    }
     public virtual void Set(Entity entity, T value)
     {
         Table[entity] = value;

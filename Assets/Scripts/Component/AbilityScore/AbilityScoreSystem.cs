@@ -18,6 +18,7 @@ public interface IAbilityScoreSystem : IDependency<IAbilityScoreSystem>
     void Set(Entity entity, IEnumerable<int> scores);
 }
 
+[Dependency(typeof(IAbilityScoreSystem))]
 public class AbilityScoreSystem : IAbilityScoreSystem
 {
     public void Set(Entity entity, IEnumerable<int> scores)

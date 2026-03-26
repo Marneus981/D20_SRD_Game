@@ -8,6 +8,7 @@ public interface IDataSystem : IDependency<IDataSystem>
     void Save();
     void Load();
 }
+[Dependency(typeof(IDataSystem))]
 public class DataSystem : IDataSystem
 {
     public Data Data { get; private set; }

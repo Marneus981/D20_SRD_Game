@@ -7,7 +7,7 @@ public interface IMedicineProficiencySystem : IDependency<IMedicineProficiencySy
 {
 
 }
-
+[Dependency(typeof(IMedicineProficiencySystem))]
 public class MedicineProficiencySystem : EntityTableSystem<Proficiency>, IMedicineProficiencySystem
 //No partial definition for Entity: Proficiency of a skill will only be used to calculate the skill value; 
 //We will use the system directly when needed.

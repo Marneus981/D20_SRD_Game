@@ -8,6 +8,8 @@ public interface ISpeedSystem : IDependency<ISpeedSystem>, IEntityTableSystem<in
 
 }
 
+[Dependency(typeof(ISpeedSystem))]
+
 public class SpeedSystem : EntityTableSystem<int>, ISpeedSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.speed;

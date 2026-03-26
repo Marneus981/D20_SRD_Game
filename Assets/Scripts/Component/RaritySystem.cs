@@ -16,6 +16,7 @@ public interface IRaritySystem : IDependency<IRaritySystem>, IEntityTableSystem<
 
 }
 
+[Dependency(typeof(IRaritySystem))]
 public class RaritySystem : EntityTableSystem<Rarity>, IRaritySystem
 {
     public override CoreDictionary<Entity, Rarity> Table => IDataSystem.Resolve().Data.rarity;

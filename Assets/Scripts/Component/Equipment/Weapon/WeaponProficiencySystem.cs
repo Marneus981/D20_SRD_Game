@@ -24,7 +24,7 @@ public interface IWeaponProficiencySystem : IDependency<IWeaponProficiencySystem
     void AddWeaponTraining(WeaponTraining training, Entity entity);
     Proficiency GetProficiency(Entity entity, Entity weapon);
 }
-
+[Dependency(typeof(IWeaponProficiencySystem))]
 public class WeaponProficiencySystem : EntityTableSystem<WeaponProficiency>, IWeaponProficiencySystem
 {
     public override CoreDictionary<Entity, WeaponProficiency> Table => IDataSystem.Resolve().Data.weaponProficiency;

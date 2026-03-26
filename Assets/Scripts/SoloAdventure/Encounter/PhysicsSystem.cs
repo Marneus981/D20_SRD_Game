@@ -5,7 +5,7 @@ public interface IPhysicsSystem : IDependency<IPhysicsSystem>
     Entity? OverlapPoint(Point point, int layerMask);//Check entities at point
                                                      //layerMask is used to cast against
 }
-
+[Dependency(typeof(IPhysicsSystem))]
 public class PhysicsSystem : IPhysicsSystem
 {
     const int maxResultCount = 10;

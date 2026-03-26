@@ -9,6 +9,7 @@ public interface ICheckSystem : IDependency<ICheckSystem>
 {
     Check GetResult(int modifier, int difficultyCheck);
 }
+[Dependency(typeof(ICheckSystem))]
 public class CheckSystem : ICheckSystem
 {
     public Check GetResult(int modifier, int difficultyCheck)

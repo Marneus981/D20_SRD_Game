@@ -7,7 +7,7 @@ public interface IPerformanceSystem : IDependency<IPerformanceSystem>, IBaseSkil
 {
 
 }
-
+[Dependency(typeof(IPerformanceSystem))]
 public class PerformanceSystem : BaseSkillSystem, IPerformanceSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Performance;

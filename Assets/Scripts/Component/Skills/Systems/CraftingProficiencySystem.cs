@@ -7,7 +7,7 @@ public interface ICraftingProficiencySystem : IDependency<ICraftingProficiencySy
 {
 
 }
-
+[Dependency(typeof(ICraftingProficiencySystem))]
 public class CraftingProficiencySystem : EntityTableSystem<Proficiency>, ICraftingProficiencySystem
 //No partial definition for Entity: Proficiency of a skill will only be used to calculate the skill value; 
 //We will use the system directly when needed.

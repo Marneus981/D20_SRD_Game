@@ -13,7 +13,7 @@ public interface IWeaponTypeSystem : IDependency<IWeaponTypeSystem>, IEntityTabl
 {
 
 }
-
+[Dependency(typeof(IWeaponTypeSystem))]
 public class WeaponTypeSystem : EntityTableSystem<WeaponType>, IWeaponTypeSystem
 {
     public override CoreDictionary<Entity, WeaponType> Table => IDataSystem.Resolve().Data.weaponType;

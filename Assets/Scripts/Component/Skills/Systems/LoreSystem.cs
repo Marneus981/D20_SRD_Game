@@ -7,7 +7,7 @@ public interface ILoreSystem : IDependency<ILoreSystem>, IBaseSkillSystem
 {
 
 }
-
+[Dependency(typeof(ILoreSystem))]
 public class LoreSystem : BaseSkillSystem, ILoreSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Lore;

@@ -6,6 +6,7 @@ public interface IGameSystem : IDependency<IGameSystem>
     UniTask ContinueGame();
 }
 
+[Dependency(typeof(IGameSystem))]
 public class GameSystem : IGameSystem
 {
     public async UniTask NewGame()

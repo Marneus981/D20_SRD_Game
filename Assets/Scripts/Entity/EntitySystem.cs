@@ -9,6 +9,7 @@ public interface IEntitySystem : IDependency<IEntitySystem>
         void Destroy(Entity entity);
         event Action<Entity> EntityDestroyed;
 }
+[Dependency(typeof(IEntitySystem))]
 public class EntitySystem : IEntitySystem
 {
         /*

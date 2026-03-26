@@ -21,6 +21,7 @@ public interface IAdventureItemSystem : IDependency<IAdventureItemSystem>
     void Drop(AdventureItem item);
     bool Has(AdventureItem item);
 }
+[Dependency(typeof(IAdventureItemSystem))]
 public class AdventureItemSystem : IAdventureItemSystem
 {
     CoreSet<AdventureItem> Items { get { return IDataSystem.Resolve().Data.items; } }

@@ -27,7 +27,7 @@ public interface ISkillSystem : IDependency<ISkillSystem>
     void SetupAllSkills(Entity entity);
     void Setup(Entity entity, Skill skill);
 }
-
+[Dependency(typeof(ISkillSystem))]
 public class SkillSystem : ISkillSystem
 {
     public void Set(Entity entity, Skill skill, int value)

@@ -1,30 +1,20 @@
-using System;
-using System.Collections.Generic;
+public interface ISetup
+{
+    void SetUp();
+}
 
 public interface ISetUpSystem : IDependency<ISetUpSystem>
 {
     void SetUp();
-    void Add(Action action);
-    void Remove(Action action);
 }
 
+[Dependency(typeof(ISetUpSystem))]
 public class SetUpSystem : ISetUpSystem
 {
-    List<Action> actions = new List<Action>();
-
     public void SetUp()
     {
-        foreach (var action in actions)
-            action();
-    }
-
-    public void Add(Action action)
-    {
-        actions.Add(action);
-    }
-
-    public void Remove(Action action)
-    {
-        actions.Remove(action);
+        var systems = DependencyCollection<ISetup>.Collection;
+        foreach (var system in systems)
+            system.SetUp();
     }
 }

@@ -7,6 +7,7 @@ public interface IWeaponAssetSystem : IDependency<IWeaponAssetSystem>
     UniTask<Entity> Spawn(string name);
 }
 
+[Dependency(typeof(IWeaponAssetSystem))]
 public class WeaponAssetSystem : IWeaponAssetSystem
 {
     public async UniTask<GameObject> Load(string name)

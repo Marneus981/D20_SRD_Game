@@ -7,7 +7,7 @@ public interface IDamageRollSystem : IDependency<IDamageRollSystem>, IEntityTabl
 {
 
 }
-
+[Dependency(typeof(IDamageRollSystem))]
 public class DamageRollSystem : EntityTableSystem<DiceRoll>, IDamageRollSystem
 {
     public override CoreDictionary<Entity, DiceRoll> Table => IDataSystem.Resolve().Data.damageRoll;

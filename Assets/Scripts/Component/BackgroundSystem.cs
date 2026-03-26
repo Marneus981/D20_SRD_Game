@@ -8,6 +8,7 @@ public interface IBackgroundSystem : IDependency<IBackgroundSystem>, IEntityTabl
 
 }
 
+[Dependency(typeof(IBackgroundSystem))]
 public class BackgroundSystem : EntityTableSystem<string>, IBackgroundSystem
 {
     public override CoreDictionary<Entity, string> Table => IDataSystem.Resolve().Data.background;

@@ -6,6 +6,7 @@ public interface IRollInitiativeSystem : IDependency<IRollInitiativeSystem>
     void Roll(IEnumerable<Entity> entities);
 }
 
+[Dependency(typeof(IRollInitiativeSystem))]
 public class RollInitiativeSystem : IRollInitiativeSystem
 {
     public void Roll(Entity entity)

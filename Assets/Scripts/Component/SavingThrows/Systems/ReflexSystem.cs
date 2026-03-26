@@ -7,7 +7,7 @@ public interface IReflexSystem : IDependency<IReflexSystem>, IBaseSavingThrowSys
 {
 
 }
-
+[Dependency(typeof(IReflexSystem))]
 public class ReflexSystem : BaseSavingThrowSystem, IReflexSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.reflex;

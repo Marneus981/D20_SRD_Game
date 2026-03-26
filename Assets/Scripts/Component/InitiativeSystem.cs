@@ -8,6 +8,7 @@ public interface IInitiativeSystem : IDependency<IInitiativeSystem>, IEntityTabl
 
 }
 
+[Dependency(typeof(IInitiativeSystem))]
 public class InitiativeSystem : EntityTableSystem<int>, IInitiativeSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.initiative;

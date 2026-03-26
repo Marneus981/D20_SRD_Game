@@ -6,6 +6,7 @@ public interface IAncestryAssetSystem : IDependency<IAncestryAssetSystem>
     UniTask<IAncestry> Load(string name);
 }
 
+[Dependency(typeof(IAncestryAssetSystem))]
 public class AncestryAssetSystem : IAncestryAssetSystem
 {
     public async UniTask<IAncestry> Load(string name)

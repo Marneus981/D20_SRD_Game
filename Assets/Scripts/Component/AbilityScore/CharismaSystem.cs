@@ -8,6 +8,7 @@ public interface ICharismaSystem : IDependency<ICharismaSystem>, IEntityTableSys
 
 }
 
+[Dependency(typeof(ICharismaSystem))]
 public class CharismaSystem : EntityTableSystem<AbilityScore>, ICharismaSystem
 {
     public override CoreDictionary<Entity, AbilityScore> Table => IDataSystem.Resolve().Data.charisma;

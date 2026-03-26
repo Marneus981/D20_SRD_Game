@@ -31,7 +31,7 @@ public interface ICombatantViewSystem : IDependency<ICombatantViewSystem>
     void SetAnimation(CombatantView view, CombatantAnimation animation);//looping
     UniTask PlayAnimation(CombatantView view, CombatantAnimation animation);//1 time
 }
-
+[Dependency(typeof(ICombatantViewSystem))]
 public class CombatantViewSystem : ICombatantViewSystem
 {
     //Cache hash values for state names

@@ -12,6 +12,7 @@ public interface IStrideSystem : IDependency<IStrideSystem>
     UniTask Apply(StrideInfo info);
 }
 
+[Dependency(typeof(IStrideSystem))]
 public class StrideSystem : IStrideSystem
 {
     public async UniTask Apply(StrideInfo info)

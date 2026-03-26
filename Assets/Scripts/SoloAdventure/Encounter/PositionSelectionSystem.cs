@@ -4,7 +4,7 @@ public interface IPositionSelectionSystem : IDependency<IPositionSelectionSystem
 {
     UniTask<Point> Select(Point start);
 }
-
+[Dependency(typeof(IPositionSelectionSystem))]
 public class PositionSelectionSystem : IPositionSelectionSystem
 {
     public async UniTask<Point> Select(Point start)

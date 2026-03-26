@@ -7,7 +7,7 @@ public interface IHitPointSystem : IDependency<IHitPointSystem>, IEntityTableSys
 {
 
 }
-
+[Dependency(typeof(IHitPointSystem))]
 public class HitPointSystem : EntityTableSystem<int>, IHitPointSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.hitPoints;

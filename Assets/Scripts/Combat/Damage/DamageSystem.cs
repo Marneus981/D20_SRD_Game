@@ -21,6 +21,7 @@ public interface IDamageSystem : IDependency<IDamageSystem>
     int Apply(DamageInfo info);
     void Add(IDamageTypeSystem damageTypeSystem);
 }
+[Dependency(typeof(IDamageSystem))]
 public class DamageSystem : IDamageSystem
 {
     List<IDamageTypeSystem> damageTypeSystems = new List<IDamageTypeSystem>();

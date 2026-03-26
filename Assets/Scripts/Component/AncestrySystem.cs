@@ -8,6 +8,7 @@ public interface IAncestrySystem : IDependency<IAncestrySystem>, IEntityTableSys
 
 }
 
+[Dependency(typeof(IAncestrySystem))]
 public class AncestrySystem : EntityTableSystem<string>, IAncestrySystem
 {
     public override CoreDictionary<Entity, string> Table => IDataSystem.Resolve().Data.ancestry;

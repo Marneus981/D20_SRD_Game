@@ -7,7 +7,7 @@ public interface IDiplomacySystem : IDependency<IDiplomacySystem>, IBaseSkillSys
 {
 
 }
-
+[Dependency(typeof(IDiplomacySystem))]
 public class DiplomacySystem : BaseSkillSystem, IDiplomacySystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Diplomacy;

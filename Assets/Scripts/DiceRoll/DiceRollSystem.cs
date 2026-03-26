@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[Dependency(typeof(IDiceRollSystem))]
 public class DiceRollSystem : IDiceRollSystem
 {
     public int Roll(DiceRoll diceRoll) //Roll die

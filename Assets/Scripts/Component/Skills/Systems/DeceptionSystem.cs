@@ -7,7 +7,7 @@ public interface IDeceptionSystem : IDependency<IDeceptionSystem>, IBaseSkillSys
 {
 
 }
-
+[Dependency(typeof(IDeceptionSystem))]
 public class DeceptionSystem : BaseSkillSystem, IDeceptionSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Deception;

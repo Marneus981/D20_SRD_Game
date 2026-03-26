@@ -17,7 +17,7 @@ public interface ISizeSystem : IDependency<ISizeSystem>, IEntityTableSystem<Size
 {
     
 }
-
+[Dependency(typeof(ISizeSystem))]
 public class SizeSystem : EntityTableSystem<Size>, ISizeSystem
 {
     public override CoreDictionary<Entity, Size> Table => IDataSystem.Resolve().Data.size;

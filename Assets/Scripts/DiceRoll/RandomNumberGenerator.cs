@@ -11,6 +11,7 @@ we can Register a mock for unit testing.
     public int Range(int minInclusive, int maxExclusive);
 }
 
+[Dependency(typeof(IRandomNumberGenerator))]
 public struct RandomNumberGenerator : IRandomNumberGenerator
 {
     public int Range(int minInclusive, int maxExclusive)

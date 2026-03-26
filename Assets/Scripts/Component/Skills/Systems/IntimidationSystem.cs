@@ -7,7 +7,7 @@ public interface IIntimidationSystem : IDependency<IIntimidationSystem>, IBaseSk
 {
 
 }
-
+[Dependency(typeof(IIntimidationSystem))]
 public class IntimidationSystem : BaseSkillSystem, IIntimidationSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Intimidation;

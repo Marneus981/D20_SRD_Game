@@ -7,7 +7,7 @@ public interface IArcanaSystem : IDependency<IArcanaSystem>, IBaseSkillSystem
 {
 
 }
-
+[Dependency(typeof(IArcanaSystem))]
 public class ArcanaSystem : BaseSkillSystem, IArcanaSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Arcana;

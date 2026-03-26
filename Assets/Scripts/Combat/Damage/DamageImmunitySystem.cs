@@ -16,6 +16,7 @@ public interface IDamageImmunitySystem : IDependency<IDamageImmunitySystem>, IEn
     void RemoveImmunity(Entity entity, string damageType);
 }
 
+[Dependency(typeof(IDamageImmunitySystem))]
 public class DamageImmunitySystem : EntityTableSystem<DamageImmunity>, IDamageImmunitySystem
 {
     public override CoreDictionary<Entity, DamageImmunity> Table => IDataSystem.Resolve().Data.damageImmunity;

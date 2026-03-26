@@ -7,7 +7,7 @@ public interface IStealthSystem : IDependency<IStealthSystem>, IBaseSkillSystem
 {
 
 }
-
+[Dependency(typeof(IStealthSystem))]
 public class StealthSystem : BaseSkillSystem, IStealthSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Stealth;

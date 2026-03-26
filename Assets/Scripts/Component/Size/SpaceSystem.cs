@@ -10,7 +10,7 @@ public interface ISpaceSystem : IDependency<ISpaceSystem>
     void AddOccupiedSpaces(Entity entity, HashSet<Point> set);
     List<Point> AdjacentSpaces(Entity entity, Entity target);
 }
-
+[Dependency(typeof(ISpaceSystem))]
 public class SpaceSystem : ISpaceSystem
 {
     const int tileSize = 5;

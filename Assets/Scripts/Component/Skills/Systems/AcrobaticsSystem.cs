@@ -7,7 +7,7 @@ public interface IAcrobaticsSystem : IDependency<IAcrobaticsSystem>, IBaseSkillS
 {
 
 }
-
+[Dependency(typeof(IAcrobaticsSystem))]
 public class AcrobaticsSystem : BaseSkillSystem, IAcrobaticsSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Acrobatics;

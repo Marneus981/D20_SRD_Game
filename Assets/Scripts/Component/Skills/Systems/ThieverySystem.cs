@@ -7,7 +7,7 @@ public interface IThieverySystem : IDependency<IThieverySystem>, IBaseSkillSyste
 {
 
 }
-
+[Dependency(typeof(IThieverySystem))]
 public class ThieverySystem : BaseSkillSystem, IThieverySystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Thievery;

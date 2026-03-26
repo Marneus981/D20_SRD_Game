@@ -8,6 +8,7 @@ public interface ICombatantSystem : IDependency<ICombatantSystem>, IEntitySetSys
 
 }
 
+[Dependency(typeof(ICombatantSystem))]
 public class CombatantSystem : EntitySetSystem, ICombatantSystem
 {
     public override CoreSet<Entity> Table => IDataSystem.Resolve().Data.combatant;

@@ -21,7 +21,8 @@ public class AppFlow : MonoBehaviour
         IDataStore.Register(new DataStore("GameData"));
         IDataSystem.Register(new DataSystem());
         */
-        Injector.Inject(); //Replaces above lines; we now have access to every system
+        //Injector.Inject(); //Replaces above lines; we now have access to every system
+        new DependencyInjection().Init();
         ISetUpSystem.Resolve().SetUp();
         while (true)
         {

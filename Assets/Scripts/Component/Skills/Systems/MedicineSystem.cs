@@ -7,7 +7,7 @@ public interface IMedicineSystem : IDependency<IMedicineSystem>, IBaseSkillSyste
 {
 
 }
-
+[Dependency(typeof(IMedicineSystem))]
 public class MedicineSystem : BaseSkillSystem, IMedicineSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Medicine;

@@ -14,6 +14,7 @@ public interface IEntrySystem : IDependency<IEntrySystem>
     void SetName(string name);
     string GetName();
 }
+[Dependency(typeof(IEntrySystem))]
 public class EntrySystem : IEntrySystem
 {
     //We implement the “set” and “get” methods by assigning to or reading from the game Data.

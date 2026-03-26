@@ -24,7 +24,7 @@ public interface IEncounterActionsSystem : IDependency<IEncounterActionsSystem>,
 {
 
 }
-
+[Dependency(typeof(IEncounterActionsSystem))]
 public class EncounterActionsSystem : EntityTableSystem<EncounterActions>, IEncounterActionsSystem
 {
     public override CoreDictionary<Entity, EncounterActions> Table => IDataSystem.Resolve().Data.encounterActions;

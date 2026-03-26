@@ -15,6 +15,7 @@ public interface IPathfindingSystem : IDependency<IPathfindingSystem>
 {
     IPathMap Map(Point start, int range, Size size, ITraverser traverser);
 }
+[Dependency(typeof(IPathfindingSystem))]
 public class PathfindingSystem : IPathfindingSystem
 {
     Point[] offsets = new Point[]

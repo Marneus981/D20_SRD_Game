@@ -7,7 +7,7 @@ public interface IPerceptionProficiencySystem : IDependency<IPerceptionProficien
 {
 
 }
-
+[Dependency(typeof(IPerceptionProficiencySystem))]
 public class PerceptionProficiencySystem : EntityTableSystem<Proficiency>, IPerceptionProficiencySystem
 {
     public override CoreDictionary<Entity, Proficiency> Table => IDataSystem.Resolve().Data.perceptionProficiency;

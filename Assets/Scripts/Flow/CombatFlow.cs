@@ -6,7 +6,7 @@ public interface ICombatFlow : IDependency<ICombatFlow>
 {
     UniTask<CombatResult> Play();
 }
-
+[Dependency(typeof(ICombatFlow))]
 public struct CombatFlow : ICombatFlow
 {
     public async UniTask<CombatResult> Play()

@@ -3,7 +3,7 @@ public interface ISkillProficiencySystem : IDependency<ISkillProficiencySystem>
     Proficiency Get(Entity entity, Skill skill);
     void Set(Entity entity, Skill skill, Proficiency value);
 }
-
+[Dependency(typeof(ISkillProficiencySystem))]
 public class SkillProficiencySystem : ISkillProficiencySystem
 {
     public Proficiency Get(Entity entity, Skill skill)

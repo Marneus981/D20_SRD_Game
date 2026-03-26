@@ -7,7 +7,7 @@ public interface ICraftingSystem : IDependency<ICraftingSystem>, IBaseSkillSyste
 {
 
 }
-
+[Dependency(typeof(ICraftingSystem))]
 public class CraftingSystem : BaseSkillSystem, ICraftingSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Crafting;

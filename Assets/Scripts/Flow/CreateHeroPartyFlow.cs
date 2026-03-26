@@ -4,7 +4,7 @@ public interface ICreateHeroPartyFlow : IDependency<ICreateHeroPartyFlow>
 {
     UniTask Play();
 }
-
+[Dependency(typeof(ICreateHeroPartyFlow))]
 public class CreateHeroPartyFlow : ICreateHeroPartyFlow
 {
     const int heroPartySize = 4;

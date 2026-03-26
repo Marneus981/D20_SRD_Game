@@ -7,7 +7,7 @@ public interface INatureSystem : IDependency<INatureSystem>, IBaseSkillSystem
 {
 
 }
-
+[Dependency(typeof(INatureSystem))]
 public class NatureSystem : BaseSkillSystem, INatureSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Nature;

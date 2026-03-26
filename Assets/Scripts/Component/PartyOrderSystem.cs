@@ -8,6 +8,7 @@ public interface IPartyOrderSystem : IDependency<IPartyOrderSystem>, IEntityTabl
     Entity PartyLeader { get; }
 }
 
+[Dependency(typeof(IPartyOrderSystem))]
 public class PartyOrderSystem : EntityTableSystem<int>, IPartyOrderSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.partyOrder;

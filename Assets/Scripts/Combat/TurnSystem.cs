@@ -11,6 +11,7 @@ public interface ITurnSystem : IDependency<ITurnSystem>
     List<Entity> InReach { get; set; }
 }
 
+[Dependency(typeof(ITurnSystem))]
 public class TurnSystem : ITurnSystem
 {
     public Entity Current { get { return current; } }

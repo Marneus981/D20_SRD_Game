@@ -9,6 +9,7 @@ public interface IDyingSystem : IDependency<IDyingSystem>, IEntityTableSystem<in
     UniTask Die(Entity entity);
     UniTask Revive(Entity entity);
 }
+[Dependency(typeof(IDyingSystem))]
 public class DyingSystem : EntityTableSystem<int>, IDyingSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.dying;

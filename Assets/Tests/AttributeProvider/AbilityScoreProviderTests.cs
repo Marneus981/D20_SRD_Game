@@ -15,9 +15,9 @@ public class AbilityScoreProviderTests
     {
         ISetUpSystem.Register(new SetUpSystem());
         ITearDownSystem.Register(new TearDownSystem());
+        new DependencyInjection().Init();
         IDataSystem.Register(new MockDataSystem());
         IDataSystem.Resolve().Create();
-        AbilityScoreInjector.Inject();
     }
 
     [Test]

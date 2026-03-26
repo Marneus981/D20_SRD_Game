@@ -7,7 +7,7 @@ public interface IWillSystem : IDependency<IWillSystem>, IBaseSavingThrowSystem
 {
 
 }
-
+[Dependency(typeof(IWillSystem))]
 public class WillSystem : BaseSavingThrowSystem, IWillSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.will;

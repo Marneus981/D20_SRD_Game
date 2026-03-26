@@ -8,6 +8,7 @@ public interface IRoundSystem : IDependency<IRoundSystem>
     Entity Next();
 }
 
+[Dependency(typeof(IRoundSystem))]
 public class RoundSystem : IRoundSystem
 {
     List<Entity> turnOrder;

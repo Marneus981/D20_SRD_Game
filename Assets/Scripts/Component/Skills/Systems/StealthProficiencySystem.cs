@@ -7,7 +7,7 @@ public interface IStealthProficiencySystem : IDependency<IStealthProficiencySyst
 {
 
 }
-
+[Dependency(typeof(IStealthProficiencySystem))]
 public class StealthProficiencySystem : EntityTableSystem<Proficiency>, IStealthProficiencySystem
 //No partial definition for Entity: Proficiency of a skill will only be used to calculate the skill value; 
 //We will use the system directly when needed.

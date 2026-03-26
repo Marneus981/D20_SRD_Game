@@ -6,16 +6,12 @@ public interface IEntitySetSystem
     bool Contains(Entity entity);
     void Remove(Entity entity);
 }
-
-public abstract class EntitySetSystem : IEntitySetSystem
+[DependencyCollection(typeof(ISetup))]
+[DependencyCollection(typeof(ITearDown))]
+public abstract class EntitySetSystem : IEntitySetSystem, ISetup, ITearDown
 {
     public abstract CoreSet<Entity> Table { get; }
 
-    public EntitySetSystem()
-    {
-        ISetUpSystem.Resolve().Add(SetUp);
-        ITearDownSystem.Resolve().Add(TearDown);
-    }
     public virtual void Add(Entity entity)
     {
         Table.Add(entity);

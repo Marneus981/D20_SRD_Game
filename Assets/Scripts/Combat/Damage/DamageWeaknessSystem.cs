@@ -16,6 +16,7 @@ public interface IDamageWeaknessSystem : IDependency<IDamageWeaknessSystem>, IEn
     void RemoveWeakness(Entity entity, string damageType);
 }
 
+[Dependency(typeof(IDamageWeaknessSystem))]
 public class DamageWeaknessSystem : EntityTableSystem<DamageWeakness>, IDamageWeaknessSystem
 {
     public override CoreDictionary<Entity, DamageWeakness> Table => IDataSystem.Resolve().Data.damageWeakness;

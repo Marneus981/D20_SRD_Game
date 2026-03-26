@@ -7,7 +7,7 @@ public interface IPerceptionSystem : IDependency<IPerceptionSystem>, IEntityTabl
 {
     void Setup(Entity entity);
 }
-
+[Dependency(typeof(IPerceptionSystem))]
 public class PerceptionSystem : EntityTableSystem<int>, IPerceptionSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.perception;

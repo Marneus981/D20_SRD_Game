@@ -4,7 +4,7 @@ public interface IHeroActionFlow : IDependency<IHeroActionFlow>
 {
     UniTask<CombatResult?> Play();
 }
-
+[Dependency(typeof(IHeroActionFlow))]
 public class HeroActionFlow : IHeroActionFlow
 {
     public async UniTask<CombatResult?> Play()

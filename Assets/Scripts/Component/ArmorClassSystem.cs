@@ -8,6 +8,7 @@ public interface IArmorClassSystem : IDependency<IArmorClassSystem>, IEntityTabl
 
 }
 
+[Dependency(typeof(IArmorClassSystem))]
 public class ArmorClassSystem : EntityTableSystem<int>, IArmorClassSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.armorClass;

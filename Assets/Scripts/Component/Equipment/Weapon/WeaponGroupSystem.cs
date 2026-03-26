@@ -30,7 +30,7 @@ public interface IWeaponGroupSystem : IDependency<IWeaponGroupSystem>, IEntityTa
 {
 
 }
-
+[Dependency(typeof(IWeaponGroupSystem))]
 public class WeaponGroupSystem : EntityTableSystem<WeaponGroup>, IWeaponGroupSystem
 {
     public override CoreDictionary<Entity, WeaponGroup> Table => IDataSystem.Resolve().Data.weaponGroup;

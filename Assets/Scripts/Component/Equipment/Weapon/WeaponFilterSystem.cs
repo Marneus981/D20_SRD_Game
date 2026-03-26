@@ -10,7 +10,7 @@ public interface IWeaponFilterSystem : IDependency<IWeaponFilterSystem>
 {
     public bool Matches(WeaponFilter filter, Entity target);
 }
-
+[Dependency(typeof(IWeaponFilterSystem))]
 public class WeaponFilterSystem : IWeaponFilterSystem
 {
     public bool Matches(WeaponFilter filter, Entity target)

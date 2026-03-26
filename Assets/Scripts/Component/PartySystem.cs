@@ -15,6 +15,7 @@ public interface IPartySystem : IDependency<IPartySystem>, IEntityTableSystem<Pa
     Party OpposingParty(Party party);
 }
 
+[Dependency(typeof(IPartySystem))]
 public class PartySystem : EntityTableSystem<Party>, IPartySystem
 {
     public override CoreDictionary<Entity, Party> Table => IDataSystem.Resolve().Data.party;

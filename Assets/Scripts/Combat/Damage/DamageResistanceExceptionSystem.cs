@@ -16,6 +16,7 @@ public interface IDamageResistanceExceptionSystem : IDependency<IDamageResistanc
     void RemoveException(Entity entity, string damageType);
 }
 
+[Dependency(typeof(IDamageResistanceExceptionSystem))]
 public class DamageResistanceExceptionSystem : EntityTableSystem<DamageResistanceException>, IDamageResistanceExceptionSystem
 {
     public override CoreDictionary<Entity, DamageResistanceException> Table => IDataSystem.Resolve().Data.damageResistanceException;

@@ -7,7 +7,7 @@ public interface IFortitudeSystem : IDependency<IFortitudeSystem>, IBaseSavingTh
 {
 
 }
-
+[Dependency(typeof(IFortitudeSystem))]
 public class FortitudeSystem : BaseSavingThrowSystem, IFortitudeSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.fortitude;

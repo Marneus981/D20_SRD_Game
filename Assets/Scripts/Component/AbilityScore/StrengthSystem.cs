@@ -13,6 +13,7 @@ and from IEntityTableSystem to inherit some basic “Table” related functional
 
 }
 
+[Dependency(typeof(IStrengthSystem))]
 public class StrengthSystem : EntityTableSystem<AbilityScore>, IStrengthSystem
 /*
 Inherits from EntityTableSystem and conforms to our IStrengthSystem interface.

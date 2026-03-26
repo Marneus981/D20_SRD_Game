@@ -16,6 +16,7 @@ public interface IInputSystem : IDependency<IInputSystem>
     int GetAxisUp(InputAxis axis);
     bool GetKeyUp(InputAction action);
 }
+[Dependency(typeof(IInputSystem))]
 public class InputSystem : IInputSystem
 //Note: diff GetKeyUp
 {

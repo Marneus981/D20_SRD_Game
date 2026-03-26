@@ -7,7 +7,7 @@ public interface IWillProficiencySystem : IDependency<IWillProficiencySystem>, I
 {
 
 }
-
+[Dependency(typeof(IWillProficiencySystem))]
 public class WillProficiencySystem : EntityTableSystem<Proficiency>, IWillProficiencySystem
 {
     public override CoreDictionary<Entity, Proficiency> Table => IDataSystem.Resolve().Data.willProficiency;

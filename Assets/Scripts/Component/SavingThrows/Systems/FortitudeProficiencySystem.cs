@@ -7,7 +7,7 @@ public interface IFortitudeProficiencySystem : IDependency<IFortitudeProficiency
 {
 
 }
-
+[Dependency(typeof(IFortitudeProficiencySystem))]
 public class FortitudeProficiencySystem : EntityTableSystem<Proficiency>, IFortitudeProficiencySystem
 {
     public override CoreDictionary<Entity, Proficiency> Table => IDataSystem.Resolve().Data.fortitudeProficiency;

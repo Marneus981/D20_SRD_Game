@@ -6,7 +6,7 @@ public interface IEntryFlow : IDependency<IEntryFlow>
 {
     UniTask Play();
 }
-
+[Dependency(typeof(IEntryFlow))]
 public class EntryFlow : IEntryFlow
 {
     public async UniTask Play()

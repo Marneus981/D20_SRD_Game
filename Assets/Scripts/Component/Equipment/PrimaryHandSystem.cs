@@ -8,6 +8,7 @@ public interface IPrimaryHandSystem : IDependency<IPrimaryHandSystem>, IEntityTa
 
 }
 
+[Dependency(typeof(IPrimaryHandSystem))]
 public class PrimaryHandSystem : EntityRelationTableSystem, IPrimaryHandSystem
 {
     public override CoreDictionary<Entity, Entity> Table => IDataSystem.Resolve().Data.primaryHand;

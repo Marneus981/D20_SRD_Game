@@ -7,7 +7,7 @@ public interface ISurvivalSystem : IDependency<ISurvivalSystem>, IBaseSkillSyste
 {
 
 }
-
+[Dependency(typeof(ISurvivalSystem))]
 public class SurvivalSystem : BaseSkillSystem, ISurvivalSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Survival;

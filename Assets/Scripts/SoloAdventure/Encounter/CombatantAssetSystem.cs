@@ -7,7 +7,7 @@ public interface ICombatantAssetSystem : IDependency<ICombatantAssetSystem>, IEn
 {
 
 }
-
+[Dependency(typeof(ICombatantAssetSystem))]
 public class CombatantAssetSystem : EntityTableSystem<string>, ICombatantAssetSystem
 {
     public override CoreDictionary<Entity, string> Table => IDataSystem.Resolve().Data.combatantAsset;

@@ -4,7 +4,7 @@ public interface IGameFlow : IDependency<IGameFlow>
 {
     UniTask Play(); //Single method definition - Play, like in MainMenuFlow
 }
-
+[Dependency(typeof(IGameFlow))]
 public class GameFlow : IGameFlow
 {
     public async UniTask Play()

@@ -7,7 +7,7 @@ public interface ISavingThrowSystem : IDependency<ISavingThrowSystem>
     void SetupAllSavingThrows(Entity entity);
     void Setup(Entity entity, SavingThrow savingThrow);
 }
-
+[Dependency(typeof(ISavingThrowSystem))]
 public class SavingThrowSystem : ISavingThrowSystem
 {
     public void Set(Entity entity, SavingThrow savingThrow, int value)

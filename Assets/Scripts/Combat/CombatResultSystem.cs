@@ -12,6 +12,7 @@ public interface ICombatResultSystem : IDependency<ICombatResultSystem>
     CombatResult? CheckResult();
 }
 
+[Dependency(typeof(ICombatResultSystem))]
 public class CombatResultSystem : ICombatResultSystem
 {
     public CombatResult? CheckResult()

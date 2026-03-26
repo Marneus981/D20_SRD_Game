@@ -7,7 +7,7 @@ public interface IMaxHitPointSystem : IDependency<IMaxHitPointSystem>, IEntityTa
 {
 
 }
-
+[Dependency(typeof(IMaxHitPointSystem))]
 public class MaxHitPointSystem : EntityTableSystem<int>, IMaxHitPointSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.maxHitPoints;

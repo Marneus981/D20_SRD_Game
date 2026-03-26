@@ -7,6 +7,7 @@ public interface IEncounterAssetSystem : IDependency<IEncounterAssetSystem>
     UniTask<IEncounter> Load(string entryName);
 }
 
+[Dependency(typeof(IEncounterAssetSystem))]
 public class EncounterAssetSystem : IEncounterAssetSystem
 {
     public async UniTask<IEncounter> Load()

@@ -7,7 +7,7 @@ public interface IReligionSystem : IDependency<IReligionSystem>, IBaseSkillSyste
 {
 
 }
-
+[Dependency(typeof(IReligionSystem))]
 public class ReligionSystem : BaseSkillSystem, IReligionSystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Religion;

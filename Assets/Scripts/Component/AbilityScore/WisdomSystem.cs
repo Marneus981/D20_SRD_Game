@@ -8,6 +8,7 @@ public interface IWisdomSystem : IDependency<IWisdomSystem>, IEntityTableSystem<
 
 }
 
+[Dependency(typeof(IWisdomSystem))]
 public class WisdomSystem : EntityTableSystem<AbilityScore>, IWisdomSystem
 {
     public override CoreDictionary<Entity, AbilityScore> Table => IDataSystem.Resolve().Data.wisdom;

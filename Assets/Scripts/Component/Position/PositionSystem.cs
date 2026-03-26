@@ -8,6 +8,7 @@ public interface IPositionSystem : IDependency<IPositionSystem>, IEntityTableSys
 
 }
 
+[Dependency(typeof(IPositionSystem))]
 public class PositionSystem : EntityTableSystem<Point>, IPositionSystem
 {
     public override CoreDictionary<Entity, Point> Table => IDataSystem.Resolve().Data.position;

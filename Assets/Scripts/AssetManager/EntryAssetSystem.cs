@@ -7,6 +7,7 @@ public interface IEntryAssetSystem : IDependency<IEntryAssetSystem>
     UniTask<IEntry> Load(string entryName);
 }
 
+[Dependency(typeof(IEntryAssetSystem))]
 public class EntryAssetSystem : IEntryAssetSystem
 {
     //Two different “Load” methods: 

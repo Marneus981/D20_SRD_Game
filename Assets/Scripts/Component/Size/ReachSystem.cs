@@ -20,7 +20,7 @@ public interface IReachSystem : IDependency<IReachSystem>, IEntityTableSystem<Re
     List<Point> ReachTiles(Size size, Reach reach, Point position);
     List<Entity> EntitiesInReach(Entity entity);
 }
-
+[Dependency(typeof(IReachSystem))]
 public class ReachSystem : EntityTableSystem<Reach>, IReachSystem
 {
     public override CoreDictionary<Entity, Reach> Table => IDataSystem.Resolve().Data.reach;

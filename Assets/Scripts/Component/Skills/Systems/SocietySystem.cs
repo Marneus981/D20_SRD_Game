@@ -7,7 +7,7 @@ public interface ISocietySystem : IDependency<ISocietySystem>, IBaseSkillSystem
 {
 
 }
-
+[Dependency(typeof(ISocietySystem))]
 public class SocietySystem : BaseSkillSystem, ISocietySystem
 {
     public override CoreDictionary<Entity, int> Table => IDataSystem.Resolve().Data.Society;

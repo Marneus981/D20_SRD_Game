@@ -7,7 +7,7 @@ public interface IReflexProficiencySystem : IDependency<IReflexProficiencySystem
 {
 
 }
-
+[Dependency(typeof(IReflexProficiencySystem))]
 public class ReflexProficiencySystem : EntityTableSystem<Proficiency>, IReflexProficiencySystem
 {
     public override CoreDictionary<Entity, Proficiency> Table => IDataSystem.Resolve().Data.reflexProficiency;

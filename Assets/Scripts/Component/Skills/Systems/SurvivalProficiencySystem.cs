@@ -7,7 +7,7 @@ public interface ISurvivalProficiencySystem : IDependency<ISurvivalProficiencySy
 {
 
 }
-
+[Dependency(typeof(ISurvivalProficiencySystem))]
 public class SurvivalProficiencySystem : EntityTableSystem<Proficiency>, ISurvivalProficiencySystem
 //No partial definition for Entity: Proficiency of a skill will only be used to calculate the skill value; 
 //We will use the system directly when needed.
